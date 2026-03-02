@@ -116,10 +116,10 @@ def render_section(label, tournaments):
 
     return f"""\
   <section>
-    <h2>{label}</h2>
     <div class="table-wrap">
       <table>
         <thead>
+          <tr><th colspan="4" class="col-section">{label}</th></tr>
           <tr><th class="col-date">Datum</th><th class="col-name">Turnier</th><th class="col-disc">Disziplinen</th><th class="col-ort">Ort</th></tr>
         </thead>
         <tbody>
@@ -169,15 +169,15 @@ def generate():
       background: #212529;
     }}
     section {{ width: 100%; }}
-    h2 {{
+    section + section {{ margin-top: 3.5rem; }}
+    .col-section {{
       font-size: inherit;
+      font-weight: bold;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      border: 1px solid #32383e;
-      padding: 0.3rem 0.4rem;
-      margin: 1.5rem 0 0;
       text-align: center;
-      width: 100%;
+      padding: 0.3rem 0.4rem;
+      margin-top: 1.5rem;
     }}
     .table-wrap {{
       overflow-x: auto;
