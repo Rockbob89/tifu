@@ -147,7 +147,7 @@ def generate():
         render_section(SECTION_LABELS[k], grouped[k]) for k in SECTION_ORDER
     )
 
-    updated = datetime.now(timezone.utc).strftime("%d.%m.%Y %H:%M UTC")
+    updated = datetime.now(TZ).strftime("%d.%m.%Y %H:%M")
 
     html = f"""\
 <!DOCTYPE html>
@@ -206,14 +206,14 @@ def generate():
     .updated {{
       font-size: 0.75rem;
       color: #999;
-      margin-top: 2rem;
-      text-align: right;
+      margin-bottom: 0.5rem;
+      text-align: left;
     }}
   </style>
 </head>
 <body>
-{sections_html}
   <p class="updated">Zuletzt aktualisiert: {updated}</p>
+{sections_html}
 </body>
 </html>
 """
