@@ -51,10 +51,14 @@ def render_section(label, tournaments):
             ort = t.get("resultPage", {}).get("name", "")
             date = fmt_date(t["date"])
             tid = t.get("_id", "")
-            did = t.get("disciplines", [{}])[0].get("_id", "") if t.get("disciplines") else ""
+            disciplines = t.get("disciplines", [])
             state = t.get("state", "")
             path = STATE_PATH.get(state, "overview")
-            href = f"{BASE_URL}/{slug}/tournaments/{tid}/disciplines/{did}/{path}" if slug and tid and did else "#"
+            if len(disciplines) > 1:
+                href = f"{BASE_URL}/{slug}/tournaments/{tid}/live" if slug and tid else "#"
+            else:
+                did = disciplines[0].get("_id", "") if disciplines else ""
+                href = f"{BASE_URL}/{slug}/tournaments/{tid}/disciplines/{did}/{path}" if slug and tid and did else "#"
             rows += (
                 f'      <tr>'
                 f'<td class="col-date">{date}</td>'
