@@ -193,7 +193,7 @@ def generate():
     tr {{ border: 1px solid #32383e; }}
     th, td {{
       text-align: left;
-      padding: 0.15rem 0.6rem;
+      padding: 0.3rem 0.6rem;
       border: 1px solid #32383e;
     }}
     th {{ font-weight: bold; text-align: center; }}
