@@ -1,0 +1,2944 @@
+[
+  {
+    "_id": "tio:umAwq3Meszwjf",
+    "name": "Mini Challenger offenes Doppel",
+    "description": "",
+    "date": "2026-01-31T17:49:23.376Z",
+    "updatedAt": "2026-01-31T17:49:23.376Z",
+    "numTeams": 4,
+    "numPlayers": 8,
+    "disciplines": [
+      {
+        "_id": "tio:4DZpBDKVKT7HE",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kickerfreude",
+      "name": "Kickerfreude"
+    }
+  },
+  {
+    "_id": "tio:uysfLIZGZYHGG",
+    "name": "Montags-DYP",
+    "description": "",
+    "date": "2026-02-02T17:47:48.560Z",
+    "updatedAt": "2026-02-02T17:47:48.560Z",
+    "numTeams": 0,
+    "numPlayers": 15,
+    "disciplines": [
+      {
+        "_id": "tio:oO1CzpYmXHNxv",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kickern_in_veltheim",
+      "name": "Veltheim"
+    }
+  },
+  {
+    "_id": "tio:3Spmln68UW0Ix",
+    "name": "DypMyHeart",
+    "description": "",
+    "date": "2026-02-02T19:05:10.373Z",
+    "updatedAt": "2026-02-02T19:05:10.373Z",
+    "numTeams": 0,
+    "numPlayers": 32,
+    "disciplines": [
+      {
+        "_id": "tio:lLDCJlTz35CjT",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:6K0qQzH5BYn2R",
+    "name": "Halkitu - Halstenbeker Kickerturnier",
+    "description": "",
+    "date": "2026-02-03T11:02:35.319Z",
+    "updatedAt": "2026-02-03T11:02:35.319Z",
+    "numTeams": 54,
+    "numPlayers": 54,
+    "disciplines": [
+      {
+        "_id": "tio:b0xqLPrABM8r5",
+        "shortName": "J5",
+        "name": "Jahrgang 5",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "team_name"
+      },
+      {
+        "_id": "tio:qW1UqEVCNHefp",
+        "shortName": "J6",
+        "name": "Jahrgang 6",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "team_name"
+      },
+      {
+        "_id": "tio:cj27aS4Lbv3lv",
+        "shortName": "J7",
+        "name": "Jahrgang 7",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "team_name"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
+    }
+  },
+  {
+    "_id": "tio:6CFi8lqmbuori",
+    "name": "Mini Challenger offenes Einzel CLASSIC",
+    "description": "",
+    "date": "2026-02-03T17:41:35.359Z",
+    "updatedAt": "2026-02-03T17:41:35.359Z",
+    "numTeams": 0,
+    "numPlayers": 9,
+    "disciplines": [
+      {
+        "_id": "tio:Wm7ier84BvZcb",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kickerfreude",
+      "name": "Kickerfreude"
+    }
+  },
+  {
+    "_id": "tio:tUjBh4Xbv2WZb",
+    "name": "5. Kixx MiDo",
+    "description": "",
+    "date": "2026-02-04T12:17:35.634Z",
+    "updatedAt": "2026-02-04T12:17:35.634Z",
+    "numTeams": 58,
+    "numPlayers": 116,
+    "disciplines": [
+      {
+        "_id": "tio:vsaI8ppFPJ6dr",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:IWMEcv7V0c3Yb",
+    "name": "FC St. Pauli Absolute Gigant:innen-DYP",
+    "description": "",
+    "date": "2026-02-04T18:50:18.816Z",
+    "updatedAt": "2026-02-04T18:50:18.816Z",
+    "numTeams": 0,
+    "numPlayers": 41,
+    "disciplines": [
+      {
+        "_id": "tio:2obn8dFAqyDQX",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
+    }
+  },
+  {
+    "_id": "tio:8N4iLiJ5Mgrai",
+    "name": "20260204 MonsterDYP",
+    "description": "",
+    "date": "2026-02-04T18:51:16.472Z",
+    "updatedAt": "2026-02-04T18:51:16.472Z",
+    "numTeams": 0,
+    "numPlayers": 39,
+    "disciplines": [
+      {
+        "_id": "tio:ayZLi0vies6qd",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kcmuenchen",
+      "name": "KickerClub München e.V."
+    }
+  },
+  {
+    "_id": "tio:j2XjsNfKcw0Fv",
+    "name": "NO-PRO Turnier KIXX",
+    "description": "",
+    "date": "2026-02-06T16:52:44.837Z",
+    "updatedAt": "2026-02-06T16:52:44.837Z",
+    "numTeams": 92,
+    "numPlayers": 184,
+    "disciplines": [
+      {
+        "_id": "tio:50RhE9zYB9YVr",
+        "shortName": "A",
+        "name": "A-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:RkOVsnfsV51PK",
+        "shortName": "B",
+        "name": "B-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:5Q4QRCoEXnP85",
+        "shortName": "C",
+        "name": "C-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:S7Zl5uffrrmOJ",
+    "name": "FC St. Pauli KiezKicker Einzel",
+    "description": "",
+    "date": "2026-02-06T17:34:04.649Z",
+    "updatedAt": "2026-02-06T17:34:04.649Z",
+    "numTeams": 0,
+    "numPlayers": 48,
+    "disciplines": [
+      {
+        "_id": "tio:aZBhuWPBbwlwI",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
+    }
+  },
+  {
+    "_id": "tio:SgscMMhnkPJd7",
+    "name": " 2. RSL Mini-Challenger (M-DYP) 2026",
+    "description": "",
+    "date": "2026-02-06T18:36:48.980Z",
+    "updatedAt": "2026-02-06T18:36:48.980Z",
+    "numTeams": 0,
+    "numPlayers": 23,
+    "disciplines": [
+      {
+        "_id": "tio:lL5fq65lA4vta",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "rsl",
+      "name": ""
+    }
+  },
+  {
+    "_id": "tio:hHpGiJRkiCraL",
+    "name": "Kixx SaDo",
+    "description": "",
+    "date": "2026-02-07T12:32:34.457Z",
+    "updatedAt": "2026-02-07T12:32:34.457Z",
+    "numTeams": 24,
+    "numPlayers": 48,
+    "disciplines": [
+      {
+        "_id": "tio:DHxtzTDT6nrg8",
+        "shortName": "D1",
+        "name": "Kixx SaDo",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:LcSd893pIeDgN",
+    "name": "monster dyp",
+    "description": "",
+    "date": "2026-02-09T17:58:35.392Z",
+    "updatedAt": "2026-02-09T17:58:35.392Z",
+    "numTeams": 0,
+    "numPlayers": 14,
+    "disciplines": [
+      {
+        "_id": "tio:nVTi0bNbHcC6q",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kickern_in_veltheim",
+      "name": "Veltheim"
+    }
+  },
+  {
+    "_id": "tio:MqO8Dw5ktkaiy",
+    "name": "Montags DYP",
+    "description": "",
+    "date": "2026-02-09T19:22:57.281Z",
+    "updatedAt": "2026-02-09T19:22:57.281Z",
+    "numTeams": 0,
+    "numPlayers": 37,
+    "disciplines": [
+      {
+        "_id": "tio:N0LcaknyBiuEB",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:vAwoV4LIvROSl",
+    "name": "Mini-Challenger",
+    "description": "",
+    "date": "2026-02-09T23:00:00.000Z",
+    "updatedAt": "2026-02-09T16:44:17.409Z",
+    "numTeams": 0,
+    "numPlayers": 23,
+    "disciplines": [
+      {
+        "_id": "tio:VLIG1tQUomPh0",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "hannoverkicker",
+      "name": "Hannoverkicker"
+    }
+  },
+  {
+    "_id": "tio:Is8QcdmfX7RKz",
+    "name": " Mini Challenger Offenes Einzel",
+    "description": "",
+    "date": "2026-02-10T17:34:32.011Z",
+    "updatedAt": "2026-02-10T17:34:32.011Z",
+    "numTeams": 0,
+    "numPlayers": 12,
+    "disciplines": [
+      {
+        "_id": "tio:RAgCX50O93oFX",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kickerfreude",
+      "name": "Kickerfreude"
+    }
+  },
+  {
+    "_id": "tio:kA04nrrB1MXDp",
+    "name": "6. Kixx MiDo",
+    "description": "",
+    "date": "2026-02-11T17:42:02.399Z",
+    "updatedAt": "2026-02-11T17:42:02.399Z",
+    "numTeams": 42,
+    "numPlayers": 84,
+    "disciplines": [
+      {
+        "_id": "tio:rrBqFUAIke5cy",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:5uZhEUXyECbgq",
+    "name": "FCSP Absolute Gigant:innen",
+    "description": "",
+    "date": "2026-02-11T18:40:17.243Z",
+    "updatedAt": "2026-02-11T18:40:17.243Z",
+    "numTeams": 0,
+    "numPlayers": 46,
+    "disciplines": [
+      {
+        "_id": "tio:0u3XNt1XSG7b9",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
+    }
+  },
+  {
+    "_id": "tio:jT8uTyDfXOkfv",
+    "name": "2026-02-11 Monster",
+    "description": "",
+    "date": "2026-02-11T18:52:10.245Z",
+    "updatedAt": "2026-02-11T18:52:10.245Z",
+    "numTeams": 0,
+    "numPlayers": 29,
+    "disciplines": [
+      {
+        "_id": "tio:geB2LLslbtYsD",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kcmuenchen",
+      "name": "KickerClub München e.V."
+    }
+  },
+  {
+    "_id": "tio:p5DEGArLfTEJO",
+    "name": "DoDo BYP Eintracht Frankfurt 12.02.",
+    "description": "",
+    "date": "2026-02-12T18:15:32.757Z",
+    "updatedAt": "2026-02-12T18:15:32.757Z",
+    "numTeams": 19,
+    "numPlayers": 38,
+    "disciplines": [
+      {
+        "_id": "tio:M5NIdjlxye00O",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "sge",
+      "name": "SGE"
+    }
+  },
+  {
+    "_id": "tio:uyY1kA3Ub9JFz",
+    "name": "FleMiCh - OD",
+    "description": "",
+    "date": "2026-02-12T23:00:00.000Z",
+    "updatedAt": "2026-02-08T13:18:55.631Z",
+    "numTeams": 7,
+    "numPlayers": 14,
+    "disciplines": [
+      {
+        "_id": "tio:HTrFYSqEi33lC",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "round_robin",
+          "direct_playoffs"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "mkk",
+      "name": "MKK Flensburg"
+    }
+  },
+  {
+    "_id": "tio:ZizMPvfFZiZgP",
+    "name": "NO-PRO Turnier KIXX",
+    "description": "",
+    "date": "2026-02-13T16:26:29.491Z",
+    "updatedAt": "2026-02-13T16:26:29.491Z",
+    "numTeams": 94,
+    "numPlayers": 188,
+    "disciplines": [
+      {
+        "_id": "tio:RMwMMrqMYWM3C",
+        "shortName": "A",
+        "name": "A-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:BXmblyBguCWYc",
+        "shortName": "B",
+        "name": "B-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:0BcmfZtsIEPFr",
+        "shortName": "C",
+        "name": "C-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:K03ZMHczGamXt",
+    "name": "1. TIMEOUT Open 2026 OD",
+    "description": "",
+    "date": "2026-02-13T23:00:00.000Z",
+    "updatedAt": "2026-01-06T10:16:05.672Z",
+    "numTeams": 16,
+    "numPlayers": 32,
+    "disciplines": [
+      {
+        "_id": "tio:yWqQfIGCif11f",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "btsv",
+      "name": "EIntracht Braunschweig Tischfußball"
+    }
+  },
+  {
+    "_id": "tio:LC2vnJt4PZm6c",
+    "name": "2026 Metronom Open I - OD",
+    "description": "",
+    "date": "2026-02-13T23:00:00.000Z",
+    "updatedAt": "2026-01-25T12:31:37.755Z",
+    "numTeams": 48,
+    "numPlayers": 96,
+    "disciplines": [
+      {
+        "_id": "tio:fJCZ8H78xVIBL",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "tfvb",
+      "name": "Tischfußballverband Berlin e.V."
+    }
+  },
+  {
+    "_id": "tio:mML6XT82rVaoj",
+    "name": "KIXX MIXED ",
+    "description": "",
+    "date": "2026-02-14T16:31:20.940Z",
+    "updatedAt": "2026-02-14T16:31:20.940Z",
+    "numTeams": 26,
+    "numPlayers": 52,
+    "disciplines": [
+      {
+        "_id": "tio:775VmLwZS4SOY",
+        "shortName": "PRO",
+        "name": "PRO Mixed",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:ME6rwDILUgXbk",
+        "shortName": "NP",
+        "name": "NO-PRO Mixed",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:dzdxyUA1AhLY4",
+    "name": "1. TIMEOUT Open 2026 OE",
+    "description": "",
+    "date": "2026-02-14T23:00:00.000Z",
+    "updatedAt": "2026-01-06T10:19:02.346Z",
+    "numTeams": 0,
+    "numPlayers": 27,
+    "disciplines": [
+      {
+        "_id": "tio:G25MBRWAWpqYs",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "btsv",
+      "name": "EIntracht Braunschweig Tischfußball"
+    }
+  },
+  {
+    "_id": "tio:rupnTwrKsk5rT",
+    "name": "2026 Metronom Open I - OE",
+    "description": "",
+    "date": "2026-02-14T23:00:00.000Z",
+    "updatedAt": "2026-01-25T12:33:59.642Z",
+    "numTeams": 0,
+    "numPlayers": 65,
+    "disciplines": [
+      {
+        "_id": "tio:mqTkVzX2T1zP2",
+        "shortName": "OE",
+        "name": "Offenes Einzel",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "tfvb",
+      "name": "Tischfußballverband Berlin e.V."
+    }
+  },
+  {
+    "_id": "tio:PUP7eZKGGstql",
+    "name": "FleMiCh - Goalie War",
+    "description": "",
+    "date": "2026-02-15T23:33:09.314Z",
+    "updatedAt": "2026-02-15T23:33:09.314Z",
+    "numTeams": 0,
+    "numPlayers": 7,
+    "disciplines": [
+      {
+        "_id": "tio:XHOwBBEQZzhDI",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "round_robin",
+          "direct_playoffs"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "mkk",
+      "name": "MKK Flensburg"
+    }
+  },
+  {
+    "_id": "tio:vnpw3ukrHBQhy",
+    "name": "Montags-DYP",
+    "description": "",
+    "date": "2026-02-16T14:02:00.334Z",
+    "updatedAt": "2026-02-16T14:02:00.334Z",
+    "numTeams": 0,
+    "numPlayers": 10,
+    "disciplines": [
+      {
+        "_id": "tio:GrFg3Z56dybsv",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kickern_in_veltheim",
+      "name": "Veltheim"
+    }
+  },
+  {
+    "_id": "tio:aTqsYK2R3q4LG",
+    "name": "Montags DYP ",
+    "description": "",
+    "date": "2026-02-16T18:42:40.126Z",
+    "updatedAt": "2026-02-16T18:42:40.126Z",
+    "numTeams": 0,
+    "numPlayers": 30,
+    "disciplines": [
+      {
+        "_id": "tio:8XiEG9M5SBfYA",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:uGf9IIe5h5J8a",
+    "name": "Mini Challenger Offenes Einzel",
+    "description": "",
+    "date": "2026-02-17T17:25:48.794Z",
+    "updatedAt": "2026-02-17T17:25:48.794Z",
+    "numTeams": 0,
+    "numPlayers": 10,
+    "disciplines": [
+      {
+        "_id": "tio:8BifihDOqf0s0",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kickerfreude",
+      "name": "Kickerfreude"
+    }
+  },
+  {
+    "_id": "tio:lwhywV972xClv",
+    "name": "7. Kixx MiDo",
+    "description": "",
+    "date": "2026-02-18T14:08:43.675Z",
+    "updatedAt": "2026-02-18T14:08:43.675Z",
+    "numTeams": 62,
+    "numPlayers": 124,
+    "disciplines": [
+      {
+        "_id": "tio:qdHIObVcJHvw3",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:7o4c8xJ1yBoT4",
+    "name": "20260218 Monster DYP",
+    "description": "",
+    "date": "2026-02-18T18:24:52.762Z",
+    "updatedAt": "2026-02-18T18:24:52.762Z",
+    "numTeams": 0,
+    "numPlayers": 34,
+    "disciplines": [
+      {
+        "_id": "tio:ZzOBjku1Y1EVJ",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kcmuenchen",
+      "name": "KickerClub München e.V."
+    }
+  },
+  {
+    "_id": "tio:Fu2529q3V8Gzn",
+    "name": "FCSP Absolute Gigant:innen",
+    "description": "",
+    "date": "2026-02-18T19:04:20.545Z",
+    "updatedAt": "2026-02-18T19:04:20.545Z",
+    "numTeams": 0,
+    "numPlayers": 42,
+    "disciplines": [
+      {
+        "_id": "tio:TiMjfLWL1p89e",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
+    }
+  },
+  {
+    "_id": "tio:wIiNHdYTM3Db4",
+    "name": "DoDo BYP Eintracht Frankfurt 19.02.",
+    "description": "",
+    "date": "2026-02-19T18:09:01.732Z",
+    "updatedAt": "2026-02-19T18:09:01.732Z",
+    "numTeams": 22,
+    "numPlayers": 44,
+    "disciplines": [
+      {
+        "_id": "tio:OQLzUBoUpzAlL",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "sge",
+      "name": "SGE"
+    }
+  },
+  {
+    "_id": "tio:TfHC0zfv3g6UJ",
+    "name": "OD Minichallenger Februar",
+    "description": "",
+    "date": "2026-02-19T23:00:00.000Z",
+    "updatedAt": "2026-02-04T15:51:20.876Z",
+    "numTeams": 14,
+    "numPlayers": 28,
+    "disciplines": [
+      {
+        "_id": "tio:oN8pj6vThaXQ8",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:JPnp57QmxjCJ8",
+    "name": "NO-PRO Turnier KIXX",
+    "description": "",
+    "date": "2026-02-20T10:09:30.302Z",
+    "updatedAt": "2026-02-20T10:09:30.302Z",
+    "numTeams": 100,
+    "numPlayers": 200,
+    "disciplines": [
+      {
+        "_id": "tio:lehMYZk3136Ru",
+        "shortName": "A",
+        "name": "A-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:zsrOpDDH9t2R6",
+        "shortName": "B",
+        "name": "B-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:bNnRzlFl0JkfH",
+        "shortName": "C",
+        "name": "C-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:AGxkMV0EBqw0z",
+    "name": "Monats Doppel",
+    "description": "",
+    "date": "2026-02-20T18:34:47.929Z",
+    "updatedAt": "2026-02-20T18:34:47.929Z",
+    "numTeams": 7,
+    "numPlayers": 14,
+    "disciplines": [
+      {
+        "_id": "tio:XmjC2sH5vLJoR",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
+    }
+  },
+  {
+    "_id": "tio:P73Tjh6H2GGLo",
+    "name": "FC St. Pauli KiezKickern Classic",
+    "description": "",
+    "date": "2026-02-20T18:40:20.094Z",
+    "updatedAt": "2026-02-20T18:40:20.094Z",
+    "numTeams": 26,
+    "numPlayers": 52,
+    "disciplines": [
+      {
+        "_id": "tio:NmO5YUykJIymE",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
+    }
+  },
+  {
+    "_id": "tio:fdQxwvOsxKSlv",
+    "name": "DTFB Challenger 2026 (Offenes Doppel)",
+    "description": "",
+    "date": "2026-02-20T23:00:00.000Z",
+    "updatedAt": "2025-12-29T09:28:31.993Z",
+    "numTeams": 23,
+    "numPlayers": 46,
+    "disciplines": [
+      {
+        "_id": "tio:vWykvD2nOjgRY",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "ksckulmbach",
+      "name": "1. KSC Kulmbach e.V."
+    }
+  },
+  {
+    "_id": "tio:wtOApzWwFtKHU",
+    "name": "Classic Double ",
+    "description": "",
+    "date": "2026-02-20T23:00:00.000Z",
+    "updatedAt": "2026-01-23T08:30:03.700Z",
+    "numTeams": 18,
+    "numPlayers": 36,
+    "disciplines": [
+      {
+        "_id": "tio:igUiXHA8RotLr",
+        "shortName": "CD",
+        "name": "Classic Double",
+        "modes": [
+          "swiss",
+          "double_elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
+    }
+  },
+  {
+    "_id": "tio:cCiQrdiSmmpzn",
+    "name": "Hannover Open 1 - 2026",
+    "description": "",
+    "date": "2026-02-20T23:00:00.000Z",
+    "updatedAt": "2026-01-26T12:55:00.925Z",
+    "numTeams": 43,
+    "numPlayers": 86,
+    "disciplines": [
+      {
+        "_id": "tio:r3B5Z3psLiv19",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "hannoverkicker",
+      "name": "Hannoverkicker"
+    }
+  },
+  {
+    "_id": "tio:G4q9XtZrzPbF3",
+    "name": "KIXX SaDo",
+    "description": "",
+    "date": "2026-02-21T16:41:25.030Z",
+    "updatedAt": "2026-02-21T16:41:25.030Z",
+    "numTeams": 38,
+    "numPlayers": 76,
+    "disciplines": [
+      {
+        "_id": "tio:eXE0kZW2SmheP",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:ogpmLO5gxTAqN",
+    "name": "Mini Challenger Offenes Doppel",
+    "description": "",
+    "date": "2026-02-21T17:41:08.511Z",
+    "updatedAt": "2026-02-21T17:41:08.511Z",
+    "numTeams": 5,
+    "numPlayers": 10,
+    "disciplines": [
+      {
+        "_id": "tio:KxPr1HTpB8TOJ",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kickerfreude",
+      "name": "Kickerfreude"
+    }
+  },
+  {
+    "_id": "tio:IOkcHCwISExg5",
+    "name": "Mmh Mmh Mmh Monster DYP ",
+    "description": "",
+    "date": "2026-02-23T16:53:02.488Z",
+    "updatedAt": "2026-02-23T16:53:02.488Z",
+    "numTeams": 0,
+    "numPlayers": 34,
+    "disciplines": [
+      {
+        "_id": "tio:LwQ8wmFAMd1EH",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:GQQJq0OLHet23",
+    "name": "Montags-DYP",
+    "description": "",
+    "date": "2026-02-23T17:50:06.291Z",
+    "updatedAt": "2026-02-23T17:50:06.291Z",
+    "numTeams": 0,
+    "numPlayers": 15,
+    "disciplines": [
+      {
+        "_id": "tio:yHiajP7kpN4cf",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kickern_in_veltheim",
+      "name": "Veltheim"
+    }
+  },
+  {
+    "_id": "tio:jHTgIcY2kZahu",
+    "name": "F+K Kickerturnier #02 2026",
+    "description": "",
+    "date": "2026-02-23T18:04:47.745Z",
+    "updatedAt": "2026-02-23T18:04:47.745Z",
+    "numTeams": 0,
+    "numPlayers": 26,
+    "disciplines": [
+      {
+        "_id": "tio:nYQ2YUe0G35xA",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "f+k",
+      "name": "Freundlich + Kompetent"
+    }
+  },
+  {
+    "_id": "tio:cXxKzyO7fxeDZ",
+    "name": "DI MC OE Kickerfreude",
+    "description": "",
+    "date": "2026-02-24T17:34:45.173Z",
+    "updatedAt": "2026-02-24T17:34:45.173Z",
+    "numTeams": 0,
+    "numPlayers": 8,
+    "disciplines": [
+      {
+        "_id": "tio:iOX90IeisUnOF",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kickerfreude",
+      "name": "Kickerfreude"
+    }
+  },
+  {
+    "_id": "tio:tdAEfpqtQxYc7",
+    "name": "8. Kixx MiDo",
+    "description": "",
+    "date": "2026-02-25T17:14:52.327Z",
+    "updatedAt": "2026-02-25T17:14:52.327Z",
+    "numTeams": 49,
+    "numPlayers": 98,
+    "disciplines": [
+      {
+        "_id": "tio:W1QET66k8VZhW",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:mhRKhBJ0IfbV3",
+    "name": "FCSP Absolute Gigant:innen",
+    "description": "",
+    "date": "2026-02-25T18:12:24.829Z",
+    "updatedAt": "2026-02-25T18:12:24.829Z",
+    "numTeams": 0,
+    "numPlayers": 42,
+    "disciplines": [
+      {
+        "_id": "tio:TNf1zAJxr5948",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
+    }
+  },
+  {
+    "_id": "tio:rERqxdPImGMWd",
+    "name": "2026-02-25 Monster DYP",
+    "description": "",
+    "date": "2026-02-25T18:18:04.145Z",
+    "updatedAt": "2026-02-25T18:18:04.145Z",
+    "numTeams": 0,
+    "numPlayers": 37,
+    "disciplines": [
+      {
+        "_id": "tio:Sw6hSqOPTWXGM",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kcmuenchen",
+      "name": "KickerClub München e.V."
+    }
+  },
+  {
+    "_id": "tio:naRLOob022MNO",
+    "name": "DoDo Byp Eintracht Frankfurt 26.02.",
+    "description": "",
+    "date": "2026-02-26T18:13:36.588Z",
+    "updatedAt": "2026-02-26T18:13:36.588Z",
+    "numTeams": 17,
+    "numPlayers": 34,
+    "disciplines": [
+      {
+        "_id": "tio:hQNdgzjQimHg0",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "sge",
+      "name": "SGE"
+    }
+  },
+  {
+    "_id": "tio:J6fZN0nu0xnSr",
+    "name": "NO-PRO Turnier KIXX",
+    "description": "",
+    "date": "2026-02-27T10:33:15.954Z",
+    "updatedAt": "2026-02-27T10:33:15.954Z",
+    "numTeams": 77,
+    "numPlayers": 154,
+    "disciplines": [
+      {
+        "_id": "tio:E9xuJvXdrc5Ni",
+        "shortName": "A",
+        "name": "A-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:108eBabYLHqHL",
+        "shortName": "B",
+        "name": "B-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:h31MawDpMehob",
+        "shortName": "C",
+        "name": "C-Feld",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:O5tqP6MXG7g83",
+    "name": "FC St. Pauli KiezKickern Doppel",
+    "description": "",
+    "date": "2026-02-27T17:58:50.618Z",
+    "updatedAt": "2026-02-27T17:58:50.618Z",
+    "numTeams": 21,
+    "numPlayers": 42,
+    "disciplines": [
+      {
+        "_id": "tio:iM6izihYyFAGR",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
+    }
+  },
+  {
+    "_id": "tio:fZhpagZaRbumC",
+    "name": "Kixx SaDo",
+    "description": "",
+    "date": "2026-02-28T17:00:33.547Z",
+    "updatedAt": "2026-02-28T17:00:33.547Z",
+    "numTeams": 34,
+    "numPlayers": 68,
+    "disciplines": [
+      {
+        "_id": "tio:EaxCacrjEkr78",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:gdukZ2mCAqKyv",
+    "name": "Mini Challenger Offenes Doppel",
+    "description": "",
+    "date": "2026-02-28T17:24:14.233Z",
+    "updatedAt": "2026-02-28T17:24:14.233Z",
+    "numTeams": 3,
+    "numPlayers": 6,
+    "disciplines": [
+      {
+        "_id": "tio:yFNyGaNycFsAC",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "kickerfreude",
+      "name": "Kickerfreude"
+    }
+  },
+  {
+    "_id": "tio:y2OmKgefPn3KS",
+    "name": "1 Jetballchallenger",
+    "description": "",
+    "date": "2026-02-28T23:00:00.000Z",
+    "updatedAt": "2026-02-14T13:29:12.556Z",
+    "numTeams": 17,
+    "numPlayers": 34,
+    "disciplines": [
+      {
+        "_id": "tio:bLqUIcoOmzYWs",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:Y4ASBTl6RZ3mf",
+    "name": "DYP März 1",
+    "description": "",
+    "date": "2026-03-02T10:43:52.511Z",
+    "updatedAt": "2026-03-02T10:43:52.511Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:1RSzfdy2uL72Q",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kickern_in_veltheim",
+      "name": "Veltheim"
+    }
+  },
+  {
+    "_id": "tio:U7wxHTuvpTHSS",
+    "name": "Minichallenger ",
+    "description": "",
+    "date": "2026-03-05T23:00:00.000Z",
+    "updatedAt": "2026-03-02T16:17:41.097Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:ktdVO7AUPnJ6N",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "tfc_devils",
+      "name": "TFC Devils Oldenburg"
+    }
+  },
+  {
+    "_id": "tio:g36jgIf7L04cQ",
+    "name": "2. Kixx Open 2026",
+    "description": "",
+    "date": "2026-03-06T23:00:00.000Z",
+    "updatedAt": "2026-01-19T18:54:35.694Z",
+    "numTeams": 82,
+    "numPlayers": 164,
+    "disciplines": [
+      {
+        "_id": "tio:s3tlOA9vz0hf9",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:I574rVzlVzxl3",
+    "name": "2. TIMEOUT Open 2026 OD",
+    "description": "",
+    "date": "2026-03-13T23:00:00.000Z",
+    "updatedAt": "2026-01-06T10:20:02.026Z",
+    "numTeams": 17,
+    "numPlayers": 33,
+    "disciplines": [
+      {
+        "_id": "tio:TxsJK04KXDrsR",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "btsv",
+      "name": "EIntracht Braunschweig Tischfußball"
+    }
+  },
+  {
+    "_id": "tio:pAx47wv2t5jpV",
+    "name": "2. TIMEOUT Open 2026 OE",
+    "description": "",
+    "date": "2026-03-14T23:00:00.000Z",
+    "updatedAt": "2026-01-06T10:22:07.278Z",
+    "numTeams": 0,
+    "numPlayers": 11,
+    "disciplines": [
+      {
+        "_id": "tio:oEeuJuZvMJFBn",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "btsv",
+      "name": "EIntracht Braunschweig Tischfußball"
+    }
+  },
+  {
+    "_id": "tio:DLL5r17w0t79O",
+    "name": "FleMiCh - Goalie War",
+    "description": "",
+    "date": "2026-03-15T23:00:00.000Z",
+    "updatedAt": "2026-02-15T23:34:23.610Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:FG5zuY8iA22tv",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "mkk",
+      "name": "MKK Flensburg"
+    }
+  },
+  {
+    "_id": "tio:0wK53AedQBCoy",
+    "name": "OD Minichallenger März",
+    "description": "",
+    "date": "2026-03-19T23:00:00.000Z",
+    "updatedAt": "2026-02-04T15:52:12.437Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:CogKUoOKajW1V",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:IR0Sz1YxRCN1b",
+    "name": "A-Ranglistenturnier TFK Schwalbach",
+    "description": "",
+    "date": "2026-03-27T23:00:00.000Z",
+    "updatedAt": "2025-12-31T13:30:50.484Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:7sm2zq82yNnsH",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:KZ7WpX7cpSDZT",
+        "shortName": "MX",
+        "name": "Mix",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:pZzs8w4S3R1d4",
+        "shortName": "DD",
+        "name": "Damen Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:hraXLpniwi3Ox",
+    "name": "No-Pro Hobbyspieler Turnier 28.03.2026",
+    "description": "",
+    "date": "2026-03-27T23:00:00.000Z",
+    "updatedAt": "2026-02-20T08:17:43.098Z",
+    "numTeams": 11,
+    "numPlayers": 22,
+    "disciplines": [
+      {
+        "_id": "tio:cniWCj23TXqY5",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "ksckulmbach",
+      "name": "1. KSC Kulmbach e.V."
+    }
+  },
+  {
+    "_id": "tio:fuya9kruRTISq",
+    "name": "1. Sonntags OD Münster",
+    "description": "",
+    "date": "2026-03-28T23:00:00.000Z",
+    "updatedAt": "2026-02-24T06:09:55.477Z",
+    "numTeams": 7,
+    "numPlayers": 10,
+    "disciplines": [
+      {
+        "_id": "tio:YLpChpVc6gUAS",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "schovelkoten",
+      "name": "Schovelkoten Münster"
+    }
+  },
+  {
+    "_id": "tio:NIXb1Ox2EMb3m",
+    "name": "B-Ranglistenturnier Berschweiler",
+    "description": "",
+    "date": "2026-04-03T22:00:00.000Z",
+    "updatedAt": "2025-12-31T14:27:53.467Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:BOA2FQXgsy3nL",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:hQUgkxy4ON0Et",
+        "shortName": "DD",
+        "name": "Damen Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:YMtJVr2msPfzx",
+        "shortName": "MX",
+        "name": "Mixed",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:3KVgE2Xvj4K7a",
+    "name": "B-Ranglistenturnier Berschweiler",
+    "description": "",
+    "date": "2026-04-04T22:00:00.000Z",
+    "updatedAt": "2025-12-31T14:35:30.563Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:YPFnpnp8NkXnb",
+        "shortName": "OE",
+        "name": "Offenes Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      },
+      {
+        "_id": "tio:9FjDayAikVwSk",
+        "shortName": "DYP",
+        "name": "DYP",
+        "modes": [
+          "rounds"
+        ],
+        "entryType": "team_name"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:oDRR4CdPWtPyh",
+    "name": "B-Ranglistenturnier TFC Hülzweiler-Saarwellingen",
+    "description": "",
+    "date": "2026-04-05T22:00:00.000Z",
+    "updatedAt": "2025-12-31T14:43:37.141Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:XJxsvN0HQeyUB",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:a3Bl4rGJnMU0d",
+    "name": "OD Minichallenger April",
+    "description": "",
+    "date": "2026-04-16T22:00:00.000Z",
+    "updatedAt": "2026-02-04T15:53:12.327Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:a0YefHS4F0JDc",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:ndlRHN4Z2Rk9Y",
+    "name": "Oldenburger Frühjahrschallenger",
+    "description": "",
+    "date": "2026-04-17T22:00:00.000Z",
+    "updatedAt": "2026-03-02T15:44:01.924Z",
+    "numTeams": 4,
+    "numPlayers": 8,
+    "disciplines": [
+      {
+        "_id": "tio:uk58RDuZqa8rX",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "tfc_devils",
+      "name": "TFC Devils Oldenburg"
+    }
+  },
+  {
+    "_id": "tio:S2t1zDOaMH4FW",
+    "name": "2026 Metronom Open II - OD",
+    "description": "",
+    "date": "2026-04-24T22:00:00.000Z",
+    "updatedAt": "2026-02-16T21:17:46.093Z",
+    "numTeams": 5,
+    "numPlayers": 10,
+    "disciplines": [
+      {
+        "_id": "tio:b6bz1PznwFsXC",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "tfvb",
+      "name": "Tischfußballverband Berlin e.V."
+    }
+  },
+  {
+    "_id": "tio:e8jWAtQYl026p",
+    "name": "1. MKK Junioren Challenger 2026",
+    "description": "",
+    "date": "2026-04-24T22:00:00.000Z",
+    "updatedAt": "2026-02-18T20:35:53.208Z",
+    "numTeams": 14,
+    "numPlayers": 7,
+    "disciplines": [
+      {
+        "_id": "tio:KUqO4gdVLsd0U",
+        "shortName": "13E",
+        "name": "U13 Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      },
+      {
+        "_id": "tio:Skg2n7VRexILX",
+        "shortName": "16E",
+        "name": "U16 Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      },
+      {
+        "_id": "tio:u7wGIJXLeFR5v",
+        "shortName": "19E",
+        "name": "U19 Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      },
+      {
+        "_id": "tio:O82o57fjQkEXL",
+        "shortName": "GE",
+        "name": "Girls Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      },
+      {
+        "_id": "tio:yHjy1J7MhLscr",
+        "shortName": "GVE",
+        "name": "Gemeinsame Vorrunde Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      },
+      {
+        "_id": "tio:yEliOhpyLUip5",
+        "shortName": "13D",
+        "name": "U13 Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:T21GzpW4UfSxo",
+        "shortName": "16D",
+        "name": "U16 Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:YC1EuJkQKNFQG",
+        "shortName": "19D",
+        "name": "U19 Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:GnewckK2346Ij",
+        "shortName": "GD",
+        "name": "Girls Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:mvI4Hn6iv21i5",
+        "shortName": "GVD",
+        "name": "Gemeinsame Vorrunde Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "mkk",
+      "name": "MKK Flensburg"
+    }
+  },
+  {
+    "_id": "tio:fTtvYann9BNMJ",
+    "name": "TVBW Ranglisten Turnier",
+    "description": "",
+    "date": "2026-04-24T22:00:00.000Z",
+    "updatedAt": "2026-02-19T07:58:21.769Z",
+    "numTeams": 2,
+    "numPlayers": 4,
+    "disciplines": [
+      {
+        "_id": "tio:gTtnwTqBDqgR6",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
+    }
+  },
+  {
+    "_id": "tio:F5DmkWRPXJ5jK",
+    "name": "2026 Metronom Open II - OE",
+    "description": "",
+    "date": "2026-04-25T22:00:00.000Z",
+    "updatedAt": "2026-02-16T21:18:31.584Z",
+    "numTeams": 0,
+    "numPlayers": 8,
+    "disciplines": [
+      {
+        "_id": "tio:1H8La6NDILY0D",
+        "shortName": "OE",
+        "name": "Offenes Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "tfvb",
+      "name": "Tischfußballverband Berlin e.V."
+    }
+  },
+  {
+    "_id": "tio:SbauujnlDSnkx",
+    "name": "OD Minichallenger Mai",
+    "description": "",
+    "date": "2026-05-14T22:00:00.000Z",
+    "updatedAt": "2026-02-04T15:53:57.921Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:HEc2UoegAWYFz",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:dCJRoERTcm4tq",
+    "name": "Hannover Open 2 - 2026",
+    "description": "",
+    "date": "2026-05-15T22:00:00.000Z",
+    "updatedAt": "2026-03-02T15:36:07.307Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:17OKUr1W0Ao0v",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "hannoverkicker",
+      "name": "Hannoverkicker"
+    }
+  },
+  {
+    "_id": "tio:xKJ8PxjDOKbFd",
+    "name": "B-Ranglistenturnier TFC Wiebelskirchen",
+    "description": "",
+    "date": "2026-05-23T22:00:00.000Z",
+    "updatedAt": "2026-01-01T14:04:20.594Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:LmNDQ3aHLJaqV",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:zfP6Go1PE4Mof",
+    "name": "Oldenburger Stadtmeisterschaft ",
+    "description": "",
+    "date": "2026-05-29T22:00:00.000Z",
+    "updatedAt": "2026-03-02T16:10:12.659Z",
+    "numTeams": 1,
+    "numPlayers": 2,
+    "disciplines": [
+      {
+        "_id": "tio:fnmZX0zJ7UOg6",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "tfc_devils",
+      "name": "TFC Devils Oldenburg"
+    }
+  },
+  {
+    "_id": "tio:pgOvLGXk37Cje",
+    "name": "B-Ranglistenturnier TFC Ludweiler",
+    "description": "",
+    "date": "2026-06-12T22:00:00.000Z",
+    "updatedAt": "2026-01-02T12:38:33.377Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:x2xGRuEQZTRXi",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:6dwsUhxMuERfe",
+    "name": "OD Minichallenger Juni",
+    "description": "",
+    "date": "2026-06-18T22:00:00.000Z",
+    "updatedAt": "2026-02-04T15:54:29.451Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:nwMNj4Vyufp58",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:P4IlkJ1ZCXcLC",
+    "name": "Flensburger Stadtmeisterschaft - Doppel",
+    "description": "",
+    "date": "2026-06-26T22:00:00.000Z",
+    "updatedAt": "2026-02-15T23:19:46.027Z",
+    "numTeams": 2,
+    "numPlayers": 4,
+    "disciplines": [
+      {
+        "_id": "tio:TNG8mSqUzLvl9",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:pTi8rbhdwg5DP",
+        "shortName": "DD",
+        "name": "Damen Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:XNSF43vpKQINK",
+        "shortName": "13D",
+        "name": "U13 Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:rZpeOi5R5HPTc",
+        "shortName": "16D",
+        "name": "U16 Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:gF8V9IgzYlXez",
+        "shortName": "19D",
+        "name": "U19 Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:1y0mkP8ZenDdX",
+        "shortName": "GD",
+        "name": "Girls Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "mkk",
+      "name": "MKK Flensburg"
+    }
+  },
+  {
+    "_id": "tio:ouGAD9qFC2xQa",
+    "name": "Flensburger Stadtmeisterschaft - Einzel",
+    "description": "",
+    "date": "2026-06-27T22:00:00.000Z",
+    "updatedAt": "2026-02-15T23:23:48.134Z",
+    "numTeams": 0,
+    "numPlayers": 3,
+    "disciplines": [
+      {
+        "_id": "tio:YWfcuJshKw6pb",
+        "shortName": "OE",
+        "name": "Offenes Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      },
+      {
+        "_id": "tio:cn6u7cknkh8Uv",
+        "shortName": "DE",
+        "name": "Damen Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      },
+      {
+        "_id": "tio:cjcD8UdWnhChg",
+        "shortName": "13E",
+        "name": "U13 Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      },
+      {
+        "_id": "tio:A9Zki3CCqs6dG",
+        "shortName": "16E",
+        "name": "U16 Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      },
+      {
+        "_id": "tio:XHyZaUAoWrgyz",
+        "shortName": "19E",
+        "name": "U19 Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      },
+      {
+        "_id": "tio:srHfebqQ0klVs",
+        "shortName": "GE",
+        "name": "Girls Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "mkk",
+      "name": "MKK Flensburg"
+    }
+  },
+  {
+    "_id": "tio:NHycdhtxXpTf3",
+    "name": "OD Minichallenger Juli",
+    "description": "",
+    "date": "2026-07-16T22:00:00.000Z",
+    "updatedAt": "2026-02-04T15:55:17.103Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:XIdEgDMkIOYFa",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:hykHQMaPo91gc",
+    "name": "B-Ranglistenturnier TFC Bliesen",
+    "description": "",
+    "date": "2026-08-07T22:00:00.000Z",
+    "updatedAt": "2026-01-03T14:02:33.400Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:oanIRpnlQ5LPa",
+        "shortName": "OD",
+        "name": "Offenes Doppel ",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:3HUOGxW9IN2CS",
+        "shortName": "MX",
+        "name": "Mixed ",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:cJ5j5gebwyWTk",
+    "name": "A-Ranglistenturnier SG Spiesen",
+    "description": "",
+    "date": "2026-08-14T22:00:00.000Z",
+    "updatedAt": "2026-01-03T14:07:38.626Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:q8JofEsLi3wjV",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:LRzBtzGxlonaR",
+        "shortName": "DD",
+        "name": "Damen Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:rA8opY9RpPjlY",
+        "shortName": "MX",
+        "name": "Mixed",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:z8BXR20nZsZjV",
+    "name": "Hannover Open 3- 2026",
+    "description": "",
+    "date": "2026-08-14T22:00:00.000Z",
+    "updatedAt": "2026-03-02T15:42:23.354Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:Wn1iL6fSY7EMi",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "hannoverkicker",
+      "name": "Hannoverkicker"
+    }
+  },
+  {
+    "_id": "tio:z32Oe4tKGPU8n",
+    "name": "OD Minichallenger August",
+    "description": "",
+    "date": "2026-08-20T22:00:00.000Z",
+    "updatedAt": "2026-02-04T15:55:47.636Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:qXOoFf0wc9Wga",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:IOrjnzsphIYde",
+    "name": "B-Ranglistenturnier TFF Burbach ",
+    "description": "",
+    "date": "2026-09-04T22:00:00.000Z",
+    "updatedAt": "2026-01-03T14:10:40.513Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:El04PGLpGMpGA",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:JHFuCkkEXXIAj",
+    "name": "OD Minichallenger September",
+    "description": "",
+    "date": "2026-09-17T22:00:00.000Z",
+    "updatedAt": "2026-02-04T15:56:17.397Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:bDdFd9DIo2Wii",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:6UQvqozzPDrBN",
+    "name": "A-Ranglistenturnier TFC Hülzweiler-Saarwellingen",
+    "description": "",
+    "date": "2026-09-18T22:00:00.000Z",
+    "updatedAt": "2026-01-03T14:12:30.901Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:5RiY1gYP4IoQU",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:2sDuR1PWznK96",
+        "shortName": "DD",
+        "name": "Damen Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:jOHOkiwSBY6Ii",
+        "shortName": "MX",
+        "name": "Mixed",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:wqBr8H608Fhjt",
+    "name": "3. TIMEOUT Open 2026 OD",
+    "description": "",
+    "date": "2026-09-18T22:00:00.000Z",
+    "updatedAt": "2026-01-06T10:23:08.375Z",
+    "numTeams": 6,
+    "numPlayers": 9,
+    "disciplines": [
+      {
+        "_id": "tio:32iaN61ZsfqEA",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "btsv",
+      "name": "EIntracht Braunschweig Tischfußball"
+    }
+  },
+  {
+    "_id": "tio:pvOaNSdT4nhbZ",
+    "name": "3. TIMEOUT Open 2026 OE",
+    "description": "",
+    "date": "2026-09-19T22:00:00.000Z",
+    "updatedAt": "2026-01-06T10:25:02.783Z",
+    "numTeams": 0,
+    "numPlayers": 9,
+    "disciplines": [
+      {
+        "_id": "tio:TWAnd3w4vzY6g",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "btsv",
+      "name": "EIntracht Braunschweig Tischfußball"
+    }
+  },
+  {
+    "_id": "tio:mMtgeS9v0aMNZ",
+    "name": "Hannover Open 4 - 2026",
+    "description": "",
+    "date": "2026-10-09T22:00:00.000Z",
+    "updatedAt": "2026-03-02T15:40:39.046Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:jAtzxVF1dHHda",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "hannoverkicker",
+      "name": "Hannoverkicker"
+    }
+  },
+  {
+    "_id": "tio:k2H4CTq2cwSpt",
+    "name": "OD Minichallenger Oktober",
+    "description": "",
+    "date": "2026-10-15T22:00:00.000Z",
+    "updatedAt": "2026-02-04T15:56:48.558Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:OVU6urqu9olW4",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:4KDmonAAVwCtL",
+    "name": "Halloweenchallenger Oldenburg",
+    "description": "",
+    "date": "2026-10-30T23:00:00.000Z",
+    "updatedAt": "2026-03-02T16:13:48.885Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:5taksgMATK764",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "tfc_devils",
+      "name": "TFC Devils Oldenburg"
+    }
+  },
+  {
+    "_id": "tio:8TotPg1nQgvWE",
+    "name": "OD Minichallenger November",
+    "description": "",
+    "date": "2026-11-19T23:00:00.000Z",
+    "updatedAt": "2026-02-04T15:57:17.613Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:xOU86jeULp5CP",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:MaJY9Dg40ADwn",
+    "name": "A-Ranglistenturnier OTC Ottweiler",
+    "description": "",
+    "date": "2026-12-04T23:00:00.000Z",
+    "updatedAt": "2026-01-03T14:16:04.705Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:3CmSywBPecNfR",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:AY5HfEdzej4I0",
+        "shortName": "DD",
+        "name": "Damen Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:QECUW9qbj1jfh",
+        "shortName": "MX",
+        "name": "Mixed ",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:DWQQSYIB6nrAD",
+    "name": "B-Ranglistenturnier TFC Wiebelskirchen ",
+    "description": "",
+    "date": "2026-12-11T23:00:00.000Z",
+    "updatedAt": "2026-01-03T14:18:24.661Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:zqgipab2AD6Nq",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "stfv",
+      "name": "Saarländischer Tischfußballverband"
+    }
+  }
+]
