@@ -57,7 +57,17 @@ https://live.alpha.kickertool.de/kixx/tournaments/tio:g36jgIf7L04cQ/disciplines/
 
 ## Design
 
-- Dark Theme: `background: #212529`
+- Dark Theme: `background: #212529`, Text: `#dee2e6`, Borders: `#32383e`
 - Links: `color: #fff; text-decoration: underline`
-- Row-Striping: `tbody tr:nth-child(odd)`
+- Row-Striping: `tbody tr:nth-child(odd) td { background: #2c3034; }`
+- Font: System-Stack, 14.4px, max-width 899px
 - Kein Nav, kein Footer, keine Sponsoren — nur die 3 Sektions-Tabellen
+- Viewport: `width=device-width, initial-scale=0.5, shrink-to-fit=yes` (wie tifu.info — zeigt Desktop-Layout auf Mobile)
+
+## Spalten & Disziplinen
+
+- 4 Spalten: Datum | Turnier | Disziplinen | Ort
+- Disziplinen-Labels aus `shortName`: bekannte Namen (OD, OE, DD, DE, MX, DYP) direkt; generische `D1`/`D2` → aus `entryType` (single→OE, byp→OD, monster_dyp→DYP)
+- Youth-Disziplinen (Regex `^\d{2}[ED]`, `^G[V]?[ED]`, `^J\d+`) → kollabiert zu einem "Junioren"-Link (`/live`)
+- Einzelne Disziplin → direkter Link `/disciplines/{did}/{status}`
+- Mehrere Disziplinen → `/tournaments/{tid}/live`
