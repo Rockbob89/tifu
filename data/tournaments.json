@@ -1710,7 +1710,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "kickern_in_veltheim",
       "name": "Veltheim"
@@ -1730,7 +1730,8 @@
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "byp"
       }
@@ -1739,6 +1740,58 @@
     "resultPage": {
       "slug": "sidekick",
       "name": "Sidekick"
+    }
+  },
+  {
+    "_id": "tio:aqp3ZyQLRbZ8M",
+    "name": "Monday-DYP",
+    "description": "",
+    "date": "2026-03-02T18:29:59.331Z",
+    "updatedAt": "2026-03-02T18:29:59.331Z",
+    "numTeams": 0,
+    "numPlayers": 15,
+    "disciplines": [
+      {
+        "_id": "tio:wcRgPTloaYM5t",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "mkk",
+      "name": "MKK Flensburg"
+    }
+  },
+  {
+    "_id": "tio:VfYzGCrLI4aYv",
+    "name": "Vigge is Back alright",
+    "description": "",
+    "date": "2026-03-02T19:12:39.867Z",
+    "updatedAt": "2026-03-02T19:12:39.867Z",
+    "numTeams": 0,
+    "numPlayers": 38,
+    "disciplines": [
+      {
+        "_id": "tio:QnWP6NDJQcL1D",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
     }
   },
   {
@@ -1767,6 +1820,31 @@
     }
   },
   {
+    "_id": "tio:sljHfBOStLeFJ",
+    "name": "3. RSL Mini-Challenger (M-DYP) 2026",
+    "description": "",
+    "date": "2026-03-05T23:00:00.000Z",
+    "updatedAt": "2026-03-02T19:38:56.994Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:soVFBWNmMKJDn",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "rsl",
+      "name": ""
+    }
+  },
+  {
     "_id": "tio:g36jgIf7L04cQ",
     "name": "2. Kixx Open 2026",
     "description": "",
@@ -1789,6 +1867,31 @@
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:4Jxjlcjuo52kc",
+    "name": "Kickerclub Gronau OD",
+    "description": "",
+    "date": "2026-03-12T23:00:00.000Z",
+    "updatedAt": "2026-03-02T21:19:45.188Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:M2UFRoL2CSrLk",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kickerclub_gronau_turnier_ergebnis",
+      "name": "Kickerclub Gronau e.V."
     }
   },
   {
@@ -2314,7 +2417,7 @@
     "date": "2026-04-25T22:00:00.000Z",
     "updatedAt": "2026-02-16T21:18:31.584Z",
     "numTeams": 0,
-    "numPlayers": 8,
+    "numPlayers": 9,
     "disciplines": [
       {
         "_id": "tio:1H8La6NDILY0D",
