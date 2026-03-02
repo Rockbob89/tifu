@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 import json
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
+
+TZ = ZoneInfo("Europe/Berlin")
 
 BASE_URL = "https://live.alpha.kickertool.de"
 
@@ -33,7 +36,7 @@ def state_to_section(state):
 
 
 def fmt_date(iso_str):
-    dt = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
+    dt = datetime.fromisoformat(iso_str.replace("Z", "+00:00")).astimezone(TZ)
     return dt.strftime("%d.%m.%Y")
 
 
