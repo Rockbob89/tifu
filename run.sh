@@ -4,6 +4,7 @@ cd "$(dirname "$0")"
 
 TS() { date +"%Y-%m-%d %H:%M:%S"; }
 
+git pull --rebase > /dev/null
 python3 scraper.py > /dev/null
 python3 generate.py > /dev/null
 
