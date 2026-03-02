@@ -1,15 +1,15 @@
 [
   {
-    "_id": "tio:umAwq3Meszwjf",
-    "name": "Mini Challenger offenes Doppel",
+    "_id": "tio:zCbwEieYd9ZHP",
+    "name": "81. SiMo Doppel",
     "description": "",
-    "date": "2026-01-31T17:49:23.376Z",
-    "updatedAt": "2026-01-31T17:49:23.376Z",
-    "numTeams": 4,
-    "numPlayers": 8,
+    "date": "2026-02-01T23:00:00.000Z",
+    "updatedAt": "2026-01-07T17:36:32.823Z",
+    "numTeams": 9,
+    "numPlayers": 18,
     "disciplines": [
       {
-        "_id": "tio:4DZpBDKVKT7HE",
+        "_id": "tio:m5CoYYUp2yyYY",
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
@@ -21,8 +21,8 @@
     ],
     "state": "finished",
     "resultPage": {
-      "slug": "kickerfreude",
-      "name": "Kickerfreude"
+      "slug": "sidekick",
+      "name": "Sidekick"
     }
   },
   {
@@ -325,6 +325,32 @@
     }
   },
   {
+    "_id": "tio:yH0Y76ujJAOEJ",
+    "name": "1. Sidekick DTFB Challenger 2026 - Einzel",
+    "description": "",
+    "date": "2026-02-06T23:00:00.000Z",
+    "updatedAt": "2025-12-17T21:56:15.053Z",
+    "numTeams": 0,
+    "numPlayers": 21,
+    "disciplines": [
+      {
+        "_id": "tio:noMq7CGN1Mzna",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "sidekick",
+      "name": "Sidekick"
+    }
+  },
+  {
     "_id": "tio:hHpGiJRkiCraL",
     "name": "Kixx SaDo",
     "description": "",
@@ -348,6 +374,32 @@
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:wcPj5oPiiJpyA",
+    "name": "82. SiMo Einzel",
+    "description": "",
+    "date": "2026-02-08T23:00:00.000Z",
+    "updatedAt": "2026-01-26T17:29:08.767Z",
+    "numTeams": 0,
+    "numPlayers": 21,
+    "disciplines": [
+      {
+        "_id": "tio:LOZaYzJL5gMGP",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "sidekick",
+      "name": "Sidekick"
     }
   },
   {
@@ -767,6 +819,32 @@
     "resultPage": {
       "slug": "tfvb",
       "name": "Tischfußballverband Berlin e.V."
+    }
+  },
+  {
+    "_id": "tio:xkr2ptkn4VMWz",
+    "name": "82. SiMo Doppel",
+    "description": "",
+    "date": "2026-02-15T23:00:00.000Z",
+    "updatedAt": "2026-02-02T17:21:17.287Z",
+    "numTeams": 14,
+    "numPlayers": 28,
+    "disciplines": [
+      {
+        "_id": "tio:hkSort3Zf5ymE",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "sidekick",
+      "name": "Sidekick"
     }
   },
   {
@@ -1231,6 +1309,32 @@
     }
   },
   {
+    "_id": "tio:etfluVn78bf4C",
+    "name": "83. SiMo Einzel",
+    "description": "",
+    "date": "2026-02-22T23:00:00.000Z",
+    "updatedAt": "2026-02-09T21:54:01.067Z",
+    "numTeams": 0,
+    "numPlayers": 18,
+    "disciplines": [
+      {
+        "_id": "tio:4767aTpDYdXUK",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "sidekick",
+      "name": "Sidekick"
+    }
+  },
+  {
     "_id": "tio:IOkcHCwISExg5",
     "name": "Mmh Mmh Mmh Monster DYP ",
     "description": "",
@@ -1581,7 +1685,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "stfv",
       "name": "Saarländischer Tischfußballverband"
@@ -1594,7 +1698,7 @@
     "date": "2026-03-02T10:43:52.511Z",
     "updatedAt": "2026-03-02T10:43:52.511Z",
     "numTeams": 0,
-    "numPlayers": 0,
+    "numPlayers": 20,
     "disciplines": [
       {
         "_id": "tio:1RSzfdy2uL72Q",
@@ -1606,10 +1710,35 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "kickern_in_veltheim",
       "name": "Veltheim"
+    }
+  },
+  {
+    "_id": "tio:4PWoDk81Iz82a",
+    "name": "83. SiMo Doppel ",
+    "description": "",
+    "date": "2026-03-02T18:18:12.484Z",
+    "updatedAt": "2026-03-02T18:18:12.484Z",
+    "numTeams": 12,
+    "numPlayers": 24,
+    "disciplines": [
+      {
+        "_id": "tio:dOQEf0Hvfq8TL",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "sidekick",
+      "name": "Sidekick"
     }
   },
   {
@@ -1660,6 +1789,21 @@
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:TBgQxttkkCkTy",
+    "name": "Sidekick Monster-DYP",
+    "description": "",
+    "date": "2026-03-13T23:00:00.000Z",
+    "updatedAt": "2025-10-29T21:45:38.238Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [],
+    "state": "planned",
+    "resultPage": {
+      "slug": "sidekick",
+      "name": "Sidekick"
     }
   },
   {
