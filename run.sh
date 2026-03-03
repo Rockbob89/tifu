@@ -14,6 +14,6 @@ if git diff --quiet && git diff --cached --quiet; then
 fi
 
 git add data/tournaments.json docs/index.html
-git commit -m "chore: update $(date +%Y-%m-%d %H:%M)" > /dev/null
+git commit -m "chore: update $(date +%Y-%m-%d@%H:%M)" > /dev/null
 git push > /dev/null
 echo "$(TS) - updated"
