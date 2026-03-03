@@ -2,6 +2,14 @@
 
 Statische GitHub Pages Seite, die DTFB-Turniere von der tournament.io API scraped und als HTML rendert.
 
+## Workflow (PFLICHT — bei jedem Task)
+
+1. `git pull` auf dem aktuellen Branch
+2. Arbeit ausschließlich auf `dev`
+3. Nach Abschluss: `dev` → `main` mergen
+4. `git push` (beide Branches)
+5. PR erstellen falls nicht schon geschehen
+
 ## Branching
 
 - **`main`** — Produktiv. Nur Merges von `dev`. Der Pi-Cron läuft auf `main`.
