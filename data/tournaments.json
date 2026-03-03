@@ -1918,7 +1918,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "tfc_staufenberg",
       "name": "https://live.alpha.kickertool.de/tfc_staufenberg"
