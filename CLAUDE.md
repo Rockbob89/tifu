@@ -4,16 +4,18 @@ Statische GitHub Pages Seite, die DTFB-Turniere von der tournament.io API scrape
 
 ## Workflow (PFLICHT — bei jedem Task)
 
-1. `git pull` auf dem aktuellen Branch
-2. Arbeit ausschließlich auf `dev`
-3. Nach Abschluss: `dev` → `main` mergen
-4. `git push` (beide Branches)
-5. PR erstellen falls nicht schon geschehen
+1. `git fetch origin`
+2. Feature Branch von `origin/main` erstellen: `git checkout -b feat/xyz origin/main`
+3. Arbeit auf Feature Branch
+4. PR auf `main` erstellen, mergen
+5. Branch lokal und remote löschen
+
+**Nie direkt auf `main` committen.**
 
 ## Branching
 
-- **`main`** — Produktiv. Nur Merges von `dev`. Der Pi-Cron läuft auf `main`.
-- **`dev`** — Entwicklung. Alle Änderungen hier, nie direkt auf `main`.
+- **`main`** — Produktiv. Nur Merges via PR. Der Pi-Cron läuft auf `main` und zieht Code-Änderungen automatisch via `git pull --rebase`.
+- **Feature Branches** — Format: `feat/`, `fix/`, `chore/`. Immer von `origin/main` branchen (nicht lokalem `main` — könnte stale sein). Kein permanenter `dev`-Branch.
 
 ## Architektur
 
