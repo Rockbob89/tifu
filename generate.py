@@ -207,12 +207,16 @@ def generate():
       font-size: 0.75rem;
       color: #999;
       margin-bottom: 0.5rem;
-      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }}
+    .updated a {{ color: #999; text-decoration: none; }}
+    .updated a:hover {{ color: #dee2e6; opacity: 1; }}
   </style>
 </head>
 <body>
-  <p class="updated">Zuletzt aktualisiert: {updated}</p>
+  <p class="updated"><span>Zuletzt aktualisiert: {updated}</span><a href="mailto:tifu@mario-christ.de">tifu@mario-christ.de</a></p>
 {sections_html}
 </body>
 </html>
