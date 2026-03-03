@@ -1903,20 +1903,20 @@
     "description": "",
     "date": "2026-03-03T17:56:26.322Z",
     "updatedAt": "2026-03-03T17:56:26.322Z",
-    "numTeams": 3,
-    "numPlayers": 6,
+    "numTeams": 1,
+    "numPlayers": 2,
     "disciplines": [
       {
         "_id": "tio:sTYAAYgUKkMji",
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "swiss"
+          "elimination"
         ],
         "entryType": "byp"
       }
     ],
-    "state": "ready",
+    "state": "check-in",
     "resultPage": {
       "slug": "tfc_staufenberg",
       "name": "https://live.alpha.kickertool.de/tfc_staufenberg"
