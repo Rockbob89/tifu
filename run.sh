@@ -13,7 +13,7 @@ if git diff --quiet && git diff --cached --quiet; then
     exit 0
 fi
 
-git add data/tournaments.json docs/index.html
+git add data/tournaments.json docs/index.html > /dev/null
 git commit -m "chore: update $(date +%Y-%m-%d@%H:%M)" > /dev/null
 git push > /dev/null
 echo "$(TS) - updated"
