@@ -1903,8 +1903,8 @@
     "description": "",
     "date": "2026-03-03T17:56:26.322Z",
     "updatedAt": "2026-03-03T17:56:26.322Z",
-    "numTeams": 8,
-    "numPlayers": 16,
+    "numTeams": 9,
+    "numPlayers": 18,
     "disciplines": [
       {
         "_id": "tio:sTYAAYgUKkMji",
@@ -1916,7 +1916,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "tfc_staufenberg",
       "name": "https://live.alpha.kickertool.de/tfc_staufenberg"
@@ -1978,8 +1978,8 @@
     "description": "",
     "date": "2026-03-06T23:00:00.000Z",
     "updatedAt": "2026-01-19T18:54:35.694Z",
-    "numTeams": 81,
-    "numPlayers": 162,
+    "numTeams": 83,
+    "numPlayers": 166,
     "disciplines": [
       {
         "_id": "tio:s3tlOA9vz0hf9",
