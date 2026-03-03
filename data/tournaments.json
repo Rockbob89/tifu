@@ -2299,6 +2299,31 @@
     }
   },
   {
+    "_id": "tio:kWTPWXfnhrXfQ",
+    "name": "2. MKK Challenger 2026",
+    "description": "",
+    "date": "2026-04-03T22:00:00.000Z",
+    "updatedAt": "2026-03-03T19:52:29.606Z",
+    "numTeams": 2,
+    "numPlayers": 4,
+    "disciplines": [
+      {
+        "_id": "tio:CfvA8PDpm8PNM",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "mkk",
+      "name": "MKK Flensburg"
+    }
+  },
+  {
     "_id": "tio:3KVgE2Xvj4K7a",
     "name": "B-Ranglistenturnier Berschweiler",
     "description": "",
