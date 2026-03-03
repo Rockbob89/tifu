@@ -506,6 +506,32 @@
     }
   },
   {
+    "_id": "tio:MwN5gsfZ6aEbN",
+    "name": "Offenes Doppel",
+    "description": "",
+    "date": "2026-02-10T18:26:24.866Z",
+    "updatedAt": "2026-02-10T18:26:24.866Z",
+    "numTeams": 11,
+    "numPlayers": 22,
+    "disciplines": [
+      {
+        "_id": "tio:YlzipgeBDq5ZX",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "tfc_staufenberg",
+      "name": "https://live.alpha.kickertool.de/tfc_staufenberg"
+    }
+  },
+  {
     "_id": "tio:kA04nrrB1MXDp",
     "name": "6. Kixx MiDo",
     "description": "",
@@ -925,6 +951,32 @@
     }
   },
   {
+    "_id": "tio:q9uEvEocND53S",
+    "name": "DYPdiDYP",
+    "description": "",
+    "date": "2026-02-17T16:32:52.777Z",
+    "updatedAt": "2026-02-17T16:32:52.777Z",
+    "numTeams": 0,
+    "numPlayers": 22,
+    "disciplines": [
+      {
+        "_id": "tio:nzZ8U4Ll5zP7i",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "tfc_staufenberg",
+      "name": "https://live.alpha.kickertool.de/tfc_staufenberg"
+    }
+  },
+  {
     "_id": "tio:uGf9IIe5h5J8a",
     "name": "Mini Challenger Offenes Einzel",
     "description": "",
@@ -1127,32 +1179,6 @@
     }
   },
   {
-    "_id": "tio:AGxkMV0EBqw0z",
-    "name": "Monats Doppel",
-    "description": "",
-    "date": "2026-02-20T18:34:47.929Z",
-    "updatedAt": "2026-02-20T18:34:47.929Z",
-    "numTeams": 7,
-    "numPlayers": 14,
-    "disciplines": [
-      {
-        "_id": "tio:XmjC2sH5vLJoR",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "jetsparrows",
-      "name": "Jet Sparrows Ulm"
-    }
-  },
-  {
     "_id": "tio:P73Tjh6H2GGLo",
     "name": "FC St. Pauli KiezKickern Classic",
     "description": "",
@@ -1202,32 +1228,6 @@
     "resultPage": {
       "slug": "ksckulmbach",
       "name": "1. KSC Kulmbach e.V."
-    }
-  },
-  {
-    "_id": "tio:wtOApzWwFtKHU",
-    "name": "Classic Double ",
-    "description": "",
-    "date": "2026-02-20T23:00:00.000Z",
-    "updatedAt": "2026-01-23T08:30:03.700Z",
-    "numTeams": 18,
-    "numPlayers": 36,
-    "disciplines": [
-      {
-        "_id": "tio:igUiXHA8RotLr",
-        "shortName": "CD",
-        "name": "Classic Double",
-        "modes": [
-          "swiss",
-          "double_elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "jetsparrows",
-      "name": "Jet Sparrows Ulm"
     }
   },
   {
@@ -1409,6 +1409,32 @@
     "resultPage": {
       "slug": "f+k",
       "name": "Freundlich + Kompetent"
+    }
+  },
+  {
+    "_id": "tio:i8Qgt0hR4SdpG",
+    "name": "Offenes Einzel",
+    "description": "",
+    "date": "2026-02-23T23:00:00.000Z",
+    "updatedAt": "2026-02-23T14:17:33.628Z",
+    "numTeams": 0,
+    "numPlayers": 23,
+    "disciplines": [
+      {
+        "_id": "tio:rQ8i37aFfnXSo",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "tfc_staufenberg",
+      "name": "https://live.alpha.kickertool.de/tfc_staufenberg"
     }
   },
   {
@@ -1817,6 +1843,31 @@
     "resultPage": {
       "slug": "kickerfreude",
       "name": "Kickerfreude"
+    }
+  },
+  {
+    "_id": "tio:rWI727po6GSP6",
+    "name": "Offenes Doppel",
+    "description": "",
+    "date": "2026-03-03T17:56:26.322Z",
+    "updatedAt": "2026-03-03T17:56:26.322Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:sTYAAYgUKkMji",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "tfc_staufenberg",
+      "name": "https://live.alpha.kickertool.de/tfc_staufenberg"
     }
   },
   {
@@ -2433,31 +2484,6 @@
     "resultPage": {
       "slug": "mkk",
       "name": "MKK Flensburg"
-    }
-  },
-  {
-    "_id": "tio:fTtvYann9BNMJ",
-    "name": "TVBW Ranglisten Turnier",
-    "description": "",
-    "date": "2026-04-24T22:00:00.000Z",
-    "updatedAt": "2026-02-19T07:58:21.769Z",
-    "numTeams": 2,
-    "numPlayers": 4,
-    "disciplines": [
-      {
-        "_id": "tio:gTtnwTqBDqgR6",
-        "shortName": "OD",
-        "name": "Offenes Doppel",
-        "modes": [
-          "swiss"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "pre-registration",
-    "resultPage": {
-      "slug": "jetsparrows",
-      "name": "Jet Sparrows Ulm"
     }
   },
   {
