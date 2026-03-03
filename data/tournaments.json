@@ -1813,7 +1813,7 @@
         "entryType": "single"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "kickerfreude",
       "name": "Kickerfreude"
