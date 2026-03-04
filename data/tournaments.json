@@ -1905,7 +1905,7 @@
     "date": "2026-03-04T17:31:37.955Z",
     "updatedAt": "2026-03-04T17:31:37.955Z",
     "numTeams": 0,
-    "numPlayers": 7,
+    "numPlayers": 11,
     "disciplines": [
       {
         "_id": "tio:JvLX2ZxygUT8v",
@@ -1946,6 +1946,31 @@
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:H9LXw76vg29Fq",
+    "name": "FCSP Absolute Gigant:innen",
+    "description": "",
+    "date": "2026-03-04T17:53:29.159Z",
+    "updatedAt": "2026-03-04T17:53:29.159Z",
+    "numTeams": 0,
+    "numPlayers": 10,
+    "disciplines": [
+      {
+        "_id": "tio:7HnTuGKktCWCm",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
     }
   },
   {
