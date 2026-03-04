@@ -1942,7 +1942,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "ready",
+    "state": "check-in",
     "resultPage": {
       "slug": "kcb",
       "name": "Turniere der Kicker Crew Bonn"
