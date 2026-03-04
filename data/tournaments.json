@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:3Spmln68UW0Ix",
-    "name": "DypMyHeart",
-    "description": "",
-    "date": "2026-02-02T19:05:10.373Z",
-    "updatedAt": "2026-02-02T19:05:10.373Z",
-    "numTeams": 0,
-    "numPlayers": 32,
-    "disciplines": [
-      {
-        "_id": "tio:lLDCJlTz35CjT",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kixxntrixx",
-      "name": "Kixx'n'Trixx Turnierergebnisse"
-    }
-  },
-  {
     "_id": "tio:6K0qQzH5BYn2R",
     "name": "Halkitu - Halstenbeker Kickerturnier",
     "description": "",
@@ -1880,7 +1854,7 @@
     "date": "2026-03-04T17:22:48.708Z",
     "updatedAt": "2026-03-04T17:22:48.708Z",
     "numTeams": 0,
-    "numPlayers": 25,
+    "numPlayers": 27,
     "disciplines": [
       {
         "_id": "tio:7dAMKXpFz3GFI",
@@ -1892,7 +1866,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "kcmuenchen",
       "name": "KickerClub München e.V."
@@ -1955,7 +1929,7 @@
     "date": "2026-03-04T17:53:29.159Z",
     "updatedAt": "2026-03-04T17:53:29.159Z",
     "numTeams": 0,
-    "numPlayers": 35,
+    "numPlayers": 38,
     "disciplines": [
       {
         "_id": "tio:7HnTuGKktCWCm",
@@ -1967,7 +1941,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "fcsp",
       "name": "fcsp-kickern.de"
