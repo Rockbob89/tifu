@@ -1,30 +1,5 @@
 [
   {
-    "_id": "tio:uysfLIZGZYHGG",
-    "name": "Montags-DYP",
-    "description": "",
-    "date": "2026-02-02T17:47:48.560Z",
-    "updatedAt": "2026-02-02T17:47:48.560Z",
-    "numTeams": 0,
-    "numPlayers": 15,
-    "disciplines": [
-      {
-        "_id": "tio:oO1CzpYmXHNxv",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kickern_in_veltheim",
-      "name": "Veltheim"
-    }
-  },
-  {
     "_id": "tio:3Spmln68UW0Ix",
     "name": "DypMyHeart",
     "description": "",
@@ -1946,6 +1921,31 @@
     "resultPage": {
       "slug": "kcb",
       "name": "Turniere der Kicker Crew Bonn"
+    }
+  },
+  {
+    "_id": "tio:EXVHz4KCBHhPV",
+    "name": "9. Kixx MiDo",
+    "description": "",
+    "date": "2026-03-04T17:44:53.917Z",
+    "updatedAt": "2026-03-04T17:44:53.917Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:E9MsvJSq9lRGQ",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
     }
   },
   {
