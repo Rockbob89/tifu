@@ -1899,6 +1899,31 @@
     }
   },
   {
+    "_id": "tio:IjnrmkRRGhpkb",
+    "name": "2026-03-04 Monster-DYP",
+    "description": "",
+    "date": "2026-03-04T17:22:48.708Z",
+    "updatedAt": "2026-03-04T17:22:48.708Z",
+    "numTeams": 0,
+    "numPlayers": 2,
+    "disciplines": [
+      {
+        "_id": "tio:7dAMKXpFz3GFI",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kcmuenchen",
+      "name": "KickerClub München e.V."
+    }
+  },
+  {
     "_id": "tio:U7wxHTuvpTHSS",
     "name": "Minichallenger ",
     "description": "",
