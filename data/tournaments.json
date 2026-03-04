@@ -377,6 +377,32 @@
     }
   },
   {
+    "_id": "tio:vAwoV4LIvROSl",
+    "name": "Mini-Challenger",
+    "description": "",
+    "date": "2026-02-09T23:00:00.000Z",
+    "updatedAt": "2026-02-09T16:44:17.409Z",
+    "numTeams": 0,
+    "numPlayers": 23,
+    "disciplines": [
+      {
+        "_id": "tio:VLIG1tQUomPh0",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "hannoverkicker",
+      "name": "Hannoverkicker"
+    }
+  },
+  {
     "_id": "tio:Is8QcdmfX7RKz",
     "name": " Mini Challenger Offenes Einzel",
     "description": "",
@@ -1076,6 +1102,32 @@
     }
   },
   {
+    "_id": "tio:AGxkMV0EBqw0z",
+    "name": "Monats Doppel",
+    "description": "",
+    "date": "2026-02-20T18:34:47.929Z",
+    "updatedAt": "2026-02-20T18:34:47.929Z",
+    "numTeams": 7,
+    "numPlayers": 14,
+    "disciplines": [
+      {
+        "_id": "tio:XmjC2sH5vLJoR",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
+    }
+  },
+  {
     "_id": "tio:P73Tjh6H2GGLo",
     "name": "FC St. Pauli KiezKickern Classic",
     "description": "",
@@ -1125,6 +1177,58 @@
     "resultPage": {
       "slug": "ksckulmbach",
       "name": "1. KSC Kulmbach e.V."
+    }
+  },
+  {
+    "_id": "tio:wtOApzWwFtKHU",
+    "name": "Classic Double ",
+    "description": "",
+    "date": "2026-02-20T23:00:00.000Z",
+    "updatedAt": "2026-01-23T08:30:03.700Z",
+    "numTeams": 18,
+    "numPlayers": 36,
+    "disciplines": [
+      {
+        "_id": "tio:igUiXHA8RotLr",
+        "shortName": "CD",
+        "name": "Classic Double",
+        "modes": [
+          "swiss",
+          "double_elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
+    }
+  },
+  {
+    "_id": "tio:cCiQrdiSmmpzn",
+    "name": "Hannover Open 1 - 2026",
+    "description": "",
+    "date": "2026-02-20T23:00:00.000Z",
+    "updatedAt": "2026-01-26T12:55:00.925Z",
+    "numTeams": 43,
+    "numPlayers": 86,
+    "disciplines": [
+      {
+        "_id": "tio:r3B5Z3psLiv19",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "hannoverkicker",
+      "name": "Hannoverkicker"
     }
   },
   {
@@ -2538,6 +2642,31 @@
     }
   },
   {
+    "_id": "tio:fTtvYann9BNMJ",
+    "name": "TVBW Ranglisten Turnier",
+    "description": "",
+    "date": "2026-04-24T22:00:00.000Z",
+    "updatedAt": "2026-02-19T07:58:21.769Z",
+    "numTeams": 2,
+    "numPlayers": 4,
+    "disciplines": [
+      {
+        "_id": "tio:gTtnwTqBDqgR6",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
+    }
+  },
+  {
     "_id": "tio:F5DmkWRPXJ5jK",
     "name": "2026 Metronom Open II - OE",
     "description": "",
@@ -2585,6 +2714,31 @@
     "resultPage": {
       "slug": "kixxntrixx",
       "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:dCJRoERTcm4tq",
+    "name": "Hannover Open 2 - 2026",
+    "description": "",
+    "date": "2026-05-15T22:00:00.000Z",
+    "updatedAt": "2026-03-02T15:36:07.307Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:17OKUr1W0Ao0v",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "hannoverkicker",
+      "name": "Hannoverkicker"
     }
   },
   {
@@ -2930,6 +3084,31 @@
     }
   },
   {
+    "_id": "tio:z8BXR20nZsZjV",
+    "name": "Hannover Open 3- 2026",
+    "description": "",
+    "date": "2026-08-14T22:00:00.000Z",
+    "updatedAt": "2026-03-02T15:42:23.354Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:Wn1iL6fSY7EMi",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "hannoverkicker",
+      "name": "Hannoverkicker"
+    }
+  },
+  {
     "_id": "tio:z32Oe4tKGPU8n",
     "name": "OD Minichallenger August",
     "description": "",
@@ -3095,6 +3274,31 @@
     "resultPage": {
       "slug": "btsv",
       "name": "EIntracht Braunschweig Tischfußball"
+    }
+  },
+  {
+    "_id": "tio:mMtgeS9v0aMNZ",
+    "name": "Hannover Open 4 - 2026",
+    "description": "",
+    "date": "2026-10-09T22:00:00.000Z",
+    "updatedAt": "2026-03-02T15:40:39.046Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:jAtzxVF1dHHda",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "hannoverkicker",
+      "name": "Hannoverkicker"
     }
   },
   {
