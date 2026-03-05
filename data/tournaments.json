@@ -2127,7 +2127,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "hsv",
       "name": "HSV Tischfußball"
