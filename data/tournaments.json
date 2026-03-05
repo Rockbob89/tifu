@@ -2504,6 +2504,31 @@
     }
   },
   {
+    "_id": "tio:XfLK28TlXV9CE",
+    "name": "HSV NoDo EINZEL Mini-Challenger #05",
+    "description": "",
+    "date": "2026-03-18T23:00:00.000Z",
+    "updatedAt": "2026-03-05T21:13:51.669Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:MISanc41zt2co",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "hsv",
+      "name": "HSV Tischfußball"
+    }
+  },
+  {
     "_id": "tio:0wK53AedQBCoy",
     "name": "OD Minichallenger März",
     "description": "",
