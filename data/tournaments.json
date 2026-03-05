@@ -1956,6 +1956,31 @@
     }
   },
   {
+    "_id": "tio:6ThJcG30Uri5h",
+    "name": "Donnerstags OD 05.03.2026",
+    "description": "",
+    "date": "2026-03-05T17:43:15.654Z",
+    "updatedAt": "2026-03-05T17:43:15.654Z",
+    "numTeams": 2,
+    "numPlayers": 4,
+    "disciplines": [
+      {
+        "_id": "tio:v9pieT9h3U9nF",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "schovelkoten",
+      "name": "Schovelkoten Münster"
+    }
+  },
+  {
     "_id": "tio:U7wxHTuvpTHSS",
     "name": "Minichallenger ",
     "description": "",
