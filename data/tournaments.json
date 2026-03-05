@@ -2132,7 +2132,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "hsv",
       "name": "HSV Tischfußball"
@@ -2795,8 +2795,8 @@
     "description": "",
     "date": "2026-04-03T22:00:00.000Z",
     "updatedAt": "2026-03-03T19:52:29.606Z",
-    "numTeams": 2,
-    "numPlayers": 4,
+    "numTeams": 4,
+    "numPlayers": 7,
     "disciplines": [
       {
         "_id": "tio:CfvA8PDpm8PNM",
