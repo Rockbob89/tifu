@@ -23,7 +23,8 @@ SECTION_LABELS = {
     "planned": "geplante Turniere",
     "finished": "Turniere der letzten 30 Tage",
 }
-PLANNED_STATES = {"planned", "pre-registration", "check-in"}
+RUNNING_STATES = {"running", "pre-registration"}
+PLANNED_STATES = {"planned", "check-in"}
 
 MAIN_SHORT_NAMES = {"OD", "OE", "DD", "DE", "MX", "DYP"}
 
@@ -51,7 +52,7 @@ def discipline_label(d):
 
 
 def state_to_section(state):
-    if state == "running":
+    if state in RUNNING_STATES:
         return "running"
     if state in PLANNED_STATES:
         return "planned"
