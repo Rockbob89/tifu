@@ -2123,7 +2123,8 @@
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "byp"
       }
