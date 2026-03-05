@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:6CFi8lqmbuori",
-    "name": "Mini Challenger offenes Einzel CLASSIC",
-    "description": "",
-    "date": "2026-02-03T17:41:35.359Z",
-    "updatedAt": "2026-02-03T17:41:35.359Z",
-    "numTeams": 0,
-    "numPlayers": 9,
-    "disciplines": [
-      {
-        "_id": "tio:Wm7ier84BvZcb",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "single"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kickerfreude",
-      "name": "Kickerfreude"
-    }
-  },
-  {
     "_id": "tio:tUjBh4Xbv2WZb",
     "name": "5. Kixx MiDo",
     "description": "",
