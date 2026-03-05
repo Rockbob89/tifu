@@ -1912,7 +1912,7 @@
     "date": "2026-03-04T23:00:00.000Z",
     "updatedAt": "2026-02-17T19:27:10.180Z",
     "numTeams": 0,
-    "numPlayers": 5,
+    "numPlayers": 11,
     "disciplines": [
       {
         "_id": "tio:ML13HhePRHbYR",
@@ -2972,6 +2972,31 @@
     }
   },
   {
+    "_id": "tio:afeCEFBkWsYIF",
+    "name": "44. Kaiserslauterer DTFB-Challenger-Turnier (OD)",
+    "description": "",
+    "date": "2026-04-24T22:00:00.000Z",
+    "updatedAt": "2026-03-05T18:11:07.285Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:jXTzjN5HHMPGH",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
+    }
+  },
+  {
     "_id": "tio:F5DmkWRPXJ5jK",
     "name": "2026 Metronom Open II - OE",
     "description": "",
@@ -2994,6 +3019,31 @@
     "resultPage": {
       "slug": "tfvb",
       "name": "Tischfußballverband Berlin e.V."
+    }
+  },
+  {
+    "_id": "tio:ZLeTX2fteZrPh",
+    "name": "44. Kaiserslauterer DTFB-Challenger-Turnier (OE)",
+    "description": "",
+    "date": "2026-04-25T22:00:00.000Z",
+    "updatedAt": "2026-03-05T18:13:43.719Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:Xm4y9moakMrm6",
+        "shortName": "OE",
+        "name": "Offenes Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
     }
   },
   {
