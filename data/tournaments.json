@@ -2090,7 +2090,7 @@
     "date": "2026-03-05T18:31:41.810Z",
     "updatedAt": "2026-03-05T18:31:41.810Z",
     "numTeams": 0,
-    "numPlayers": 3,
+    "numPlayers": 4,
     "disciplines": [
       {
         "_id": "tio:diWMDStf2hl4t",
@@ -2102,7 +2102,7 @@
         "entryType": "single"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "tfcst_leonrot",
       "name": "TFC St. Leon-Rot"
@@ -2239,8 +2239,8 @@
     "description": "",
     "date": "2026-03-06T23:00:00.000Z",
     "updatedAt": "2026-01-19T18:54:35.694Z",
-    "numTeams": 87,
-    "numPlayers": 174,
+    "numTeams": 89,
+    "numPlayers": 178,
     "disciplines": [
       {
         "_id": "tio:s3tlOA9vz0hf9",
