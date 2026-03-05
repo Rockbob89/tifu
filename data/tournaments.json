@@ -2015,7 +2015,7 @@
     "date": "2026-03-05T10:55:06.607Z",
     "updatedAt": "2026-03-05T10:55:06.607Z",
     "numTeams": 0,
-    "numPlayers": 3,
+    "numPlayers": 21,
     "disciplines": [
       {
         "_id": "tio:S0EPexZ3m8GJT",
@@ -2077,10 +2077,35 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "sge",
       "name": "SGE"
+    }
+  },
+  {
+    "_id": "tio:ju6yytcWsPMJd",
+    "name": "Triple Foos 2026 Finale",
+    "description": "",
+    "date": "2026-03-05T18:31:41.810Z",
+    "updatedAt": "2026-03-05T18:31:41.810Z",
+    "numTeams": 0,
+    "numPlayers": 3,
+    "disciplines": [
+      {
+        "_id": "tio:diWMDStf2hl4t",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "tfcst_leonrot",
+      "name": "TFC St. Leon-Rot"
     }
   },
   {
