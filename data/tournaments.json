@@ -78,6 +78,32 @@
     }
   },
   {
+    "_id": "tio:OaSbrtViuAEST",
+    "name": "3. Triple Foos Race",
+    "description": "",
+    "date": "2026-02-04T23:00:00.000Z",
+    "updatedAt": "2026-02-03T07:35:01.350Z",
+    "numTeams": 0,
+    "numPlayers": 7,
+    "disciplines": [
+      {
+        "_id": "tio:yEJDixzDFE8LK",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "tfcst_leonrot",
+      "name": "TFC St. Leon-Rot"
+    }
+  },
+  {
     "_id": "tio:j2XjsNfKcw0Fv",
     "name": "NO-PRO Turnier KIXX",
     "description": "",
@@ -559,6 +585,32 @@
     }
   },
   {
+    "_id": "tio:Qek1g5Bvfolzg",
+    "name": "TFVBW Jackpot Turnierserie",
+    "description": "",
+    "date": "2026-02-13T23:00:00.000Z",
+    "updatedAt": "2026-01-04T11:38:49.718Z",
+    "numTeams": 30,
+    "numPlayers": 60,
+    "disciplines": [
+      {
+        "_id": "tio:sCWmByv5YHSdi",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "tfcst_leonrot",
+      "name": "TFC St. Leon-Rot"
+    }
+  },
+  {
     "_id": "tio:K03ZMHczGamXt",
     "name": "1. TIMEOUT Open 2026 OD",
     "description": "",
@@ -984,6 +1036,32 @@
     }
   },
   {
+    "_id": "tio:DH77WYM5jYbQk",
+    "name": "4. Triple Foos Race",
+    "description": "",
+    "date": "2026-02-19T19:08:53.601Z",
+    "updatedAt": "2026-02-19T19:08:53.601Z",
+    "numTeams": 0,
+    "numPlayers": 6,
+    "disciplines": [
+      {
+        "_id": "tio:NmohF5YDQQVhy",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "tfcst_leonrot",
+      "name": "TFC St. Leon-Rot"
+    }
+  },
+  {
     "_id": "tio:TfHC0zfv3g6UJ",
     "name": "OD Minichallenger Februar",
     "description": "",
@@ -1056,6 +1134,32 @@
     }
   },
   {
+    "_id": "tio:AGxkMV0EBqw0z",
+    "name": "Monats Doppel",
+    "description": "",
+    "date": "2026-02-20T18:34:47.929Z",
+    "updatedAt": "2026-02-20T18:34:47.929Z",
+    "numTeams": 7,
+    "numPlayers": 14,
+    "disciplines": [
+      {
+        "_id": "tio:XmjC2sH5vLJoR",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
+    }
+  },
+  {
     "_id": "tio:P73Tjh6H2GGLo",
     "name": "FC St. Pauli KiezKickern Classic",
     "description": "",
@@ -1105,6 +1209,32 @@
     "resultPage": {
       "slug": "ksckulmbach",
       "name": "1. KSC Kulmbach e.V."
+    }
+  },
+  {
+    "_id": "tio:wtOApzWwFtKHU",
+    "name": "Classic Double ",
+    "description": "",
+    "date": "2026-02-20T23:00:00.000Z",
+    "updatedAt": "2026-01-23T08:30:03.700Z",
+    "numTeams": 18,
+    "numPlayers": 36,
+    "disciplines": [
+      {
+        "_id": "tio:igUiXHA8RotLr",
+        "shortName": "CD",
+        "name": "Classic Double",
+        "modes": [
+          "swiss",
+          "double_elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
     }
   },
   {
@@ -1872,7 +2002,7 @@
         "entryType": "single"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "kmtv",
       "name": "KMTV"
@@ -1909,8 +2039,8 @@
     "description": "",
     "date": "2026-03-05T17:43:15.654Z",
     "updatedAt": "2026-03-05T17:43:15.654Z",
-    "numTeams": 13,
-    "numPlayers": 26,
+    "numTeams": 14,
+    "numPlayers": 28,
     "disciplines": [
       {
         "_id": "tio:v9pieT9h3U9nF",
@@ -1922,7 +2052,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "schovelkoten",
       "name": "Schovelkoten Münster"
@@ -1934,8 +2064,8 @@
     "description": "",
     "date": "2026-03-05T18:23:41.663Z",
     "updatedAt": "2026-03-05T18:23:41.663Z",
-    "numTeams": 14,
-    "numPlayers": 28,
+    "numTeams": 25,
+    "numPlayers": 50,
     "disciplines": [
       {
         "_id": "tio:DIFGsQYvlfutS",
@@ -2917,6 +3047,31 @@
     "resultPage": {
       "slug": "mkk",
       "name": "MKK Flensburg"
+    }
+  },
+  {
+    "_id": "tio:fTtvYann9BNMJ",
+    "name": "TVBW Ranglisten Turnier",
+    "description": "",
+    "date": "2026-04-24T22:00:00.000Z",
+    "updatedAt": "2026-02-19T07:58:21.769Z",
+    "numTeams": 2,
+    "numPlayers": 4,
+    "disciplines": [
+      {
+        "_id": "tio:gTtnwTqBDqgR6",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
     }
   },
   {
