@@ -2142,8 +2142,8 @@
     "description": "",
     "date": "2026-03-05T23:00:00.000Z",
     "updatedAt": "2026-03-05T16:59:10.514Z",
-    "numTeams": 15,
-    "numPlayers": 30,
+    "numTeams": 16,
+    "numPlayers": 32,
     "disciplines": [
       {
         "_id": "tio:rhJXw02ciTsNC",
@@ -2155,7 +2155,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
