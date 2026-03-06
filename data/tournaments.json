@@ -2145,7 +2145,7 @@
     "date": "2026-03-05T23:00:00.000Z",
     "updatedAt": "2026-03-02T19:38:56.994Z",
     "numTeams": 0,
-    "numPlayers": 30,
+    "numPlayers": 36,
     "disciplines": [
       {
         "_id": "tio:soVFBWNmMKJDn",
@@ -2170,7 +2170,7 @@
     "date": "2026-03-05T23:00:00.000Z",
     "updatedAt": "2026-03-04T10:34:59.281Z",
     "numTeams": 0,
-    "numPlayers": 4,
+    "numPlayers": 18,
     "disciplines": [
       {
         "_id": "tio:ISAN9AbkPr0rW",
@@ -2194,8 +2194,8 @@
     "description": "",
     "date": "2026-03-05T23:00:00.000Z",
     "updatedAt": "2026-03-05T16:59:10.514Z",
-    "numTeams": 10,
-    "numPlayers": 20,
+    "numTeams": 13,
+    "numPlayers": 26,
     "disciplines": [
       {
         "_id": "tio:rhJXw02ciTsNC",
@@ -2207,7 +2207,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "pre-registration",
+    "state": "check-in",
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
@@ -2219,8 +2219,8 @@
     "description": "",
     "date": "2026-03-06T10:54:02.617Z",
     "updatedAt": "2026-03-06T10:54:02.617Z",
-    "numTeams": 78,
-    "numPlayers": 156,
+    "numTeams": 80,
+    "numPlayers": 160,
     "disciplines": [
       {
         "_id": "tio:NhTcVUbywdHgc",
@@ -2263,7 +2263,7 @@
     "date": "2026-03-06T18:19:36.194Z",
     "updatedAt": "2026-03-06T18:19:36.194Z",
     "numTeams": 0,
-    "numPlayers": 0,
+    "numPlayers": 11,
     "disciplines": [
       {
         "_id": "tio:DafXl3clr43up",
