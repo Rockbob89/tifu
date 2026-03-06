@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:tUjBh4Xbv2WZb",
-    "name": "5. Kixx MiDo",
-    "description": "",
-    "date": "2026-02-04T12:17:35.634Z",
-    "updatedAt": "2026-02-04T12:17:35.634Z",
-    "numTeams": 58,
-    "numPlayers": 116,
-    "disciplines": [
-      {
-        "_id": "tio:vsaI8ppFPJ6dr",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kixx",
-      "name": "Kixx Hamburg"
-    }
-  },
-  {
     "_id": "tio:IWMEcv7V0c3Yb",
     "name": "FC St. Pauli Absolute Gigant:innen-DYP",
     "description": "",
