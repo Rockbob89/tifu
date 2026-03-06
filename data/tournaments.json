@@ -2214,7 +2214,8 @@
         "shortName": "B",
         "name": "B-Feld",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "byp"
       },
