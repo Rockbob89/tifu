@@ -23,8 +23,8 @@ SECTION_LABELS = {
     "planned": "geplante Turniere",
     "finished": "Turniere der letzten 30 Tage",
 }
-RUNNING_STATES = {"running", "pre-registration"}
-PLANNED_STATES = {"planned", "check-in"}
+RUNNING_STATES = {"running", "check-in"}
+PLANNED_STATES = {"planned", "pre-registration"}
 
 MAIN_SHORT_NAMES = {"OD", "OE", "DD", "DE", "MX", "DYP"}
 
