@@ -2080,7 +2080,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "tfc_devils",
       "name": "TFC Devils Oldenburg"
@@ -2155,7 +2155,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "ready",
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
@@ -2198,7 +2198,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
