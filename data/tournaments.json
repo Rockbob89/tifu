@@ -1,57 +1,5 @@
 [
   {
-    "_id": "tio:IWMEcv7V0c3Yb",
-    "name": "FC St. Pauli Absolute Gigant:innen-DYP",
-    "description": "",
-    "date": "2026-02-04T18:50:18.816Z",
-    "updatedAt": "2026-02-04T18:50:18.816Z",
-    "numTeams": 0,
-    "numPlayers": 41,
-    "disciplines": [
-      {
-        "_id": "tio:2obn8dFAqyDQX",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "fcsp",
-      "name": "fcsp-kickern.de"
-    }
-  },
-  {
-    "_id": "tio:8N4iLiJ5Mgrai",
-    "name": "20260204 MonsterDYP",
-    "description": "",
-    "date": "2026-02-04T18:51:16.472Z",
-    "updatedAt": "2026-02-04T18:51:16.472Z",
-    "numTeams": 0,
-    "numPlayers": 39,
-    "disciplines": [
-      {
-        "_id": "tio:ayZLi0vies6qd",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kcmuenchen",
-      "name": "KickerClub München e.V."
-    }
-  },
-  {
     "_id": "tio:OaSbrtViuAEST",
     "name": "3. Triple Foos Race",
     "description": "",
@@ -2145,7 +2093,7 @@
     "date": "2026-03-05T23:00:00.000Z",
     "updatedAt": "2026-03-02T19:38:56.994Z",
     "numTeams": 0,
-    "numPlayers": 36,
+    "numPlayers": 42,
     "disciplines": [
       {
         "_id": "tio:soVFBWNmMKJDn",
@@ -2170,7 +2118,7 @@
     "date": "2026-03-05T23:00:00.000Z",
     "updatedAt": "2026-03-04T10:34:59.281Z",
     "numTeams": 0,
-    "numPlayers": 18,
+    "numPlayers": 31,
     "disciplines": [
       {
         "_id": "tio:ISAN9AbkPr0rW",
@@ -2194,8 +2142,8 @@
     "description": "",
     "date": "2026-03-05T23:00:00.000Z",
     "updatedAt": "2026-03-05T16:59:10.514Z",
-    "numTeams": 13,
-    "numPlayers": 26,
+    "numTeams": 14,
+    "numPlayers": 28,
     "disciplines": [
       {
         "_id": "tio:rhJXw02ciTsNC",
@@ -2219,8 +2167,8 @@
     "description": "",
     "date": "2026-03-06T10:54:02.617Z",
     "updatedAt": "2026-03-06T10:54:02.617Z",
-    "numTeams": 80,
-    "numPlayers": 160,
+    "numTeams": 86,
+    "numPlayers": 172,
     "disciplines": [
       {
         "_id": "tio:NhTcVUbywdHgc",
@@ -2263,7 +2211,7 @@
     "date": "2026-03-06T18:19:36.194Z",
     "updatedAt": "2026-03-06T18:19:36.194Z",
     "numTeams": 0,
-    "numPlayers": 11,
+    "numPlayers": 21,
     "disciplines": [
       {
         "_id": "tio:DafXl3clr43up",
