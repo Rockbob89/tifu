@@ -2240,6 +2240,49 @@
     }
   },
   {
+    "_id": "tio:OTmGL7o6D3ato",
+    "name": "NO-PRO Turnier KIXX",
+    "description": "",
+    "date": "2026-03-06T10:54:02.617Z",
+    "updatedAt": "2026-03-06T10:54:02.617Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:NhTcVUbywdHgc",
+        "shortName": "A",
+        "name": "A-Feld",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:rivtpd0eRwxvn",
+        "shortName": "B",
+        "name": "B-Feld",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:xs08PWOjvBGfS",
+        "shortName": "C",
+        "name": "C-Feld",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
     "_id": "tio:g36jgIf7L04cQ",
     "name": "2. Kixx Open 2026",
     "description": "",
