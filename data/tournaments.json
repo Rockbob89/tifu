@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:OaSbrtViuAEST",
-    "name": "3. Triple Foos Race",
-    "description": "",
-    "date": "2026-02-04T23:00:00.000Z",
-    "updatedAt": "2026-02-03T07:35:01.350Z",
-    "numTeams": 0,
-    "numPlayers": 7,
-    "disciplines": [
-      {
-        "_id": "tio:yEJDixzDFE8LK",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "single"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "tfcst_leonrot",
-      "name": "TFC St. Leon-Rot"
-    }
-  },
-  {
     "_id": "tio:j2XjsNfKcw0Fv",
     "name": "NO-PRO Turnier KIXX",
     "description": "",
