@@ -41,9 +41,9 @@ GET https://api.tournament.io/v1/table_soccer/result/tournaments
 | API `state`        | Sektion                      | URL-Suffix        |
 |--------------------|------------------------------|-------------------|
 | `running`          | laufende Turniere            | `live`            |
-| `pre-registration` | laufende Turniere            | `pre-registration`|
+| `check-in`         | laufende Turniere            | `check-in`        |
+| `pre-registration` | geplante Turniere            | `pre-registration`|
 | `planned`          | geplante Turniere            | `standings`       |
-| `check-in`         | geplante Turniere            | `check-in`        |
 | `finished`         | Turniere der letzten 30 Tage | `overview`        |
 
 ## Turnier-URL Schema
