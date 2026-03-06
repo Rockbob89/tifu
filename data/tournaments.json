@@ -2162,6 +2162,32 @@
     }
   },
   {
+    "_id": "tio:dj1GhYO3ygvpS",
+    "name": "März-DYP",
+    "description": "",
+    "date": "2026-03-05T23:00:00.000Z",
+    "updatedAt": "2026-03-05T18:18:08.956Z",
+    "numTeams": 0,
+    "numPlayers": 19,
+    "disciplines": [
+      {
+        "_id": "tio:YCoiTHQKllUHK",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
+    }
+  },
+  {
     "_id": "tio:OTmGL7o6D3ato",
     "name": "NO-PRO Turnier KIXX",
     "description": "",
