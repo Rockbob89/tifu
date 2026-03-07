@@ -2243,8 +2243,8 @@
     "description": "",
     "date": "2026-03-06T23:00:00.000Z",
     "updatedAt": "2026-01-19T18:54:35.694Z",
-    "numTeams": 68,
-    "numPlayers": 136,
+    "numTeams": 75,
+    "numPlayers": 150,
     "disciplines": [
       {
         "_id": "tio:s3tlOA9vz0hf9",
@@ -2260,6 +2260,31 @@
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:DzUmYWaXXqBK6",
+    "name": "Augsburg Frühjahrs-Challenger",
+    "description": "",
+    "date": "2026-03-07T09:56:11.043Z",
+    "updatedAt": "2026-03-07T09:56:11.043Z",
+    "numTeams": 13,
+    "numPlayers": 26,
+    "disciplines": [
+      {
+        "_id": "tio:wrEwpCm0UC3gA",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "augsburger_kickerkiste",
+      "name": "Augsburger Kickerkiste"
     }
   },
   {
