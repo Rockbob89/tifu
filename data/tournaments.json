@@ -2243,8 +2243,8 @@
     "description": "",
     "date": "2026-03-06T23:00:00.000Z",
     "updatedAt": "2026-01-19T18:54:35.694Z",
-    "numTeams": 38,
-    "numPlayers": 76,
+    "numTeams": 49,
+    "numPlayers": 98,
     "disciplines": [
       {
         "_id": "tio:s3tlOA9vz0hf9",
@@ -3055,11 +3055,46 @@
     "updatedAt": "2026-03-07T09:44:36.732Z",
     "numTeams": 0,
     "numPlayers": 0,
-    "disciplines": [],
+    "disciplines": [
+      {
+        "_id": "tio:jceID9IiD6352",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
     "state": "planned",
     "resultPage": {
       "slug": "1kck",
       "name": "1. Kicker Club Kaiserslautern"
+    }
+  },
+  {
+    "_id": "tio:mvJ46BA6CB9vr",
+    "name": "Fr - DYP - KICKS Minden",
+    "description": "",
+    "date": "2026-04-09T22:00:00.000Z",
+    "updatedAt": "2026-03-07T09:52:34.742Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:rHavKvTrhPL5g",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kicks",
+      "name": "Kicks Minden"
     }
   },
   {
@@ -3138,6 +3173,31 @@
     }
   },
   {
+    "_id": "tio:KvRIPwDOOiSkX",
+    "name": "Fr - DYP - KICKS Minden",
+    "description": "",
+    "date": "2026-04-16T22:00:00.000Z",
+    "updatedAt": "2026-03-07T09:52:57.593Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:R9YnExZa63LK6",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kicks",
+      "name": "Kicks Minden"
+    }
+  },
+  {
     "_id": "tio:ndlRHN4Z2Rk9Y",
     "name": "Oldenburger Frühjahrschallenger",
     "description": "",
@@ -3185,6 +3245,31 @@
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:XhquAQ6mSxjSP",
+    "name": "Fr - DYP - KICKS Minden",
+    "description": "",
+    "date": "2026-04-23T22:00:00.000Z",
+    "updatedAt": "2026-03-07T09:53:28.412Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:WWr7FTyvgLRXg",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kicks",
+      "name": "Kicks Minden"
     }
   },
   {
@@ -3426,7 +3511,17 @@
     "updatedAt": "2026-03-07T09:46:36.202Z",
     "numTeams": 0,
     "numPlayers": 0,
-    "disciplines": [],
+    "disciplines": [
+      {
+        "_id": "tio:Gy819fT3rWRM1",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
     "state": "planned",
     "resultPage": {
       "slug": "1kck",
@@ -3631,6 +3726,31 @@
     "resultPage": {
       "slug": "kmtv",
       "name": "KMTV"
+    }
+  },
+  {
+    "_id": "tio:svwIujkpFnqP4",
+    "name": "Juni-DYP",
+    "description": "",
+    "date": "2026-06-04T22:00:00.000Z",
+    "updatedAt": "2026-03-07T09:49:41.639Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:pPyTmZx7M1R0C",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
     }
   },
   {
@@ -3849,6 +3969,31 @@
     }
   },
   {
+    "_id": "tio:gy3v3zAxKs6PQ",
+    "name": "Juli-DYP",
+    "description": "",
+    "date": "2026-07-02T22:00:00.000Z",
+    "updatedAt": "2026-03-07T09:52:51.145Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:gWR2DkJfkQhje",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
+    }
+  },
+  {
     "_id": "tio:NHycdhtxXpTf3",
     "name": "OD Minichallenger Juli",
     "description": "",
@@ -3871,6 +4016,31 @@
     "resultPage": {
       "slug": "kixxntrixx",
       "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:4VPnMosYh6woa",
+    "name": "Aufgust-DYP",
+    "description": "",
+    "date": "2026-08-06T22:00:00.000Z",
+    "updatedAt": "2026-03-07T09:54:01.129Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:u0aZMZFEK8TDP",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
     }
   },
   {
