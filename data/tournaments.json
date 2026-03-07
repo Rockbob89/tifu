@@ -2998,6 +2998,31 @@
     }
   },
   {
+    "_id": "tio:2wthEcJAx1mZA",
+    "name": "3. Kixx Open 2026",
+    "description": "",
+    "date": "2026-04-17T22:00:00.000Z",
+    "updatedAt": "2026-03-07T08:04:14.574Z",
+    "numTeams": 1,
+    "numPlayers": 2,
+    "disciplines": [
+      {
+        "_id": "tio:SoEigz0pQDkeW",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
     "_id": "tio:S2t1zDOaMH4FW",
     "name": "2026 Metronom Open II - OD",
     "description": "",
@@ -3254,31 +3279,6 @@
     }
   },
   {
-    "_id": "tio:4pxE6bxjkvz03",
-    "name": "KGB Open XII (OE)",
-    "description": "",
-    "date": "2026-05-02T22:00:00.000Z",
-    "updatedAt": "2026-03-07T07:34:03.345Z",
-    "numTeams": 0,
-    "numPlayers": 0,
-    "disciplines": [
-      {
-        "_id": "tio:RMbUmZNafG5yO",
-        "shortName": "OE",
-        "name": "Offenes Einzel",
-        "modes": [
-          "swiss"
-        ],
-        "entryType": "single"
-      }
-    ],
-    "state": "pre-registration",
-    "resultPage": {
-      "slug": "kgbhannover",
-      "name": "KGB Hannover"
-    }
-  },
-  {
     "_id": "tio:SbauujnlDSnkx",
     "name": "OD Minichallenger Mai",
     "description": "",
@@ -3451,6 +3451,31 @@
     "resultPage": {
       "slug": "stfv",
       "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:Mo4gk65435LfQ",
+    "name": "4. Kixx Open 2026",
+    "description": "",
+    "date": "2026-06-12T22:00:00.000Z",
+    "updatedAt": "2026-03-07T08:05:56.240Z",
+    "numTeams": 1,
+    "numPlayers": 2,
+    "disciplines": [
+      {
+        "_id": "tio:wSJvZXSOiwVeZ",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
     }
   },
   {
@@ -3768,6 +3793,31 @@
     "resultPage": {
       "slug": "kixxntrixx",
       "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:8YFZ4ESl9bbGj",
+    "name": "5. Kixx Open 2026",
+    "description": "",
+    "date": "2026-08-28T22:00:00.000Z",
+    "updatedAt": "2026-03-07T08:07:36.094Z",
+    "numTeams": 1,
+    "numPlayers": 2,
+    "disciplines": [
+      {
+        "_id": "tio:Am88Hj4cqK0bX",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
     }
   },
   {
