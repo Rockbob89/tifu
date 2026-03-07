@@ -1030,32 +1030,6 @@
     }
   },
   {
-    "_id": "tio:AGxkMV0EBqw0z",
-    "name": "Monats Doppel",
-    "description": "",
-    "date": "2026-02-20T18:34:47.929Z",
-    "updatedAt": "2026-02-20T18:34:47.929Z",
-    "numTeams": 7,
-    "numPlayers": 14,
-    "disciplines": [
-      {
-        "_id": "tio:XmjC2sH5vLJoR",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "jetsparrows",
-      "name": "Jet Sparrows Ulm"
-    }
-  },
-  {
     "_id": "tio:P73Tjh6H2GGLo",
     "name": "FC St. Pauli KiezKickern Classic",
     "description": "",
@@ -1105,32 +1079,6 @@
     "resultPage": {
       "slug": "ksckulmbach",
       "name": "1. KSC Kulmbach e.V."
-    }
-  },
-  {
-    "_id": "tio:wtOApzWwFtKHU",
-    "name": "Classic Double ",
-    "description": "",
-    "date": "2026-02-20T23:00:00.000Z",
-    "updatedAt": "2026-01-23T08:30:03.700Z",
-    "numTeams": 18,
-    "numPlayers": 36,
-    "disciplines": [
-      {
-        "_id": "tio:igUiXHA8RotLr",
-        "shortName": "CD",
-        "name": "Classic Double",
-        "modes": [
-          "swiss",
-          "double_elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "jetsparrows",
-      "name": "Jet Sparrows Ulm"
     }
   },
   {
@@ -2212,39 +2160,13 @@
     }
   },
   {
-    "_id": "tio:19WpG0c7zsaoQ",
-    "name": "Monats DYP 6.3.26",
-    "description": "",
-    "date": "2026-03-06T18:19:36.194Z",
-    "updatedAt": "2026-03-06T18:19:36.194Z",
-    "numTeams": 0,
-    "numPlayers": 28,
-    "disciplines": [
-      {
-        "_id": "tio:DafXl3clr43up",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "jetsparrows",
-      "name": "Jet Sparrows Ulm"
-    }
-  },
-  {
     "_id": "tio:g36jgIf7L04cQ",
     "name": "2. Kixx Open 2026",
     "description": "",
     "date": "2026-03-06T23:00:00.000Z",
     "updatedAt": "2026-01-19T18:54:35.694Z",
-    "numTeams": 49,
-    "numPlayers": 98,
+    "numTeams": 56,
+    "numPlayers": 112,
     "disciplines": [
       {
         "_id": "tio:s3tlOA9vz0hf9",
@@ -3073,31 +2995,6 @@
     }
   },
   {
-    "_id": "tio:mvJ46BA6CB9vr",
-    "name": "Fr - DYP - KICKS Minden",
-    "description": "",
-    "date": "2026-04-09T22:00:00.000Z",
-    "updatedAt": "2026-03-07T09:52:34.742Z",
-    "numTeams": 0,
-    "numPlayers": 0,
-    "disciplines": [
-      {
-        "_id": "tio:rHavKvTrhPL5g",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "planned",
-    "resultPage": {
-      "slug": "kicks",
-      "name": "Kicks Minden"
-    }
-  },
-  {
     "_id": "tio:zDGxSBGTzdJp7",
     "name": "OD Challenger Dreden ",
     "description": "",
@@ -3173,31 +3070,6 @@
     }
   },
   {
-    "_id": "tio:KvRIPwDOOiSkX",
-    "name": "Fr - DYP - KICKS Minden",
-    "description": "",
-    "date": "2026-04-16T22:00:00.000Z",
-    "updatedAt": "2026-03-07T09:52:57.593Z",
-    "numTeams": 0,
-    "numPlayers": 0,
-    "disciplines": [
-      {
-        "_id": "tio:R9YnExZa63LK6",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "planned",
-    "resultPage": {
-      "slug": "kicks",
-      "name": "Kicks Minden"
-    }
-  },
-  {
     "_id": "tio:ndlRHN4Z2Rk9Y",
     "name": "Oldenburger Frühjahrschallenger",
     "description": "",
@@ -3245,31 +3117,6 @@
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
-    }
-  },
-  {
-    "_id": "tio:XhquAQ6mSxjSP",
-    "name": "Fr - DYP - KICKS Minden",
-    "description": "",
-    "date": "2026-04-23T22:00:00.000Z",
-    "updatedAt": "2026-03-07T09:53:28.412Z",
-    "numTeams": 0,
-    "numPlayers": 0,
-    "disciplines": [
-      {
-        "_id": "tio:WWr7FTyvgLRXg",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "planned",
-    "resultPage": {
-      "slug": "kicks",
-      "name": "Kicks Minden"
     }
   },
   {
@@ -3401,31 +3248,6 @@
     "resultPage": {
       "slug": "mkk",
       "name": "MKK Flensburg"
-    }
-  },
-  {
-    "_id": "tio:fTtvYann9BNMJ",
-    "name": "TVBW Ranglisten Turnier",
-    "description": "",
-    "date": "2026-04-24T22:00:00.000Z",
-    "updatedAt": "2026-02-19T07:58:21.769Z",
-    "numTeams": 2,
-    "numPlayers": 4,
-    "disciplines": [
-      {
-        "_id": "tio:gTtnwTqBDqgR6",
-        "shortName": "OD",
-        "name": "Offenes Doppel",
-        "modes": [
-          "swiss"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "pre-registration",
-    "resultPage": {
-      "slug": "jetsparrows",
-      "name": "Jet Sparrows Ulm"
     }
   },
   {
@@ -4020,7 +3842,7 @@
   },
   {
     "_id": "tio:4VPnMosYh6woa",
-    "name": "Aufgust-DYP",
+    "name": "August-DYP",
     "description": "",
     "date": "2026-08-06T22:00:00.000Z",
     "updatedAt": "2026-03-07T09:54:01.129Z",
@@ -4196,6 +4018,31 @@
     }
   },
   {
+    "_id": "tio:H0hb4BrkqQNRc",
+    "name": "September-DYP",
+    "description": "",
+    "date": "2026-09-03T22:00:00.000Z",
+    "updatedAt": "2026-03-07T09:55:02.952Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:lNvXOwISXVGOf",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
+    }
+  },
+  {
     "_id": "tio:IOrjnzsphIYde",
     "name": "B-Ranglistenturnier TFF Burbach ",
     "description": "",
@@ -4339,6 +4186,31 @@
     }
   },
   {
+    "_id": "tio:GwVZqSdwvolOZ",
+    "name": "Oktober-DYP",
+    "description": "",
+    "date": "2026-10-01T22:00:00.000Z",
+    "updatedAt": "2026-03-07T09:56:26.474Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:psOtNpOKYXnHN",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
+    }
+  },
+  {
     "_id": "tio:qEzIz5wvCLlXd",
     "name": "2. KMTV Challenger 2026 OD",
     "description": "",
@@ -4464,6 +4336,31 @@
     }
   },
   {
+    "_id": "tio:BxW8R5Ug2mW5Z",
+    "name": "November-DYP",
+    "description": "",
+    "date": "2026-11-05T23:00:00.000Z",
+    "updatedAt": "2026-03-07T09:57:10.844Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:V0D4MhhEt1bOQ",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
+    }
+  },
+  {
     "_id": "tio:8TotPg1nQgvWE",
     "name": "OD Minichallenger November",
     "description": "",
@@ -4486,6 +4383,31 @@
     "resultPage": {
       "slug": "kixxntrixx",
       "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:c4dg79EB76wKa",
+    "name": "Dezember-DYP",
+    "description": "",
+    "date": "2026-12-03T23:00:00.000Z",
+    "updatedAt": "2026-03-07T09:57:46.491Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:3D7LxKispgFo9",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
     }
   },
   {
