@@ -3229,6 +3229,31 @@
     }
   },
   {
+    "_id": "tio:6i1jBhryPupw9",
+    "name": "KGB Open XII (OD)",
+    "description": "",
+    "date": "2026-05-01T22:00:00.000Z",
+    "updatedAt": "2026-03-07T07:09:58.854Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:OBtpFYKiz300m",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kgbhannover",
+      "name": "KGB Hannover"
+    }
+  },
+  {
     "_id": "tio:SbauujnlDSnkx",
     "name": "OD Minichallenger Mai",
     "description": "",
