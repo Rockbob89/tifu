@@ -2243,8 +2243,8 @@
     "description": "",
     "date": "2026-03-06T23:00:00.000Z",
     "updatedAt": "2026-01-19T18:54:35.694Z",
-    "numTeams": 32,
-    "numPlayers": 64,
+    "numTeams": 38,
+    "numPlayers": 76,
     "disciplines": [
       {
         "_id": "tio:s3tlOA9vz0hf9",
@@ -2419,7 +2419,7 @@
     "date": "2026-03-12T23:00:00.000Z",
     "updatedAt": "2026-03-07T09:35:19.471Z",
     "numTeams": 0,
-    "numPlayers": 7,
+    "numPlayers": 0,
     "disciplines": [
       {
         "_id": "tio:27iCJIhsF0whs",
@@ -2431,7 +2431,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "check-in",
+    "state": "pre-registration",
     "resultPage": {
       "slug": "kicks",
       "name": "Kicks Minden"
@@ -2654,7 +2654,7 @@
   },
   {
     "_id": "tio:APzGJLRdns6fr",
-    "name": "Fr - DYP - KICKS Minde",
+    "name": "Fr - DYP - KICKS Minden",
     "description": "",
     "date": "2026-03-19T23:00:00.000Z",
     "updatedAt": "2026-03-07T09:43:54.587Z",
@@ -2703,6 +2703,31 @@
     }
   },
   {
+    "_id": "tio:aG01dBTn4QWHL",
+    "name": "Offenes Einzel",
+    "description": "",
+    "date": "2026-03-24T23:00:00.000Z",
+    "updatedAt": "2026-03-07T09:44:17.949Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:euMoDGrf01YAe",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kicks",
+      "name": "Kicks Minden"
+    }
+  },
+  {
     "_id": "tio:D6HJjVccaj9dx",
     "name": "Monster DYP - Arminia Bielefeld - Mini Challenger",
     "description": "",
@@ -2725,6 +2750,31 @@
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
+    }
+  },
+  {
+    "_id": "tio:aXS3Ts0mdrWk8",
+    "name": "Fr - DYP - KICKS Minden",
+    "description": "",
+    "date": "2026-03-26T23:00:00.000Z",
+    "updatedAt": "2026-03-07T09:48:42.530Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:MmauM3qRSBet2",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kicks",
+      "name": "Kicks Minden"
     }
   },
   {
@@ -2995,6 +3045,21 @@
     "resultPage": {
       "slug": "stfv",
       "name": "Saarländischer Tischfußballverband"
+    }
+  },
+  {
+    "_id": "tio:aRUhlfDJK927t",
+    "name": "April-DYP",
+    "description": "",
+    "date": "2026-04-09T22:00:00.000Z",
+    "updatedAt": "2026-03-07T09:44:36.732Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [],
+    "state": "planned",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
     }
   },
   {
@@ -3347,6 +3412,21 @@
         "entryType": "single"
       }
     ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "1kck",
+      "name": "1. Kicker Club Kaiserslautern"
+    }
+  },
+  {
+    "_id": "tio:EbL1T5VR4yZrB",
+    "name": "Mai-DYP",
+    "description": "",
+    "date": "2026-04-30T22:00:00.000Z",
+    "updatedAt": "2026-03-07T09:46:36.202Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [],
     "state": "planned",
     "resultPage": {
       "slug": "1kck",
