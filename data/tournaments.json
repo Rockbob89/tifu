@@ -2243,8 +2243,8 @@
     "description": "",
     "date": "2026-03-06T23:00:00.000Z",
     "updatedAt": "2026-01-19T18:54:35.694Z",
-    "numTeams": 15,
-    "numPlayers": 30,
+    "numTeams": 22,
+    "numPlayers": 44,
     "disciplines": [
       {
         "_id": "tio:s3tlOA9vz0hf9",
@@ -2410,6 +2410,31 @@
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
+    }
+  },
+  {
+    "_id": "tio:2iGfgPgRyx6Q8",
+    "name": "Fr - DYP - Kicks Minden",
+    "description": "",
+    "date": "2026-03-12T23:00:00.000Z",
+    "updatedAt": "2026-03-07T09:35:19.471Z",
+    "numTeams": 0,
+    "numPlayers": 7,
+    "disciplines": [
+      {
+        "_id": "tio:27iCJIhsF0whs",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kicks",
+      "name": "Kicks Minden"
     }
   },
   {
