@@ -2243,8 +2243,8 @@
     "description": "",
     "date": "2026-03-06T23:00:00.000Z",
     "updatedAt": "2026-01-19T18:54:35.694Z",
-    "numTeams": 22,
-    "numPlayers": 44,
+    "numTeams": 32,
+    "numPlayers": 64,
     "disciplines": [
       {
         "_id": "tio:s3tlOA9vz0hf9",
@@ -2339,7 +2339,7 @@
   },
   {
     "_id": "tio:N554P8NAEgKrh",
-    "name": "Offenes Doppel - Kicks Minden - Mini Challenger",
+    "name": "Offenes Doppel - KICKS Minden - Mini Challenger",
     "description": "",
     "date": "2026-03-10T23:00:00.000Z",
     "updatedAt": "2026-03-07T09:12:27.507Z",
@@ -2414,7 +2414,7 @@
   },
   {
     "_id": "tio:2iGfgPgRyx6Q8",
-    "name": "Fr - DYP - Kicks Minden",
+    "name": "Fr - DYP - KICKS Minden & Grillen",
     "description": "",
     "date": "2026-03-12T23:00:00.000Z",
     "updatedAt": "2026-03-07T09:35:19.471Z",
@@ -2553,6 +2553,31 @@
     }
   },
   {
+    "_id": "tio:3ipBgsaQ8PqB7",
+    "name": "Quick Hands Training & DYP - KICKS Minden",
+    "description": "",
+    "date": "2026-03-17T23:00:00.000Z",
+    "updatedAt": "2026-03-07T09:41:01.283Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:3cgI7XDvRUdbM",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kicks",
+      "name": "Kicks Minden"
+    }
+  },
+  {
     "_id": "tio:XfLK28TlXV9CE",
     "name": "HSV NoDo EINZEL Mini-Challenger #05",
     "description": "",
@@ -2625,6 +2650,31 @@
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
+    }
+  },
+  {
+    "_id": "tio:APzGJLRdns6fr",
+    "name": "Fr - DYP - KICKS Minde",
+    "description": "",
+    "date": "2026-03-19T23:00:00.000Z",
+    "updatedAt": "2026-03-07T09:43:54.587Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:GsFCPGm2sFpn5",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kicks",
+      "name": "Kicks Minden"
     }
   },
   {
