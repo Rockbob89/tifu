@@ -2876,8 +2876,8 @@
     "description": "",
     "date": "2026-03-27T23:00:00.000Z",
     "updatedAt": "2026-03-05T17:38:46.909Z",
-    "numTeams": 3,
-    "numPlayers": 6,
+    "numTeams": 6,
+    "numPlayers": 10,
     "disciplines": [
       {
         "_id": "tio:lDr63l8vTruLH",
@@ -2889,7 +2889,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "pre-registration",
     "resultPage": {
       "slug": "1kck",
       "name": "1. Kicker Club Kaiserslautern"
