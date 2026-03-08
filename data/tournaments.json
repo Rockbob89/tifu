@@ -1,51 +1,5 @@
 [
   {
-    "_id": "tio:j2XjsNfKcw0Fv",
-    "name": "NO-PRO Turnier KIXX",
-    "description": "",
-    "date": "2026-02-06T16:52:44.837Z",
-    "updatedAt": "2026-02-06T16:52:44.837Z",
-    "numTeams": 92,
-    "numPlayers": 184,
-    "disciplines": [
-      {
-        "_id": "tio:50RhE9zYB9YVr",
-        "shortName": "A",
-        "name": "A-Feld",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      },
-      {
-        "_id": "tio:RkOVsnfsV51PK",
-        "shortName": "B",
-        "name": "B-Feld",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      },
-      {
-        "_id": "tio:5Q4QRCoEXnP85",
-        "shortName": "C",
-        "name": "C-Feld",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kixx",
-      "name": "Kixx Hamburg"
-    }
-  },
-  {
     "_id": "tio:S7Zl5uffrrmOJ",
     "name": "FC St. Pauli KiezKicker Einzel",
     "description": "",
