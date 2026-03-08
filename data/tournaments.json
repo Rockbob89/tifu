@@ -3760,31 +3760,6 @@
     }
   },
   {
-    "_id": "tio:S7ndNu311fBIj",
-    "name": "1. KMTV Challenger 2026 OD",
-    "description": "",
-    "date": "2026-05-29T22:00:00.000Z",
-    "updatedAt": "2026-02-17T19:16:41.374Z",
-    "numTeams": 2,
-    "numPlayers": 4,
-    "disciplines": [
-      {
-        "_id": "tio:bzGDmhpnK6BPR",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "pre-registration",
-    "resultPage": {
-      "slug": "kmtv",
-      "name": "KMTV"
-    }
-  },
-  {
     "_id": "tio:zfP6Go1PE4Mof",
     "name": "Oldenburger Stadtmeisterschaft ",
     "description": "",
@@ -3807,6 +3782,31 @@
     "resultPage": {
       "slug": "tfc_devils",
       "name": "TFC Devils Oldenburg"
+    }
+  },
+  {
+    "_id": "tio:f2Ovm78L3DbhJ",
+    "name": "1. KMTV Challenger 2026 OD",
+    "description": "",
+    "date": "2026-05-29T22:00:00.000Z",
+    "updatedAt": "2026-03-08T21:35:45.522Z",
+    "numTeams": 2,
+    "numPlayers": 4,
+    "disciplines": [
+      {
+        "_id": "tio:tqNXBrvGVNS7j",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kmtv",
+      "name": "KMTV"
     }
   },
   {
