@@ -2590,8 +2590,8 @@
     "description": "",
     "date": "2026-03-13T23:00:00.000Z",
     "updatedAt": "2026-01-06T10:20:02.026Z",
-    "numTeams": 26,
-    "numPlayers": 51,
+    "numTeams": 27,
+    "numPlayers": 53,
     "disciplines": [
       {
         "_id": "tio:TxsJK04KXDrsR",
@@ -3176,8 +3176,8 @@
     "description": "",
     "date": "2026-04-03T22:00:00.000Z",
     "updatedAt": "2026-03-03T19:52:29.606Z",
-    "numTeams": 4,
-    "numPlayers": 7,
+    "numTeams": 5,
+    "numPlayers": 9,
     "disciplines": [
       {
         "_id": "tio:CfvA8PDpm8PNM",
