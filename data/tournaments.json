@@ -279,6 +279,31 @@
     }
   },
   {
+    "_id": "tio:TS6Bq6kC1izbv",
+    "name": "Dyp am Dienstag",
+    "description": "",
+    "date": "2026-02-10T17:49:16.466Z",
+    "updatedAt": "2026-02-10T17:49:16.466Z",
+    "numTeams": 0,
+    "numPlayers": 19,
+    "disciplines": [
+      {
+        "_id": "tio:eEtlvrbrc8t5m",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "leipzig",
+      "name": "TFC Leipzig"
+    }
+  },
+  {
     "_id": "tio:MwN5gsfZ6aEbN",
     "name": "Offenes Doppel",
     "description": "",
@@ -1212,6 +1237,32 @@
     }
   },
   {
+    "_id": "tio:4gwzYLFfilIQ3",
+    "name": "Leipzig-Liga Februar 2026",
+    "description": "",
+    "date": "2026-02-22T10:15:51.833Z",
+    "updatedAt": "2026-02-22T10:15:51.833Z",
+    "numTeams": 20,
+    "numPlayers": 40,
+    "disciplines": [
+      {
+        "_id": "tio:RA0urGBj6pMgv",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "leipzig",
+      "name": "TFC Leipzig"
+    }
+  },
+  {
     "_id": "tio:etfluVn78bf4C",
     "name": "83. SiMo Einzel",
     "description": "",
@@ -1364,6 +1415,31 @@
     "resultPage": {
       "slug": "kickerfreude",
       "name": "Kickerfreude"
+    }
+  },
+  {
+    "_id": "tio:4F8h4sO1PWxo9",
+    "name": "Dienstags-Dyp",
+    "description": "",
+    "date": "2026-02-24T17:35:28.372Z",
+    "updatedAt": "2026-02-24T17:35:28.372Z",
+    "numTeams": 0,
+    "numPlayers": 30,
+    "disciplines": [
+      {
+        "_id": "tio:JMO7sHSRoQ4dY",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "leipzig",
+      "name": "TFC Leipzig"
     }
   },
   {
@@ -1747,6 +1823,31 @@
     "resultPage": {
       "slug": "kickerfreude",
       "name": "Kickerfreude"
+    }
+  },
+  {
+    "_id": "tio:BNxD2aMpswMQw",
+    "name": "DYP 030326",
+    "description": "",
+    "date": "2026-03-03T17:38:48.320Z",
+    "updatedAt": "2026-03-03T17:38:48.320Z",
+    "numTeams": 0,
+    "numPlayers": 25,
+    "disciplines": [
+      {
+        "_id": "tio:FwMicZNYT3ijJ",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "leipzig",
+      "name": "TFC Leipzig"
     }
   },
   {
@@ -2287,6 +2388,31 @@
     "resultPage": {
       "slug": "augsburger_kickerkiste",
       "name": "Augsburger Kickerkiste"
+    }
+  },
+  {
+    "_id": "tio:3ogMYS3GGRPHE",
+    "name": "Leipzig-Liga März 2026",
+    "description": "",
+    "date": "2026-03-08T10:22:58.990Z",
+    "updatedAt": "2026-03-08T10:22:58.990Z",
+    "numTeams": 1,
+    "numPlayers": 2,
+    "disciplines": [
+      {
+        "_id": "tio:qVSZle6qtlyuZ",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "leipzig",
+      "name": "TFC Leipzig"
     }
   },
   {
@@ -3361,8 +3487,8 @@
     "description": "",
     "date": "2026-04-24T22:00:00.000Z",
     "updatedAt": "2026-02-19T07:58:21.769Z",
-    "numTeams": 2,
-    "numPlayers": 4,
+    "numTeams": 3,
+    "numPlayers": 6,
     "disciplines": [
       {
         "_id": "tio:gTtnwTqBDqgR6",
