@@ -2319,6 +2319,31 @@
     }
   },
   {
+    "_id": "tio:t1CX7Dr13fKve",
+    "name": "test",
+    "description": "",
+    "date": "2026-03-08T20:53:03.689Z",
+    "updatedAt": "2026-03-08T20:53:03.689Z",
+    "numTeams": 15,
+    "numPlayers": 30,
+    "disciplines": [
+      {
+        "_id": "tio:AD1iyui2gGL2A",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "sidekick",
+      "name": "Sidekick"
+    }
+  },
+  {
     "_id": "tio:Ssy9lw5dkZLmx",
     "name": "Veltheim DYP",
     "description": "",
