@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:SgscMMhnkPJd7",
-    "name": " 2. RSL Mini-Challenger (M-DYP) 2026",
-    "description": "",
-    "date": "2026-02-06T18:36:48.980Z",
-    "updatedAt": "2026-02-06T18:36:48.980Z",
-    "numTeams": 0,
-    "numPlayers": 23,
-    "disciplines": [
-      {
-        "_id": "tio:lL5fq65lA4vta",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "rsl",
-      "name": ""
-    }
-  },
-  {
     "_id": "tio:yH0Y76ujJAOEJ",
     "name": "1. Sidekick DTFB Challenger 2026 - Einzel",
     "description": "",
