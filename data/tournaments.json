@@ -1741,7 +1741,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "sidekick",
       "name": "Sidekick"
