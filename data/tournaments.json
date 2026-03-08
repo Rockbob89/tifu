@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:S7Zl5uffrrmOJ",
-    "name": "FC St. Pauli KiezKicker Einzel",
-    "description": "",
-    "date": "2026-02-06T17:34:04.649Z",
-    "updatedAt": "2026-02-06T17:34:04.649Z",
-    "numTeams": 0,
-    "numPlayers": 48,
-    "disciplines": [
-      {
-        "_id": "tio:aZBhuWPBbwlwI",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "single"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "fcsp",
-      "name": "fcsp-kickern.de"
-    }
-  },
-  {
     "_id": "tio:SgscMMhnkPJd7",
     "name": " 2. RSL Mini-Challenger (M-DYP) 2026",
     "description": "",
@@ -2364,7 +2338,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "leipzig",
       "name": "TFC Leipzig"
