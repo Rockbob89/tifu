@@ -1925,7 +1925,7 @@
     "state": "finished",
     "resultPage": {
       "slug": "kcb",
-      "name": "Turniere der Kicker Crew Bonn"
+      "name": "Kicker Crew Bonn"
     }
   },
   {
@@ -2538,6 +2538,31 @@
     "resultPage": {
       "slug": "kicks",
       "name": "Kicks Minden"
+    }
+  },
+  {
+    "_id": "tio:ayRbDGam2dTjP",
+    "name": "KCB mittwochsDYP Bonn",
+    "description": "",
+    "date": "2026-03-10T23:00:00.000Z",
+    "updatedAt": "2026-03-08T12:04:04.044Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:1XXEiQJooTjRw",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kcb",
+      "name": "Kicker Crew Bonn"
     }
   },
   {
