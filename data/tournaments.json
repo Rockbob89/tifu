@@ -2559,7 +2559,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
