@@ -2409,7 +2409,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "leipzig",
       "name": "TFC Leipzig"
