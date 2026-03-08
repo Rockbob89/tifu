@@ -2457,8 +2457,7 @@
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "monster_dyp",
-          "elimination"
+          "monster_dyp"
         ],
         "entryType": "monster_dyp"
       }
