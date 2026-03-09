@@ -2298,7 +2298,7 @@
     "date": "2026-03-08T23:00:00.000Z",
     "updatedAt": "2026-03-03T10:32:16.955Z",
     "numTeams": 0,
-    "numPlayers": 11,
+    "numPlayers": 14,
     "disciplines": [
       {
         "_id": "tio:wNaLQesIRdEZi",
@@ -2323,7 +2323,7 @@
     "date": "2026-03-08T23:00:00.000Z",
     "updatedAt": "2026-03-08T11:52:33.041Z",
     "numTeams": 0,
-    "numPlayers": 0,
+    "numPlayers": 1,
     "disciplines": [
       {
         "_id": "tio:tIivAOR4pZWaR",
@@ -2335,7 +2335,7 @@
         "entryType": "single"
       }
     ],
-    "state": "planned",
+    "state": "check-in",
     "resultPage": {
       "slug": "sidekick",
       "name": "Sidekick"
