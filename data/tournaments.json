@@ -2393,6 +2393,31 @@
     }
   },
   {
+    "_id": "tio:PeohEigouAvQj",
+    "name": "Offenes Doppel ",
+    "description": "",
+    "date": "2026-03-09T23:00:00.000Z",
+    "updatedAt": "2026-03-09T19:08:57.120Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:tEKmeBMlTZUcA",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "tfc_staufenberg",
+      "name": "TFC Staufenberg"
+    }
+  },
+  {
     "_id": "tio:N554P8NAEgKrh",
     "name": "Offenes Doppel - KICKS Minden - Mini Challenger",
     "description": "",
