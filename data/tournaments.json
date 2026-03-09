@@ -2347,8 +2347,8 @@
     "description": "",
     "date": "2026-03-09T23:00:00.000Z",
     "updatedAt": "2026-03-03T20:30:24.663Z",
-    "numTeams": 14,
-    "numPlayers": 25,
+    "numTeams": 16,
+    "numPlayers": 29,
     "disciplines": [
       {
         "_id": "tio:CCp2cxpvdkIoe",
@@ -2364,7 +2364,8 @@
     "resultPage": {
       "slug": "tusdavenstedt",
       "name": "TuS Davenstedt"
-    }
+    },
+    "seriesFormat": "dtfb-challenger"
   },
   {
     "_id": "tio:ZKtEroYhRbjXo",
