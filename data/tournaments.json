@@ -3378,6 +3378,31 @@
     }
   },
   {
+    "_id": "tio:NeEuN7Iaiwopl",
+    "name": "KCB mittwochsDYP Bonn",
+    "description": "",
+    "date": "2026-04-14T22:00:00.000Z",
+    "updatedAt": "2026-03-09T14:35:03.133Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:90Z415yzho4ns",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kcb",
+      "name": "Kicker Crew Bonn"
+    }
+  },
+  {
     "_id": "tio:a3Bl4rGJnMU0d",
     "name": "OD Minichallenger April",
     "description": "",
@@ -3450,6 +3475,31 @@
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:fnSP1qXbPmRAD",
+    "name": "KCB mittwochsDYP Bonn",
+    "description": "",
+    "date": "2026-04-21T22:00:00.000Z",
+    "updatedAt": "2026-03-09T14:35:44.797Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:AkUPmROnBTZFu",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kcb",
+      "name": "Kicker Crew Bonn"
     }
   },
   {
@@ -3681,6 +3731,31 @@
     "resultPage": {
       "slug": "1kck",
       "name": "1. Kicker Club Kaiserslautern"
+    }
+  },
+  {
+    "_id": "tio:aHELGLxS4eG5c",
+    "name": "KCB mittwochsDYP Bonn",
+    "description": "",
+    "date": "2026-04-28T22:00:00.000Z",
+    "updatedAt": "2026-03-09T14:36:17.419Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:dupd5MFqMwnQg",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kcb",
+      "name": "Kicker Crew Bonn"
     }
   },
   {
