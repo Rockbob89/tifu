@@ -2335,7 +2335,7 @@
         "entryType": "single"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "sidekick",
       "name": "Sidekick"
