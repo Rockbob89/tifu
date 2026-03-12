@@ -2628,6 +2628,31 @@
     }
   },
   {
+    "_id": "tio:GlN9Q49lNocqg",
+    "name": "Donnerstags DYP 12.03.2026",
+    "description": "",
+    "date": "2026-03-12T18:14:06.546Z",
+    "updatedAt": "2026-03-12T18:14:06.546Z",
+    "numTeams": 0,
+    "numPlayers": 13,
+    "disciplines": [
+      {
+        "_id": "tio:wwC97cuOiifI4",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "schovelkoten",
+      "name": "Schovelkoten Münster"
+    }
+  },
+  {
     "_id": "tio:4Jxjlcjuo52kc",
     "name": "Offenes Doppel -Kickerclub Gronau- Mini Challenger",
     "description": "",
