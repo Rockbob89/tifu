@@ -2792,6 +2792,31 @@
     }
   },
   {
+    "_id": "tio:w1yPWcmAa9Ilx",
+    "name": "PauliPizza Turnier 2026",
+    "description": "",
+    "date": "2026-03-13T23:00:00.000Z",
+    "updatedAt": "2026-03-03T17:12:10.657Z",
+    "numTeams": 1,
+    "numPlayers": 1,
+    "disciplines": [
+      {
+        "_id": "tio:FjZS1bjiq3IEs",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "team_name"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
     "_id": "tio:xv8S3xCix1k90",
     "name": "OE Mini-Challenger",
     "description": "",
