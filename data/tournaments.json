@@ -2558,7 +2558,7 @@
     "date": "2026-03-11T23:00:00.000Z",
     "updatedAt": "2026-03-05T10:56:09.530Z",
     "numTeams": 0,
-    "numPlayers": 24,
+    "numPlayers": 41,
     "disciplines": [
       {
         "_id": "tio:9QXz3biyEgoND",
@@ -2602,6 +2602,31 @@
     }
   },
   {
+    "_id": "tio:wloAlz2iV8DR7",
+    "name": "DoDo BYP (kein Challenger)",
+    "description": "",
+    "date": "2026-03-12T17:55:54.394Z",
+    "updatedAt": "2026-03-12T17:55:54.394Z",
+    "numTeams": 21,
+    "numPlayers": 42,
+    "disciplines": [
+      {
+        "_id": "tio:6qf3QQvEjjR1r",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "sge",
+      "name": "SGE"
+    }
+  },
+  {
     "_id": "tio:GlN9Q49lNocqg",
     "name": "Donnerstags DYP 12.03.2026",
     "description": "",
@@ -2633,7 +2658,7 @@
     "date": "2026-03-12T18:32:03.961Z",
     "updatedAt": "2026-03-12T18:32:03.961Z",
     "numTeams": 0,
-    "numPlayers": 11,
+    "numPlayers": 12,
     "disciplines": [
       {
         "_id": "tio:f72nPMU0nopFV",
@@ -2645,7 +2670,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "augsburger_kickerkiste",
       "name": "Augsburger Kickerkiste"
