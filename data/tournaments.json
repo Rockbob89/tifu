@@ -3243,6 +3243,31 @@
     }
   },
   {
+    "_id": "tio:IyaETubG72vz4",
+    "name": "MC Serie KKC - Haltern am See 2025/26",
+    "description": "",
+    "date": "2026-03-26T23:00:00.000Z",
+    "updatedAt": "2026-03-12T18:10:32.008Z",
+    "numTeams": 1,
+    "numPlayers": 2,
+    "disciplines": [
+      {
+        "_id": "tio:ByeY3uuKAM4MP",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "kkchaltern",
+      "name": "https://www.kkc-haltern-am-see.de/"
+    }
+  },
+  {
     "_id": "tio:IR0Sz1YxRCN1b",
     "name": "A-Ranglistenturnier Oberthal/Gronig",
     "description": "",
