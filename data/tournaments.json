@@ -1,30 +1,5 @@
 [
   {
-    "_id": "tio:TS6Bq6kC1izbv",
-    "name": "Dyp am Dienstag",
-    "description": "",
-    "date": "2026-02-10T17:49:16.466Z",
-    "updatedAt": "2026-02-10T17:49:16.466Z",
-    "numTeams": 0,
-    "numPlayers": 19,
-    "disciplines": [
-      {
-        "_id": "tio:eEtlvrbrc8t5m",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "leipzig",
-      "name": "TFC Leipzig"
-    }
-  },
-  {
     "_id": "tio:MwN5gsfZ6aEbN",
     "name": "Offenes Doppel",
     "description": "",
@@ -2603,6 +2578,31 @@
     }
   },
   {
+    "_id": "tio:XruSBt3fXf1WZ",
+    "name": "2. KIXX Einzel 2026",
+    "description": "",
+    "date": "2026-03-11T23:00:00.000Z",
+    "updatedAt": "2026-03-05T10:56:09.530Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:9QXz3biyEgoND",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
     "_id": "tio:OeIpBmYtTR52t",
     "name": "M-DYP Kickerclub Gronau jeden Donnerstag",
     "description": "",
@@ -3441,8 +3441,8 @@
     "description": "",
     "date": "2026-04-02T22:00:00.000Z",
     "updatedAt": "2026-03-10T13:26:30.132Z",
-    "numTeams": 10,
-    "numPlayers": 18,
+    "numTeams": 11,
+    "numPlayers": 20,
     "disciplines": [
       {
         "_id": "tio:eyQX3hSRh8xl8",
