@@ -2558,7 +2558,7 @@
     "date": "2026-03-11T23:00:00.000Z",
     "updatedAt": "2026-03-05T10:56:09.530Z",
     "numTeams": 0,
-    "numPlayers": 0,
+    "numPlayers": 11,
     "disciplines": [
       {
         "_id": "tio:9QXz3biyEgoND",
@@ -2570,7 +2570,7 @@
         "entryType": "single"
       }
     ],
-    "state": "planned",
+    "state": "check-in",
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
@@ -2633,7 +2633,7 @@
     "date": "2026-03-12T18:32:03.961Z",
     "updatedAt": "2026-03-12T18:32:03.961Z",
     "numTeams": 0,
-    "numPlayers": 6,
+    "numPlayers": 9,
     "disciplines": [
       {
         "_id": "tio:f72nPMU0nopFV",
