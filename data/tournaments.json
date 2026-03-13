@@ -2300,7 +2300,7 @@
     "date": "2026-03-10T21:45:46.331Z",
     "updatedAt": "2026-03-10T21:45:46.331Z",
     "numTeams": 0,
-    "numPlayers": 1,
+    "numPlayers": 6,
     "disciplines": [
       {
         "_id": "tio:sFArLQR1sSR5y",
@@ -2660,7 +2660,7 @@
     "date": "2026-03-12T23:00:00.000Z",
     "updatedAt": "2026-03-05T17:05:37.957Z",
     "numTeams": 0,
-    "numPlayers": 14,
+    "numPlayers": 15,
     "disciplines": [
       {
         "_id": "tio:4L6UBX0Vm8Ooi",
@@ -2769,6 +2769,31 @@
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
+    }
+  },
+  {
+    "_id": "tio:zxwfSgY4wnwEE",
+    "name": "FC St. Pauli KiezKickern",
+    "description": "",
+    "date": "2026-03-13T18:44:49.072Z",
+    "updatedAt": "2026-03-13T18:44:49.072Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:tCs1ok40FDpwu",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
     }
   },
   {
