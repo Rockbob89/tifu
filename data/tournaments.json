@@ -2287,7 +2287,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "grkickerking",
       "name": "Görlitzer Kickerking e.V."
@@ -2719,7 +2719,8 @@
         "shortName": "A",
         "name": "A-Feld",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "byp"
       },
@@ -3377,8 +3378,8 @@
     "description": "",
     "date": "2026-03-26T23:00:00.000Z",
     "updatedAt": "2026-03-12T18:10:32.008Z",
-    "numTeams": 8,
-    "numPlayers": 16,
+    "numTeams": 9,
+    "numPlayers": 17,
     "disciplines": [
       {
         "_id": "tio:ByeY3uuKAM4MP",
