@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:kA04nrrB1MXDp",
-    "name": "6. Kixx MiDo",
-    "description": "",
-    "date": "2026-02-11T17:42:02.399Z",
-    "updatedAt": "2026-02-11T17:42:02.399Z",
-    "numTeams": 42,
-    "numPlayers": 84,
-    "disciplines": [
-      {
-        "_id": "tio:rrBqFUAIke5cy",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kixx",
-      "name": "Kixx Hamburg"
-    }
-  },
-  {
     "_id": "tio:5uZhEUXyECbgq",
     "name": "FCSP Absolute Gigant:innen",
     "description": "",
@@ -2712,7 +2686,7 @@
     "date": "2026-03-12T23:00:00.000Z",
     "updatedAt": "2026-03-05T17:05:37.957Z",
     "numTeams": 0,
-    "numPlayers": 0,
+    "numPlayers": 13,
     "disciplines": [
       {
         "_id": "tio:4L6UBX0Vm8Ooi",
@@ -2724,7 +2698,7 @@
         "entryType": "single"
       }
     ],
-    "state": "planned",
+    "state": "pre-registration",
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
@@ -2786,8 +2760,8 @@
     "description": "",
     "date": "2026-03-13T10:47:13.917Z",
     "updatedAt": "2026-03-13T10:47:13.917Z",
-    "numTeams": 3,
-    "numPlayers": 6,
+    "numTeams": 13,
+    "numPlayers": 26,
     "disciplines": [
       {
         "_id": "tio:xJKx7ukJF6jbC",
