@@ -2698,7 +2698,7 @@
         "entryType": "single"
       }
     ],
-    "state": "pre-registration",
+    "state": "ready",
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
@@ -2760,8 +2760,8 @@
     "description": "",
     "date": "2026-03-13T10:47:13.917Z",
     "updatedAt": "2026-03-13T10:47:13.917Z",
-    "numTeams": 13,
-    "numPlayers": 26,
+    "numTeams": 25,
+    "numPlayers": 50,
     "disciplines": [
       {
         "_id": "tio:xJKx7ukJF6jbC",
@@ -3466,8 +3466,8 @@
     "description": "",
     "date": "2026-03-27T23:00:00.000Z",
     "updatedAt": "2026-02-20T08:17:43.098Z",
-    "numTeams": 19,
-    "numPlayers": 37,
+    "numTeams": 20,
+    "numPlayers": 39,
     "disciplines": [
       {
         "_id": "tio:cniWCj23TXqY5",
