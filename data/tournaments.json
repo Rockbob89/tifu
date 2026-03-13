@@ -2942,29 +2942,31 @@
     }
   },
   {
-    "_id": "tio:vTVVeedDFhJB4",
+    "_id": "tio:EBCkW9SsA19ve",
     "name": "1.RSB Bundesliga Warm-up Challenger 2026",
     "description": "",
     "date": "2026-03-14T23:00:00.000Z",
-    "updatedAt": "2026-03-13T16:30:12.393Z",
-    "numTeams": 19,
-    "numPlayers": 38,
+    "updatedAt": "2026-03-13T17:10:07.186Z",
+    "numTeams": 5,
+    "numPlayers": 10,
     "disciplines": [
       {
-        "_id": "tio:kXa3wrHHLWe4B",
-        "shortName": "D1",
-        "name": "Discipline 1",
+        "_id": "tio:JNL0u5CdKqBUx",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
         "modes": [
           "swiss"
         ],
-        "entryType": "byp"
+        "entryType": "byp",
+        "seriesFormat": "dtfb-challenger"
       }
     ],
     "state": "pre-registration",
     "resultPage": {
       "slug": "rotersternbremen",
       "name": "www.turniere-roterstern-bremen.de"
-    }
+    },
+    "seriesFormat": "dtfb-challenger"
   },
   {
     "_id": "tio:DLL5r17w0t79O",
