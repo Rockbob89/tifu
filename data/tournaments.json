@@ -2642,7 +2642,8 @@
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "single"
       }
@@ -2727,7 +2728,8 @@
         "shortName": "B",
         "name": "B-Feld",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "byp"
       },
@@ -2736,7 +2738,8 @@
         "shortName": "C",
         "name": "C-Feld",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "byp"
       }
