@@ -2686,7 +2686,7 @@
     "date": "2026-03-12T23:00:00.000Z",
     "updatedAt": "2026-03-05T17:05:37.957Z",
     "numTeams": 0,
-    "numPlayers": 13,
+    "numPlayers": 14,
     "disciplines": [
       {
         "_id": "tio:4L6UBX0Vm8Ooi",
@@ -2736,7 +2736,7 @@
     "date": "2026-03-12T23:00:00.000Z",
     "updatedAt": "2026-03-10T14:35:58.312Z",
     "numTeams": 0,
-    "numPlayers": 5,
+    "numPlayers": 6,
     "disciplines": [
       {
         "_id": "tio:1easPQdcR6W1p",
@@ -2760,8 +2760,8 @@
     "description": "",
     "date": "2026-03-13T10:47:13.917Z",
     "updatedAt": "2026-03-13T10:47:13.917Z",
-    "numTeams": 66,
-    "numPlayers": 132,
+    "numTeams": 67,
+    "numPlayers": 134,
     "disciplines": [
       {
         "_id": "tio:xJKx7ukJF6jbC",
