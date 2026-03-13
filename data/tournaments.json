@@ -2796,31 +2796,6 @@
     }
   },
   {
-    "_id": "tio:I574rVzlVzxl3",
-    "name": "2. TIMEOUT Open 2026 OD",
-    "description": "",
-    "date": "2026-03-13T23:00:00.000Z",
-    "updatedAt": "2026-01-06T10:20:02.026Z",
-    "numTeams": 33,
-    "numPlayers": 65,
-    "disciplines": [
-      {
-        "_id": "tio:TxsJK04KXDrsR",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "pre-registration",
-    "resultPage": {
-      "slug": "btsv",
-      "name": "EIntracht Braunschweig Tischfußball"
-    }
-  },
-  {
     "_id": "tio:w1yPWcmAa9Ilx",
     "name": "PauliPizza Turnier 2026",
     "description": "",
