@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:jT8uTyDfXOkfv",
-    "name": "2026-02-11 Monster",
-    "description": "",
-    "date": "2026-02-11T18:52:10.245Z",
-    "updatedAt": "2026-02-11T18:52:10.245Z",
-    "numTeams": 0,
-    "numPlayers": 29,
-    "disciplines": [
-      {
-        "_id": "tio:geB2LLslbtYsD",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kcmuenchen",
-      "name": "KickerClub München e.V."
-    }
-  },
-  {
     "_id": "tio:p5DEGArLfTEJO",
     "name": "DoDo BYP Eintracht Frankfurt 12.02.",
     "description": "",
@@ -2734,8 +2708,8 @@
     "description": "",
     "date": "2026-03-13T10:47:13.917Z",
     "updatedAt": "2026-03-13T10:47:13.917Z",
-    "numTeams": 79,
-    "numPlayers": 158,
+    "numTeams": 82,
+    "numPlayers": 164,
     "disciplines": [
       {
         "_id": "tio:xJKx7ukJF6jbC",
@@ -2777,8 +2751,8 @@
     "description": "",
     "date": "2026-03-13T18:44:49.072Z",
     "updatedAt": "2026-03-13T18:44:49.072Z",
-    "numTeams": 0,
-    "numPlayers": 0,
+    "numTeams": 6,
+    "numPlayers": 12,
     "disciplines": [
       {
         "_id": "tio:tCs1ok40FDpwu",
