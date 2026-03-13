@@ -2711,7 +2711,7 @@
     "date": "2026-03-12T23:00:00.000Z",
     "updatedAt": "2026-03-07T09:35:19.471Z",
     "numTeams": 0,
-    "numPlayers": 19,
+    "numPlayers": 20,
     "disciplines": [
       {
         "_id": "tio:27iCJIhsF0whs",
@@ -2748,7 +2748,7 @@
         "entryType": "single"
       }
     ],
-    "state": "pre-registration",
+    "state": "check-in",
     "resultPage": {
       "slug": "tfcos",
       "name": "TFC Osnabrück e.V."
@@ -2760,8 +2760,8 @@
     "description": "",
     "date": "2026-03-13T10:47:13.917Z",
     "updatedAt": "2026-03-13T10:47:13.917Z",
-    "numTeams": 56,
-    "numPlayers": 112,
+    "numTeams": 61,
+    "numPlayers": 122,
     "disciplines": [
       {
         "_id": "tio:xJKx7ukJF6jbC",
