@@ -2764,7 +2764,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "fcsp",
       "name": "fcsp-kickern.de"
