@@ -2737,7 +2737,7 @@
     "date": "2026-03-12T23:00:00.000Z",
     "updatedAt": "2026-03-07T09:35:19.471Z",
     "numTeams": 0,
-    "numPlayers": 18,
+    "numPlayers": 19,
     "disciplines": [
       {
         "_id": "tio:27iCJIhsF0whs",
@@ -2778,6 +2778,49 @@
     "resultPage": {
       "slug": "tfcos",
       "name": "TFC Osnabrück e.V."
+    }
+  },
+  {
+    "_id": "tio:IcvUWYWmnsMfo",
+    "name": "NO-PRO Turnier KIXX",
+    "description": "",
+    "date": "2026-03-13T10:47:13.917Z",
+    "updatedAt": "2026-03-13T10:47:13.917Z",
+    "numTeams": 3,
+    "numPlayers": 6,
+    "disciplines": [
+      {
+        "_id": "tio:xJKx7ukJF6jbC",
+        "shortName": "A",
+        "name": "A-Feld",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:qjHMspnWzJMfV",
+        "shortName": "B",
+        "name": "B-Feld",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:iAogFpcGPmw7t",
+        "shortName": "C",
+        "name": "C-Feld",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
     }
   },
   {
@@ -2869,6 +2912,31 @@
     "resultPage": {
       "slug": "btsv",
       "name": "EIntracht Braunschweig Tischfußball"
+    }
+  },
+  {
+    "_id": "tio:vTVVeedDFhJB4",
+    "name": "1.RSB Bundesliga Warm-up Challenger 2026",
+    "description": "",
+    "date": "2026-03-14T23:00:00.000Z",
+    "updatedAt": "2026-03-13T16:30:12.393Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:kXa3wrHHLWe4B",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "rotersternbremen",
+      "name": "www.turniere-roterstern-bremen.de"
     }
   },
   {
