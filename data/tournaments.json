@@ -2739,7 +2739,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
@@ -2751,8 +2751,8 @@
     "description": "",
     "date": "2026-03-13T18:44:49.072Z",
     "updatedAt": "2026-03-13T18:44:49.072Z",
-    "numTeams": 21,
-    "numPlayers": 42,
+    "numTeams": 29,
+    "numPlayers": 58,
     "disciplines": [
       {
         "_id": "tio:tCs1ok40FDpwu",
