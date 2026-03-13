@@ -2920,8 +2920,8 @@
     "description": "",
     "date": "2026-03-14T23:00:00.000Z",
     "updatedAt": "2026-03-13T16:30:12.393Z",
-    "numTeams": 3,
-    "numPlayers": 6,
+    "numTeams": 5,
+    "numPlayers": 10,
     "disciplines": [
       {
         "_id": "tio:kXa3wrHHLWe4B",
