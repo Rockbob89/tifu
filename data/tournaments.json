@@ -2723,7 +2723,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "kicks",
       "name": "Kicks Minden"
@@ -2760,8 +2760,8 @@
     "description": "",
     "date": "2026-03-13T10:47:13.917Z",
     "updatedAt": "2026-03-13T10:47:13.917Z",
-    "numTeams": 48,
-    "numPlayers": 96,
+    "numTeams": 56,
+    "numPlayers": 112,
     "disciplines": [
       {
         "_id": "tio:xJKx7ukJF6jbC",
