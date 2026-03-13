@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:5uZhEUXyECbgq",
-    "name": "FCSP Absolute Gigant:innen",
-    "description": "",
-    "date": "2026-02-11T18:40:17.243Z",
-    "updatedAt": "2026-02-11T18:40:17.243Z",
-    "numTeams": 0,
-    "numPlayers": 46,
-    "disciplines": [
-      {
-        "_id": "tio:0u3XNt1XSG7b9",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "fcsp",
-      "name": "fcsp-kickern.de"
-    }
-  },
-  {
     "_id": "tio:jT8uTyDfXOkfv",
     "name": "2026-02-11 Monster",
     "description": "",
@@ -2326,7 +2300,7 @@
     "date": "2026-03-10T21:45:46.331Z",
     "updatedAt": "2026-03-10T21:45:46.331Z",
     "numTeams": 0,
-    "numPlayers": 0,
+    "numPlayers": 1,
     "disciplines": [
       {
         "_id": "tio:sFArLQR1sSR5y",
@@ -2338,7 +2312,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "planned",
+    "state": "check-in",
     "resultPage": {
       "slug": "grkickerking",
       "name": "Görlitzer Kickerking e.V."
@@ -2760,8 +2734,8 @@
     "description": "",
     "date": "2026-03-13T10:47:13.917Z",
     "updatedAt": "2026-03-13T10:47:13.917Z",
-    "numTeams": 78,
-    "numPlayers": 156,
+    "numTeams": 79,
+    "numPlayers": 158,
     "disciplines": [
       {
         "_id": "tio:xJKx7ukJF6jbC",
