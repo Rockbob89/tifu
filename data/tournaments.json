@@ -2571,7 +2571,7 @@
         "entryType": "single"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
@@ -2622,7 +2622,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "sge",
       "name": "SGE"
@@ -2756,6 +2756,31 @@
     }
   },
   {
+    "_id": "tio:xv8S3xCix1k90",
+    "name": "OE Mini-Challenger",
+    "description": "",
+    "date": "2026-03-12T23:00:00.000Z",
+    "updatedAt": "2026-03-10T14:35:58.312Z",
+    "numTeams": 0,
+    "numPlayers": 5,
+    "disciplines": [
+      {
+        "_id": "tio:1easPQdcR6W1p",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "tfcos",
+      "name": "TFC Osnabrück e.V."
+    }
+  },
+  {
     "_id": "tio:TBgQxttkkCkTy",
     "name": "Sidekick Monster-DYP",
     "description": "",
@@ -2776,8 +2801,8 @@
     "description": "",
     "date": "2026-03-13T23:00:00.000Z",
     "updatedAt": "2026-01-06T10:20:02.026Z",
-    "numTeams": 32,
-    "numPlayers": 63,
+    "numTeams": 33,
+    "numPlayers": 65,
     "disciplines": [
       {
         "_id": "tio:TxsJK04KXDrsR",
@@ -2818,31 +2843,6 @@
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
-    }
-  },
-  {
-    "_id": "tio:xv8S3xCix1k90",
-    "name": "OE Mini-Challenger",
-    "description": "",
-    "date": "2026-03-13T23:00:00.000Z",
-    "updatedAt": "2026-03-10T14:35:58.312Z",
-    "numTeams": 0,
-    "numPlayers": 5,
-    "disciplines": [
-      {
-        "_id": "tio:1easPQdcR6W1p",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss"
-        ],
-        "entryType": "single"
-      }
-    ],
-    "state": "pre-registration",
-    "resultPage": {
-      "slug": "tfcos",
-      "name": "TFC Osnabrück e.V."
     }
   },
   {
@@ -3326,8 +3326,8 @@
     "description": "",
     "date": "2026-03-26T23:00:00.000Z",
     "updatedAt": "2026-03-12T18:10:32.008Z",
-    "numTeams": 1,
-    "numPlayers": 2,
+    "numTeams": 4,
+    "numPlayers": 8,
     "disciplines": [
       {
         "_id": "tio:ByeY3uuKAM4MP",
@@ -3781,8 +3781,8 @@
     "description": "",
     "date": "2026-04-10T22:00:00.000Z",
     "updatedAt": "2026-03-05T09:05:22.719Z",
-    "numTeams": 7,
-    "numPlayers": 11,
+    "numTeams": 10,
+    "numPlayers": 18,
     "disciplines": [
       {
         "_id": "tio:PAyS0cGtTh6aD",
@@ -3798,7 +3798,8 @@
     "resultPage": {
       "slug": "tfvdresden",
       "name": "TFVDRESDEN"
-    }
+    },
+    "seriesFormat": "dtfb-challenger"
   },
   {
     "_id": "tio:tM7t95SbAbfBY",
@@ -3834,7 +3835,7 @@
     "date": "2026-04-11T22:00:00.000Z",
     "updatedAt": "2026-03-05T08:59:26.733Z",
     "numTeams": 0,
-    "numPlayers": 11,
+    "numPlayers": 13,
     "disciplines": [
       {
         "_id": "tio:6603ggpam3hUK",
@@ -4318,8 +4319,8 @@
     "description": "",
     "date": "2026-05-01T22:00:00.000Z",
     "updatedAt": "2026-03-07T07:09:58.854Z",
-    "numTeams": 16,
-    "numPlayers": 26,
+    "numTeams": 18,
+    "numPlayers": 29,
     "disciplines": [
       {
         "_id": "tio:OBtpFYKiz300m",
@@ -4345,7 +4346,7 @@
     "date": "2026-05-02T22:00:00.000Z",
     "updatedAt": "2026-03-07T08:14:17.480Z",
     "numTeams": 0,
-    "numPlayers": 23,
+    "numPlayers": 25,
     "disciplines": [
       {
         "_id": "tio:6PPpTWsTr4DuZ",
@@ -4699,8 +4700,8 @@
     "description": "",
     "date": "2026-06-26T22:00:00.000Z",
     "updatedAt": "2026-02-15T23:19:46.027Z",
-    "numTeams": 6,
-    "numPlayers": 11,
+    "numTeams": 7,
+    "numPlayers": 13,
     "disciplines": [
       {
         "_id": "tio:TNG8mSqUzLvl9",
