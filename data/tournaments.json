@@ -2846,7 +2846,7 @@
         "entryType": "team_name"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
