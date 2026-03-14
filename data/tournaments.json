@@ -2849,8 +2849,8 @@
     "description": "",
     "date": "2026-03-13T23:00:00.000Z",
     "updatedAt": "2026-03-13T16:53:20.143Z",
-    "numTeams": 0,
-    "numPlayers": 0,
+    "numTeams": 13,
+    "numPlayers": 26,
     "disciplines": [
       {
         "_id": "tio:K1YsNGANzK7GV",
@@ -2863,7 +2863,7 @@
         "seriesFormat": "dtfb-challenger"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
