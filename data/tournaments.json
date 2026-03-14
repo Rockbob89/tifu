@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:uyY1kA3Ub9JFz",
-    "name": "FleMiCh - OD",
-    "description": "",
-    "date": "2026-02-12T23:00:00.000Z",
-    "updatedAt": "2026-02-08T13:18:55.631Z",
-    "numTeams": 7,
-    "numPlayers": 14,
-    "disciplines": [
-      {
-        "_id": "tio:HTrFYSqEi33lC",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "round_robin",
-          "direct_playoffs"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "mkk",
-      "name": "MKK Flensburg"
-    }
-  },
-  {
     "_id": "tio:ZizMPvfFZiZgP",
     "name": "NO-PRO Turnier KIXX",
     "description": "",
