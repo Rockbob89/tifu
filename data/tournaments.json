@@ -1392,6 +1392,41 @@
     }
   },
   {
+    "_id": "tio:QGrYe1kInlauj",
+    "name": "Helmut Challenger Test",
+    "description": "",
+    "date": "2026-03-03T15:30:35.074Z",
+    "updatedAt": "2026-03-03T15:30:35.074Z",
+    "numTeams": 1,
+    "numPlayers": 2,
+    "disciplines": [
+      {
+        "_id": "tio:blI5jtrZSfkij",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:HT1DkX3GYOWbE",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kickertool",
+      "name": "Kickertool"
+    },
+    "seriesFormat": "dtfb-challenger"
+  },
+  {
     "_id": "tio:lbeIR6HeZWgp1",
     "name": "Offenes Einzel Mini Challenger CLASSIC",
     "description": "",
