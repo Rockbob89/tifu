@@ -2823,8 +2823,8 @@
     "description": "",
     "date": "2026-03-13T23:00:00.000Z",
     "updatedAt": "2026-03-11T13:38:16.015Z",
-    "numTeams": 33,
-    "numPlayers": 64,
+    "numTeams": 1,
+    "numPlayers": 2,
     "disciplines": [
       {
         "_id": "tio:xDkUV9JoyVCe6",
@@ -2836,7 +2836,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "pre-registration",
+    "state": "check-in",
     "resultPage": {
       "slug": "btsv",
       "name": "EIntracht Braunschweig Tischfußball"
