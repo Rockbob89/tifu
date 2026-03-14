@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:p5DEGArLfTEJO",
-    "name": "DoDo BYP Eintracht Frankfurt 12.02.",
-    "description": "",
-    "date": "2026-02-12T18:15:32.757Z",
-    "updatedAt": "2026-02-12T18:15:32.757Z",
-    "numTeams": 19,
-    "numPlayers": 38,
-    "disciplines": [
-      {
-        "_id": "tio:M5NIdjlxye00O",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "sge",
-      "name": "SGE"
-    }
-  },
-  {
     "_id": "tio:uyY1kA3Ub9JFz",
     "name": "FleMiCh - OD",
     "description": "",
