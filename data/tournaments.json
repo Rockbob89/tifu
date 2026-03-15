@@ -595,6 +595,32 @@
     }
   },
   {
+    "_id": "tio:AGxkMV0EBqw0z",
+    "name": "Monats Doppel",
+    "description": "",
+    "date": "2026-02-20T18:34:47.929Z",
+    "updatedAt": "2026-02-20T18:34:47.929Z",
+    "numTeams": 7,
+    "numPlayers": 14,
+    "disciplines": [
+      {
+        "_id": "tio:XmjC2sH5vLJoR",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
+    }
+  },
+  {
     "_id": "tio:P73Tjh6H2GGLo",
     "name": "FC St. Pauli KiezKickern Classic",
     "description": "",
@@ -644,6 +670,32 @@
     "resultPage": {
       "slug": "ksckulmbach",
       "name": "1. KSC Kulmbach e.V."
+    }
+  },
+  {
+    "_id": "tio:wtOApzWwFtKHU",
+    "name": "Classic Double ",
+    "description": "",
+    "date": "2026-02-20T23:00:00.000Z",
+    "updatedAt": "2026-01-23T08:30:03.700Z",
+    "numTeams": 18,
+    "numPlayers": 36,
+    "disciplines": [
+      {
+        "_id": "tio:igUiXHA8RotLr",
+        "shortName": "CD",
+        "name": "Classic Double",
+        "modes": [
+          "swiss",
+          "double_elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
     }
   },
   {
@@ -1836,6 +1888,32 @@
     }
   },
   {
+    "_id": "tio:19WpG0c7zsaoQ",
+    "name": "Monats DYP 6.3.26",
+    "description": "",
+    "date": "2026-03-06T18:19:36.194Z",
+    "updatedAt": "2026-03-06T18:19:36.194Z",
+    "numTeams": 0,
+    "numPlayers": 28,
+    "disciplines": [
+      {
+        "_id": "tio:DafXl3clr43up",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
+    }
+  },
+  {
     "_id": "tio:g36jgIf7L04cQ",
     "name": "2. Kixx Open 2026",
     "description": "",
@@ -2859,6 +2937,56 @@
     "seriesFormat": "dtfb-challenger"
   },
   {
+    "_id": "tio:4KGzmWIxK1PdF",
+    "name": "Offenes Doppel",
+    "description": "",
+    "date": "2026-03-15T09:40:11.823Z",
+    "updatedAt": "2026-03-15T09:40:11.823Z",
+    "numTeams": 16,
+    "numPlayers": 32,
+    "disciplines": [
+      {
+        "_id": "tio:QLN3yiTSEaB6B",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "alemannia",
+      "name": "Alemannia Aachen"
+    }
+  },
+  {
+    "_id": "tio:Lo0yC6ACT2k9a",
+    "name": "Test",
+    "description": "",
+    "date": "2026-03-15T11:34:16.435Z",
+    "updatedAt": "2026-03-15T11:34:16.435Z",
+    "numTeams": 0,
+    "numPlayers": 7,
+    "disciplines": [
+      {
+        "_id": "tio:ob7F7rtD0qYgf",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "augsburger_kickerkiste",
+      "name": "Augsburger Kickerkiste"
+    }
+  },
+  {
     "_id": "tio:DLL5r17w0t79O",
     "name": "FleMiCh - Goalie War",
     "description": "",
@@ -3364,8 +3492,8 @@
     "description": "",
     "date": "2026-03-27T23:00:00.000Z",
     "updatedAt": "2025-12-31T13:30:50.484Z",
-    "numTeams": 7,
-    "numPlayers": 12,
+    "numTeams": 0,
+    "numPlayers": 0,
     "disciplines": [
       {
         "_id": "tio:7sm2zq82yNnsH",
@@ -3395,7 +3523,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "pre-registration",
+    "state": "check-in",
     "resultPage": {
       "slug": "stfv",
       "name": "Saarländischer Tischfußballverband"
@@ -4148,6 +4276,31 @@
     "resultPage": {
       "slug": "mkk",
       "name": "MKK Flensburg"
+    }
+  },
+  {
+    "_id": "tio:fTtvYann9BNMJ",
+    "name": "TVBW Ranglisten Turnier",
+    "description": "",
+    "date": "2026-04-24T22:00:00.000Z",
+    "updatedAt": "2026-02-19T07:58:21.769Z",
+    "numTeams": 4,
+    "numPlayers": 8,
+    "disciplines": [
+      {
+        "_id": "tio:gTtnwTqBDqgR6",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
     }
   },
   {
