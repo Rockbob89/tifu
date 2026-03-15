@@ -2935,6 +2935,33 @@
     "seriesFormat": "dtfb-challenger"
   },
   {
+    "_id": "tio:TwGVny0UgSXl9",
+    "name": "2. TIMEOUT Open OE",
+    "description": "",
+    "date": "2026-03-15T09:06:28.996Z",
+    "updatedAt": "2026-03-15T09:06:28.996Z",
+    "numTeams": 0,
+    "numPlayers": 18,
+    "disciplines": [
+      {
+        "_id": "tio:GX3AwnJrOG5Pb",
+        "shortName": "OE",
+        "name": "Offenes Einzel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single",
+        "seriesFormat": "dtfb-challenger"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "btsv",
+      "name": "EIntracht Braunschweig Tischfußball"
+    },
+    "seriesFormat": "dtfb-challenger"
+  },
+  {
     "_id": "tio:DLL5r17w0t79O",
     "name": "FleMiCh - Goalie War",
     "description": "",
