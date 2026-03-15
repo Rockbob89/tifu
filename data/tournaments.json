@@ -2888,8 +2888,8 @@
     "description": "",
     "date": "2026-03-14T23:00:00.000Z",
     "updatedAt": "2026-03-13T17:10:07.186Z",
-    "numTeams": 20,
-    "numPlayers": 40,
+    "numTeams": 2,
+    "numPlayers": 4,
     "disciplines": [
       {
         "_id": "tio:JNL0u5CdKqBUx",
@@ -2902,7 +2902,7 @@
         "seriesFormat": "dtfb-challenger"
       }
     ],
-    "state": "pre-registration",
+    "state": "check-in",
     "resultPage": {
       "slug": "rotersternbremen",
       "name": "www.turniere-roterstern-bremen.de"
@@ -2935,6 +2935,31 @@
       "name": "EIntracht Braunschweig Tischfußball"
     },
     "seriesFormat": "dtfb-challenger"
+  },
+  {
+    "_id": "tio:4KGzmWIxK1PdF",
+    "name": "Offenes Doppel",
+    "description": "",
+    "date": "2026-03-15T09:40:11.823Z",
+    "updatedAt": "2026-03-15T09:40:11.823Z",
+    "numTeams": 9,
+    "numPlayers": 18,
+    "disciplines": [
+      {
+        "_id": "tio:QLN3yiTSEaB6B",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "alemannia",
+      "name": "Alemannia Aachen"
+    }
   },
   {
     "_id": "tio:DLL5r17w0t79O",
@@ -3409,6 +3434,31 @@
     "resultPage": {
       "slug": "kkchaltern",
       "name": "https://www.kkc-haltern-am-see.de/"
+    }
+  },
+  {
+    "_id": "tio:efQOp1WbHqZmF",
+    "name": "KCB Monthly Open OD-Mini-Challenger",
+    "description": "",
+    "date": "2026-03-26T23:00:00.000Z",
+    "updatedAt": "2026-03-15T08:06:02.308Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:f36DIORSbrfHA",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kcb",
+      "name": "Kicker Crew Bonn"
     }
   },
   {
