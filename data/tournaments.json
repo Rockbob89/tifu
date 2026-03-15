@@ -2896,7 +2896,8 @@
         "shortName": "OD",
         "name": "Offenes Doppel",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "byp",
         "seriesFormat": "dtfb-challenger"
