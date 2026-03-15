@@ -2968,7 +2968,7 @@
     "date": "2026-03-15T11:34:16.435Z",
     "updatedAt": "2026-03-15T11:34:16.435Z",
     "numTeams": 0,
-    "numPlayers": 7,
+    "numPlayers": 8,
     "disciplines": [
       {
         "_id": "tio:ob7F7rtD0qYgf",
@@ -2980,7 +2980,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "augsburger_kickerkiste",
       "name": "Augsburger Kickerkiste"
