@@ -2883,31 +2883,6 @@
     }
   },
   {
-    "_id": "tio:pAx47wv2t5jpV",
-    "name": "2. TIMEOUT Open 2026 OE",
-    "description": "",
-    "date": "2026-03-14T23:00:00.000Z",
-    "updatedAt": "2026-01-06T10:22:07.278Z",
-    "numTeams": 0,
-    "numPlayers": 20,
-    "disciplines": [
-      {
-        "_id": "tio:oEeuJuZvMJFBn",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss"
-        ],
-        "entryType": "single"
-      }
-    ],
-    "state": "pre-registration",
-    "resultPage": {
-      "slug": "btsv",
-      "name": "EIntracht Braunschweig Tischfußball"
-    }
-  },
-  {
     "_id": "tio:EBCkW9SsA19ve",
     "name": "1.RSB Bundesliga Warm-up Challenger 2026",
     "description": "",
@@ -2936,12 +2911,12 @@
   },
   {
     "_id": "tio:TwGVny0UgSXl9",
-    "name": "2. TIMEOUT Open OE",
+    "name": "2. TIMEOUT Open 2026 OE",
     "description": "",
     "date": "2026-03-15T09:06:28.996Z",
     "updatedAt": "2026-03-15T09:06:28.996Z",
     "numTeams": 0,
-    "numPlayers": 20,
+    "numPlayers": 7,
     "disciplines": [
       {
         "_id": "tio:GX3AwnJrOG5Pb",
@@ -2954,7 +2929,7 @@
         "seriesFormat": "dtfb-challenger"
       }
     ],
-    "state": "pre-registration",
+    "state": "check-in",
     "resultPage": {
       "slug": "btsv",
       "name": "EIntracht Braunschweig Tischfußball"
