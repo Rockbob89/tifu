@@ -2923,7 +2923,8 @@
         "shortName": "OE",
         "name": "Offenes Einzel",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "single",
         "seriesFormat": "dtfb-challenger"
