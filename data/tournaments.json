@@ -1902,7 +1902,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "kixxntrixx",
       "name": "Kixx'n'Trixx Turnierergebnisse"
@@ -2860,8 +2860,8 @@
     "description": "",
     "date": "2026-03-15T23:00:00.000Z",
     "updatedAt": "2026-03-08T11:53:35.473Z",
-    "numTeams": 11,
-    "numPlayers": 22,
+    "numTeams": 12,
+    "numPlayers": 24,
     "disciplines": [
       {
         "_id": "tio:tfdwlDd7hqFBF",
@@ -2873,7 +2873,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "sidekick",
       "name": "Sidekick"
@@ -2886,7 +2886,7 @@
     "date": "2026-03-15T23:00:00.000Z",
     "updatedAt": "2026-03-10T07:32:48.726Z",
     "numTeams": 0,
-    "numPlayers": 9,
+    "numPlayers": 10,
     "disciplines": [
       {
         "_id": "tio:cVsdfEXRFAySo",
@@ -2935,8 +2935,8 @@
     "description": "",
     "date": "2026-03-16T16:50:13.503Z",
     "updatedAt": "2026-03-16T16:50:13.503Z",
-    "numTeams": 11,
-    "numPlayers": 22,
+    "numTeams": 12,
+    "numPlayers": 24,
     "disciplines": [
       {
         "_id": "tio:JbWuWkKTgX7Bi",
@@ -2949,12 +2949,37 @@
         "seriesFormat": "dtfb-challenger"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "kgbhannover",
       "name": "KGB-Hannover"
     },
     "seriesFormat": "dtfb-challenger"
+  },
+  {
+    "_id": "tio:tVcBcJDKCjHPy",
+    "name": "MontagsDYP",
+    "description": "",
+    "date": "2026-03-16T18:07:40.519Z",
+    "updatedAt": "2026-03-16T18:07:40.519Z",
+    "numTeams": 0,
+    "numPlayers": 14,
+    "disciplines": [
+      {
+        "_id": "tio:Fsak65FH3SXh7",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
   },
   {
     "_id": "tio:G0fObIVyeDYUJ",
@@ -3387,8 +3412,8 @@
     "description": "",
     "date": "2026-03-26T23:00:00.000Z",
     "updatedAt": "2026-03-12T18:10:32.008Z",
-    "numTeams": 13,
-    "numPlayers": 25,
+    "numTeams": 14,
+    "numPlayers": 27,
     "disciplines": [
       {
         "_id": "tio:ByeY3uuKAM4MP",
