@@ -3016,6 +3016,31 @@
     }
   },
   {
+    "_id": "tio:Bg9MZ5NuFyHNp",
+    "name": "Monster-DYP",
+    "description": "",
+    "date": "2026-03-16T23:00:00.000Z",
+    "updatedAt": "2026-03-16T10:07:00.051Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:OvFMJsPeQggte",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "tfc_staufenberg",
+      "name": "TFC Staufenberg"
+    }
+  },
+  {
     "_id": "tio:3ipBgsaQ8PqB7",
     "name": "Quick Hands Training & DYP - KICKS Minden",
     "description": "",
