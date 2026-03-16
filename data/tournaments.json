@@ -4263,8 +4263,8 @@
     "description": "",
     "date": "2026-04-24T22:00:00.000Z",
     "updatedAt": "2026-03-12T09:27:18.400Z",
-    "numTeams": 19,
-    "numPlayers": 35,
+    "numTeams": 20,
+    "numPlayers": 37,
     "disciplines": [
       {
         "_id": "tio:UEIml39vGxTjI",
@@ -4787,6 +4787,31 @@
     }
   },
   {
+    "_id": "tio:b0vJW4lQc5IVQ",
+    "name": "KCB mittwochsDYP Bonn",
+    "description": "",
+    "date": "2026-06-09T22:00:00.000Z",
+    "updatedAt": "2026-03-16T09:34:44.074Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:bBjrZhIRs7fRf",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kcb",
+      "name": "Kicker Crew Bonn"
+    }
+  },
+  {
     "_id": "tio:pgOvLGXk37Cje",
     "name": "B-Ranglistenturnier TFC Ludweiler",
     "description": "",
@@ -4891,6 +4916,31 @@
     "seriesFormat": "dtfb-challenger"
   },
   {
+    "_id": "tio:vdvbCuyBxkJ00",
+    "name": "KCB mittwochsDYP Bonn",
+    "description": "",
+    "date": "2026-06-16T22:00:00.000Z",
+    "updatedAt": "2026-03-16T09:35:26.628Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:RdvlQRdkfo8CT",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kcb",
+      "name": "Kicker Crew Bonn"
+    }
+  },
+  {
     "_id": "tio:6dwsUhxMuERfe",
     "name": "OD Minichallenger Juni",
     "description": "",
@@ -4913,6 +4963,31 @@
     "resultPage": {
       "slug": "kixxntrixx",
       "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
+    "_id": "tio:lP9LskKfGmVDT",
+    "name": "KCB mittwochsDYP Bonn",
+    "description": "",
+    "date": "2026-06-23T22:00:00.000Z",
+    "updatedAt": "2026-03-16T09:35:58.913Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:pJePKVPMtNDzI",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kcb",
+      "name": "Kicker Crew Bonn"
     }
   },
   {
