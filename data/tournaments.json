@@ -2930,6 +2930,33 @@
     }
   },
   {
+    "_id": "tio:WGhPJUlq2LB66",
+    "name": "KGB Mini Challenger -OD-",
+    "description": "",
+    "date": "2026-03-16T16:50:13.503Z",
+    "updatedAt": "2026-03-16T16:50:13.503Z",
+    "numTeams": 1,
+    "numPlayers": 2,
+    "disciplines": [
+      {
+        "_id": "tio:JbWuWkKTgX7Bi",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp",
+        "seriesFormat": "dtfb-challenger"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kgbhannover",
+      "name": "KGB-Hannover"
+    },
+    "seriesFormat": "dtfb-challenger"
+  },
+  {
     "_id": "tio:G0fObIVyeDYUJ",
     "name": "DiDYP - Arminia Bielefeld - Mini Challenger",
     "description": "",
