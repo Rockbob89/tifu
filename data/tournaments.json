@@ -3241,6 +3241,31 @@
     }
   },
   {
+    "_id": "tio:KNEo9c9Su0E8v",
+    "name": "Offenes Doppel",
+    "description": "",
+    "date": "2026-03-23T23:00:00.000Z",
+    "updatedAt": "2026-03-16T10:09:19.657Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:txB3dxtO2tImb",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "tfc_staufenberg",
+      "name": "TFC Staufenberg"
+    }
+  },
+  {
     "_id": "tio:aG01dBTn4QWHL",
     "name": "Offenes Einzel",
     "description": "",
@@ -3581,6 +3606,31 @@
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
+    }
+  },
+  {
+    "_id": "tio:oTP4lfQc5V2wg",
+    "name": "Offenes Einzel",
+    "description": "",
+    "date": "2026-03-30T22:00:00.000Z",
+    "updatedAt": "2026-03-16T10:11:00.073Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:WWWam5gCYDwnd",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "tfc_staufenberg",
+      "name": "TFC Staufenberg"
     }
   },
   {
