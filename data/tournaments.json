@@ -2601,21 +2601,6 @@
     }
   },
   {
-    "_id": "tio:TBgQxttkkCkTy",
-    "name": "Sidekick Monster-DYP",
-    "description": "",
-    "date": "2026-03-13T23:00:00.000Z",
-    "updatedAt": "2025-10-29T21:45:38.238Z",
-    "numTeams": 0,
-    "numPlayers": 0,
-    "disciplines": [],
-    "state": "planned",
-    "resultPage": {
-      "slug": "sidekick",
-      "name": "Sidekick"
-    }
-  },
-  {
     "_id": "tio:w1yPWcmAa9Ilx",
     "name": "PauliPizza Turnier 2026",
     "description": "",
@@ -2849,7 +2834,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "sidekick",
       "name": "Sidekick"
@@ -3887,6 +3872,21 @@
     "resultPage": {
       "slug": "1kck",
       "name": "1. Kicker Club Kaiserslautern"
+    }
+  },
+  {
+    "_id": "tio:TBgQxttkkCkTy",
+    "name": "Sidekick Monster-DYP",
+    "description": "",
+    "date": "2026-04-10T22:00:00.000Z",
+    "updatedAt": "2025-10-29T21:45:38.238Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [],
+    "state": "planned",
+    "resultPage": {
+      "slug": "sidekick",
+      "name": "Sidekick"
     }
   },
   {
