@@ -2930,21 +2930,6 @@
     }
   },
   {
-    "_id": "tio:skEqOj3LGEZQ8",
-    "name": "KGB Mini Challenger OD",
-    "description": "",
-    "date": "2026-03-16T16:39:05.257Z",
-    "updatedAt": "2026-03-16T16:39:05.257Z",
-    "numTeams": 0,
-    "numPlayers": 0,
-    "disciplines": [],
-    "state": "planned",
-    "resultPage": {
-      "slug": "kgbhannover",
-      "name": "KGB-Hannover"
-    }
-  },
-  {
     "_id": "tio:G0fObIVyeDYUJ",
     "name": "DiDYP - Arminia Bielefeld - Mini Challenger",
     "description": "",
