@@ -3949,6 +3949,33 @@
     "seriesFormat": "dtfb-challenger"
   },
   {
+    "_id": "tio:FNGbubXYmfggC",
+    "name": "KCB OD-Challenger",
+    "description": "",
+    "date": "2026-04-10T22:00:00.000Z",
+    "updatedAt": "2026-03-16T10:15:27.594Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:vmAIe5qV0jxLX",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp",
+        "seriesFormat": "dtfb-challenger"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kcb",
+      "name": "Kicker Crew Bonn"
+    },
+    "seriesFormat": "dtfb-challenger"
+  },
+  {
     "_id": "tio:5lS7Jp0wL7k3o",
     "name": "OE Challenger Dresden ",
     "description": "",
