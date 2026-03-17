@@ -3011,7 +3011,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "planned",
+    "state": "pre-registration",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
@@ -3236,7 +3236,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "planned",
+    "state": "pre-registration",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
@@ -3579,7 +3579,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "planned",
+    "state": "pre-registration",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
@@ -3969,16 +3969,16 @@
     "seriesFormat": "dtfb-challenger"
   },
   {
-    "_id": "tio:NeEuN7Iaiwopl",
+    "_id": "tio:TA4TCogIA44fD",
     "name": "KCB mittwochsDYP Bonn",
     "description": "",
     "date": "2026-04-14T22:00:00.000Z",
-    "updatedAt": "2026-03-09T14:35:03.133Z",
+    "updatedAt": "2026-03-17T13:46:42.231Z",
     "numTeams": 0,
     "numPlayers": 0,
     "disciplines": [
       {
-        "_id": "tio:90Z415yzho4ns",
+        "_id": "tio:MzUXsiil88HSD",
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
@@ -3987,7 +3987,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "check-in",
+    "state": "planned",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
@@ -4121,16 +4121,16 @@
     }
   },
   {
-    "_id": "tio:fnSP1qXbPmRAD",
+    "_id": "tio:hk7SGRC5S4JCA",
     "name": "KCB mittwochsDYP Bonn",
     "description": "",
     "date": "2026-04-21T22:00:00.000Z",
-    "updatedAt": "2026-03-09T14:35:44.797Z",
+    "updatedAt": "2026-03-17T13:48:40.279Z",
     "numTeams": 0,
     "numPlayers": 0,
     "disciplines": [
       {
-        "_id": "tio:AkUPmROnBTZFu",
+        "_id": "tio:FJL7aMCnR2XIq",
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
@@ -4139,7 +4139,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "check-in",
+    "state": "planned",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
