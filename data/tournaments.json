@@ -3791,7 +3791,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "planned",
+    "state": "pre-registration",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
@@ -4447,7 +4447,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "planned",
+    "state": "pre-registration",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
