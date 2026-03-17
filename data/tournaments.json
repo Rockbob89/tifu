@@ -2968,31 +2968,6 @@
     }
   },
   {
-    "_id": "tio:I0D8Xt8I7Mg8B",
-    "name": "Mini Challenger Offenes Einzel",
-    "description": "",
-    "date": "2026-03-17T17:20:26.710Z",
-    "updatedAt": "2026-03-17T17:20:26.710Z",
-    "numTeams": 0,
-    "numPlayers": 2,
-    "disciplines": [
-      {
-        "_id": "tio:P0DW8P1vMjm3W",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss"
-        ],
-        "entryType": "single"
-      }
-    ],
-    "state": "check-in",
-    "resultPage": {
-      "slug": "kickerfreude",
-      "name": "Kickerfreude Berlin"
-    }
-  },
-  {
     "_id": "tio:3ipBgsaQ8PqB7",
     "name": "Quick Hands Training & DYP - KICKS Minden",
     "description": "",
