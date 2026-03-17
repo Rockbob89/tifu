@@ -2937,7 +2937,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "tfc_staufenberg",
       "name": "TFC Staufenberg"
@@ -2957,7 +2957,8 @@
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "monster_dyp"
+          "monster_dyp",
+          "elimination"
         ],
         "entryType": "monster_dyp"
       }
