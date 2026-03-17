@@ -4875,7 +4875,7 @@
         "entryType": "single"
       }
     ],
-    "state": "planned",
+    "state": "pre-registration",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
@@ -5104,7 +5104,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "planned",
+    "state": "pre-registration",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
