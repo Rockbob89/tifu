@@ -2419,7 +2419,7 @@
         "entryType": "single"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
@@ -2911,7 +2911,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "planned",
+    "state": "check-in",
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
