@@ -2944,6 +2944,31 @@
     }
   },
   {
+    "_id": "tio:60LsCG0oZ4FXl",
+    "name": "FCSP Absolute Gigant:innen DYP",
+    "description": "",
+    "date": "2026-03-18T16:36:05.425Z",
+    "updatedAt": "2026-03-18T16:36:05.425Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:nlCxAlPm1XX66",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
+    }
+  },
+  {
     "_id": "tio:XfLK28TlXV9CE",
     "name": "HSV NoDo EINZEL Mini-Challenger #05",
     "description": "",
