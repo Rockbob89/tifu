@@ -2898,7 +2898,7 @@
     "date": "2026-03-18T16:36:05.425Z",
     "updatedAt": "2026-03-18T16:36:05.425Z",
     "numTeams": 0,
-    "numPlayers": 16,
+    "numPlayers": 22,
     "disciplines": [
       {
         "_id": "tio:nlCxAlPm1XX66",
@@ -2923,7 +2923,7 @@
     "date": "2026-03-18T18:24:55.646Z",
     "updatedAt": "2026-03-18T18:24:55.646Z",
     "numTeams": 0,
-    "numPlayers": 9,
+    "numPlayers": 11,
     "disciplines": [
       {
         "_id": "tio:q9aajTdmjJag8",
@@ -2947,8 +2947,8 @@
     "description": "",
     "date": "2026-03-18T18:34:04.880Z",
     "updatedAt": "2026-03-18T18:34:04.880Z",
-    "numTeams": 62,
-    "numPlayers": 124,
+    "numTeams": 63,
+    "numPlayers": 126,
     "disciplines": [
       {
         "_id": "tio:JUY4EWugJPyMC",
@@ -2960,7 +2960,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
