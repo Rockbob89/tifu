@@ -2899,7 +2899,7 @@
     "date": "2026-03-18T16:36:05.425Z",
     "updatedAt": "2026-03-18T16:36:05.425Z",
     "numTeams": 0,
-    "numPlayers": 40,
+    "numPlayers": 42,
     "disciplines": [
       {
         "_id": "tio:nlCxAlPm1XX66",
@@ -5706,54 +5706,58 @@
     }
   },
   {
-    "_id": "tio:qEzIz5wvCLlXd",
+    "_id": "tio:X8uK6vOzeFUAI",
     "name": "2. KMTV Challenger 2026 OD",
     "description": "",
     "date": "2026-10-02T22:00:00.000Z",
-    "updatedAt": "2026-02-17T19:18:19.449Z",
+    "updatedAt": "2026-03-18T21:07:52.431Z",
     "numTeams": 1,
     "numPlayers": 1,
     "disciplines": [
       {
-        "_id": "tio:F56DYqg6LMOYR",
-        "shortName": "D1",
-        "name": "Discipline 1",
+        "_id": "tio:o1mDDnXrrAQGR",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
         "modes": [
           "swiss"
         ],
-        "entryType": "byp"
+        "entryType": "byp",
+        "seriesFormat": "dtfb-challenger"
       }
     ],
     "state": "pre-registration",
     "resultPage": {
       "slug": "kmtv",
       "name": "KMTV"
-    }
+    },
+    "seriesFormat": "dtfb-challenger"
   },
   {
-    "_id": "tio:MV7UCnDEJiQrf",
+    "_id": "tio:bW4hOBk4Ze2nq",
     "name": "2. KMTV Challenger 2026 OE",
     "description": "",
     "date": "2026-10-03T22:00:00.000Z",
-    "updatedAt": "2026-02-17T19:19:18.572Z",
+    "updatedAt": "2026-03-18T21:09:09.115Z",
     "numTeams": 0,
     "numPlayers": 1,
     "disciplines": [
       {
-        "_id": "tio:uDETeLVKR3XQD",
-        "shortName": "D1",
-        "name": "Discipline 1",
+        "_id": "tio:gwr2QzOk4DDUX",
+        "shortName": "OE",
+        "name": "Offenes Einzel",
         "modes": [
           "swiss"
         ],
-        "entryType": "single"
+        "entryType": "single",
+        "seriesFormat": "dtfb-challenger"
       }
     ],
     "state": "pre-registration",
     "resultPage": {
       "slug": "kmtv",
       "name": "KMTV"
-    }
+    },
+    "seriesFormat": "dtfb-challenger"
   },
   {
     "_id": "tio:mMtgeS9v0aMNZ",
