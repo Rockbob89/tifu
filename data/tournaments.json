@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:aTqsYK2R3q4LG",
-    "name": "Montags DYP ",
-    "description": "",
-    "date": "2026-02-16T18:42:40.126Z",
-    "updatedAt": "2026-02-16T18:42:40.126Z",
-    "numTeams": 0,
-    "numPlayers": 30,
-    "disciplines": [
-      {
-        "_id": "tio:8XiEG9M5SBfYA",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kixxntrixx",
-      "name": "Kixx'n'Trixx Turnierergebnisse"
-    }
-  },
-  {
     "_id": "tio:q9uEvEocND53S",
     "name": "DYPdiDYP",
     "description": "",
@@ -2982,7 +2956,8 @@
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "monster_dyp"
+          "monster_dyp",
+          "elimination"
         ],
         "entryType": "monster_dyp"
       }
@@ -3000,7 +2975,7 @@
     "date": "2026-03-18T18:24:55.646Z",
     "updatedAt": "2026-03-18T18:24:55.646Z",
     "numTeams": 0,
-    "numPlayers": 5,
+    "numPlayers": 7,
     "disciplines": [
       {
         "_id": "tio:q9aajTdmjJag8",
@@ -3024,8 +2999,8 @@
     "description": "",
     "date": "2026-03-18T18:34:04.880Z",
     "updatedAt": "2026-03-18T18:34:04.880Z",
-    "numTeams": 5,
-    "numPlayers": 10,
+    "numTeams": 16,
+    "numPlayers": 32,
     "disciplines": [
       {
         "_id": "tio:JUY4EWugJPyMC",
