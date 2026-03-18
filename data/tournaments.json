@@ -2635,32 +2635,6 @@
     }
   },
   {
-    "_id": "tio:Lo0yC6ACT2k9a",
-    "name": "Test",
-    "description": "",
-    "date": "2026-03-15T11:34:16.435Z",
-    "updatedAt": "2026-03-15T11:34:16.435Z",
-    "numTeams": 0,
-    "numPlayers": 12,
-    "disciplines": [
-      {
-        "_id": "tio:ob7F7rtD0qYgf",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "augsburger_kickerkiste",
-      "name": "Augsburger Kickerkiste"
-    }
-  },
-  {
     "_id": "tio:2GAS7bAOizuvl",
     "name": "84. SiMo Doppel",
     "description": "",
@@ -2899,7 +2873,7 @@
     "date": "2026-03-17T23:00:00.000Z",
     "updatedAt": "2026-03-09T13:28:18.539Z",
     "numTeams": 0,
-    "numPlayers": 16,
+    "numPlayers": 17,
     "disciplines": [
       {
         "_id": "tio:VgNjmpzkjtClc",
@@ -2943,32 +2917,6 @@
     }
   },
   {
-    "_id": "tio:h47KqWBnjDYrT",
-    "name": "Test2",
-    "description": "",
-    "date": "2026-03-18T17:22:23.770Z",
-    "updatedAt": "2026-03-18T17:22:23.770Z",
-    "numTeams": 0,
-    "numPlayers": 16,
-    "disciplines": [
-      {
-        "_id": "tio:WgXxZdnDcMW93",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "running",
-    "resultPage": {
-      "slug": "augsburger_kickerkiste",
-      "name": "Augsburger Kickerkiste"
-    }
-  },
-  {
     "_id": "tio:nRBhb8cEjl7eQ",
     "name": "2026-03-18 Monster DYP",
     "description": "",
@@ -2999,8 +2947,8 @@
     "description": "",
     "date": "2026-03-18T18:34:04.880Z",
     "updatedAt": "2026-03-18T18:34:04.880Z",
-    "numTeams": 16,
-    "numPlayers": 32,
+    "numTeams": 30,
+    "numPlayers": 60,
     "disciplines": [
       {
         "_id": "tio:JUY4EWugJPyMC",
