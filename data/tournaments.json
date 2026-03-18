@@ -2944,31 +2944,6 @@
     }
   },
   {
-    "_id": "tio:uM2kENOxf7AJb",
-    "name": "Mini Challenger Junioren",
-    "description": "",
-    "date": "2026-03-18T16:36:42.528Z",
-    "updatedAt": "2026-03-18T16:36:42.528Z",
-    "numTeams": 0,
-    "numPlayers": 9,
-    "disciplines": [
-      {
-        "_id": "tio:WnX3sDH43j954",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "check-in",
-    "resultPage": {
-      "slug": "kickerfreude",
-      "name": "Kickerfreude Berlin"
-    }
-  },
-  {
     "_id": "tio:XfLK28TlXV9CE",
     "name": "HSV NoDo EINZEL Mini-Challenger #05",
     "description": "",
