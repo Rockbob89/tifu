@@ -2898,7 +2898,7 @@
     "date": "2026-03-18T16:36:05.425Z",
     "updatedAt": "2026-03-18T16:36:05.425Z",
     "numTeams": 0,
-    "numPlayers": 22,
+    "numPlayers": 24,
     "disciplines": [
       {
         "_id": "tio:nlCxAlPm1XX66",
@@ -2923,7 +2923,7 @@
     "date": "2026-03-18T18:24:55.646Z",
     "updatedAt": "2026-03-18T18:24:55.646Z",
     "numTeams": 0,
-    "numPlayers": 11,
+    "numPlayers": 13,
     "disciplines": [
       {
         "_id": "tio:q9aajTdmjJag8",
@@ -2935,7 +2935,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "kcmuenchen",
       "name": "KickerClub München e.V."
@@ -2947,8 +2947,8 @@
     "description": "",
     "date": "2026-03-18T18:34:04.880Z",
     "updatedAt": "2026-03-18T18:34:04.880Z",
-    "numTeams": 63,
-    "numPlayers": 126,
+    "numTeams": 64,
+    "numPlayers": 128,
     "disciplines": [
       {
         "_id": "tio:JUY4EWugJPyMC",
