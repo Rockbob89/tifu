@@ -2991,7 +2991,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "augsburger_kickerkiste",
       "name": "Augsburger Kickerkiste"
@@ -3043,7 +3043,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "schovelkoten",
       "name": "Schovelkoten Münster"
