@@ -2995,6 +2995,31 @@
     }
   },
   {
+    "_id": "tio:JcqfDZqKoJgGE",
+    "name": "DoDo Eintracht Frankfurt",
+    "description": "",
+    "date": "2026-03-19T18:10:29.951Z",
+    "updatedAt": "2026-03-19T18:10:29.951Z",
+    "numTeams": 5,
+    "numPlayers": 10,
+    "disciplines": [
+      {
+        "_id": "tio:kviY4RIf8zl0i",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "sge",
+      "name": "SGE"
+    }
+  },
+  {
     "_id": "tio:0wK53AedQBCoy",
     "name": "OD Minichallenger März",
     "description": "",
