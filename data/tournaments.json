@@ -2938,7 +2938,7 @@
         "entryType": "single"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "hsv",
       "name": "HSV Tischfußball"
