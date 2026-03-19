@@ -2976,7 +2976,7 @@
     "date": "2026-03-19T16:36:54.918Z",
     "updatedAt": "2026-03-19T16:36:54.918Z",
     "numTeams": 0,
-    "numPlayers": 10,
+    "numPlayers": 12,
     "disciplines": [
       {
         "_id": "tio:QYgzXoawkvT0W",
@@ -2988,7 +2988,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "augsburger_kickerkiste",
       "name": "Augsburger Kickerkiste"
@@ -3000,8 +3000,8 @@
     "description": "",
     "date": "2026-03-19T18:10:29.951Z",
     "updatedAt": "2026-03-19T18:10:29.951Z",
-    "numTeams": 21,
-    "numPlayers": 42,
+    "numTeams": 22,
+    "numPlayers": 44,
     "disciplines": [
       {
         "_id": "tio:kviY4RIf8zl0i",
@@ -3017,6 +3017,31 @@
     "resultPage": {
       "slug": "sge",
       "name": "SGE"
+    }
+  },
+  {
+    "_id": "tio:qICxryWmL4eil",
+    "name": "Donnerstags mDYP",
+    "description": "",
+    "date": "2026-03-19T18:40:25.112Z",
+    "updatedAt": "2026-03-19T18:40:25.112Z",
+    "numTeams": 0,
+    "numPlayers": 24,
+    "disciplines": [
+      {
+        "_id": "tio:BFKEfJPSj8M24",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "schovelkoten",
+      "name": "Schovelkoten Münster"
     }
   },
   {
