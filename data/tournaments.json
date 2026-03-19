@@ -3013,7 +3013,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "sge",
       "name": "SGE"
