@@ -2950,8 +2950,8 @@
     "description": "",
     "date": "2026-03-18T23:00:00.000Z",
     "updatedAt": "2026-03-18T21:10:40.533Z",
-    "numTeams": 0,
-    "numPlayers": 0,
+    "numTeams": 5,
+    "numPlayers": 10,
     "disciplines": [
       {
         "_id": "tio:fMWKIyIZ9bygy",
@@ -2963,7 +2963,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "planned",
+    "state": "check-in",
     "resultPage": {
       "slug": "kmtv",
       "name": "KMTV"
@@ -3000,8 +3000,8 @@
     "description": "",
     "date": "2026-03-19T18:10:29.951Z",
     "updatedAt": "2026-03-19T18:10:29.951Z",
-    "numTeams": 5,
-    "numPlayers": 10,
+    "numTeams": 14,
+    "numPlayers": 28,
     "disciplines": [
       {
         "_id": "tio:kviY4RIf8zl0i",
