@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:7o4c8xJ1yBoT4",
-    "name": "20260218 Monster DYP",
-    "description": "",
-    "date": "2026-02-18T18:24:52.762Z",
-    "updatedAt": "2026-02-18T18:24:52.762Z",
-    "numTeams": 0,
-    "numPlayers": 34,
-    "disciplines": [
-      {
-        "_id": "tio:ZzOBjku1Y1EVJ",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kcmuenchen",
-      "name": "KickerClub München e.V."
-    }
-  },
-  {
     "_id": "tio:Fu2529q3V8Gzn",
     "name": "FCSP Absolute Gigant:innen",
     "description": "",
@@ -3069,8 +3043,8 @@
     "description": "",
     "date": "2026-03-20T08:44:07.500Z",
     "updatedAt": "2026-03-20T08:44:07.500Z",
-    "numTeams": 25,
-    "numPlayers": 50,
+    "numTeams": 29,
+    "numPlayers": 58,
     "disciplines": [
       {
         "_id": "tio:vZiOTOsG6zLsi",
