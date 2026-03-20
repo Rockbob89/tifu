@@ -2993,8 +2993,8 @@
     "description": "",
     "date": "2026-03-19T23:00:00.000Z",
     "updatedAt": "2026-03-05T17:06:54.790Z",
-    "numTeams": 10,
-    "numPlayers": 20,
+    "numTeams": 11,
+    "numPlayers": 22,
     "disciplines": [
       {
         "_id": "tio:WdRTlvOr4o49Q",
@@ -3043,8 +3043,8 @@
     "description": "",
     "date": "2026-03-20T08:44:07.500Z",
     "updatedAt": "2026-03-20T08:44:07.500Z",
-    "numTeams": 43,
-    "numPlayers": 86,
+    "numTeams": 50,
+    "numPlayers": 100,
     "disciplines": [
       {
         "_id": "tio:vZiOTOsG6zLsi",
@@ -3103,6 +3103,31 @@
     "resultPage": {
       "slug": "jetsparrows",
       "name": "Jet Sparrows Ulm"
+    }
+  },
+  {
+    "_id": "tio:wHjg7Kv3CZRNR",
+    "name": "FC St. Pauli KiezKickern Classic",
+    "description": "",
+    "date": "2026-03-20T18:36:43.193Z",
+    "updatedAt": "2026-03-20T18:36:43.193Z",
+    "numTeams": 1,
+    "numPlayers": 2,
+    "disciplines": [
+      {
+        "_id": "tio:CiwtUlgNrmgpN",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
     }
   },
   {
