@@ -3095,8 +3095,8 @@
     "description": "",
     "date": "2026-03-20T08:44:07.500Z",
     "updatedAt": "2026-03-20T08:44:07.500Z",
-    "numTeams": 0,
-    "numPlayers": 0,
+    "numTeams": 1,
+    "numPlayers": 2,
     "disciplines": [
       {
         "_id": "tio:vZiOTOsG6zLsi",
@@ -3126,7 +3126,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "planned",
+    "state": "check-in",
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
