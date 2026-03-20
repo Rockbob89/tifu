@@ -3133,6 +3133,31 @@
     }
   },
   {
+    "_id": "tio:TVLRragllceEF",
+    "name": "Freitags Doppel",
+    "description": "",
+    "date": "2026-03-20T13:52:47.892Z",
+    "updatedAt": "2026-03-20T13:52:47.892Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:uu7RIzFiGVD4M",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "jetsparrows",
+      "name": "Jet Sparrows Ulm"
+    }
+  },
+  {
     "_id": "tio:Y6RIVWa1lsaVv",
     "name": "85. SiMo Einzel",
     "description": "",
