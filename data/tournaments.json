@@ -3125,6 +3125,40 @@
     }
   },
   {
+    "_id": "tio:RJN0OTT4Ju15O",
+    "name": "NO-PRO Turnier KIXX",
+    "description": "",
+    "date": "2026-03-20T08:44:07.500Z",
+    "updatedAt": "2026-03-20T08:44:07.500Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:vZiOTOsG6zLsi",
+        "shortName": "A",
+        "name": "A-Feld",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      },
+      {
+        "_id": "tio:QQCuzzkRWMnMH",
+        "shortName": "B",
+        "name": "B-Feld",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
+    }
+  },
+  {
     "_id": "tio:Y6RIVWa1lsaVv",
     "name": "85. SiMo Einzel",
     "description": "",
