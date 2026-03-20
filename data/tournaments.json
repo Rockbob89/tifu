@@ -3007,7 +3007,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "kixxntrixx",
       "name": "Kixx'n'Trixx Turnierergebnisse"
@@ -3069,8 +3069,8 @@
     "description": "",
     "date": "2026-03-20T08:44:07.500Z",
     "updatedAt": "2026-03-20T08:44:07.500Z",
-    "numTeams": 11,
-    "numPlayers": 22,
+    "numTeams": 15,
+    "numPlayers": 30,
     "disciplines": [
       {
         "_id": "tio:vZiOTOsG6zLsi",
