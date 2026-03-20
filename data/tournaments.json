@@ -3027,7 +3027,8 @@
         "shortName": "A",
         "name": "A-Feld",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "byp"
       },
@@ -3036,7 +3037,8 @@
         "shortName": "B",
         "name": "B-Feld",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "byp"
       },
@@ -3045,7 +3047,8 @@
         "shortName": "C",
         "name": "C-Feld",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "byp"
       }
