@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:lwhywV972xClv",
-    "name": "7. Kixx MiDo",
-    "description": "",
-    "date": "2026-02-18T14:08:43.675Z",
-    "updatedAt": "2026-02-18T14:08:43.675Z",
-    "numTeams": 62,
-    "numPlayers": 124,
-    "disciplines": [
-      {
-        "_id": "tio:qdHIObVcJHvw3",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kixx",
-      "name": "Kixx Hamburg"
-    }
-  },
-  {
     "_id": "tio:7o4c8xJ1yBoT4",
     "name": "20260218 Monster DYP",
     "description": "",
