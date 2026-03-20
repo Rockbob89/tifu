@@ -3048,7 +3048,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
@@ -3060,8 +3060,8 @@
     "description": "",
     "date": "2026-03-20T13:52:47.892Z",
     "updatedAt": "2026-03-20T13:52:47.892Z",
-    "numTeams": 8,
-    "numPlayers": 16,
+    "numTeams": 10,
+    "numPlayers": 20,
     "disciplines": [
       {
         "_id": "tio:uu7RIzFiGVD4M",
@@ -3073,7 +3073,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "jetsparrows",
       "name": "Jet Sparrows Ulm"
@@ -3085,8 +3085,8 @@
     "description": "",
     "date": "2026-03-20T18:36:43.193Z",
     "updatedAt": "2026-03-20T18:36:43.193Z",
-    "numTeams": 7,
-    "numPlayers": 14,
+    "numTeams": 10,
+    "numPlayers": 20,
     "disciplines": [
       {
         "_id": "tio:CiwtUlgNrmgpN",
