@@ -3043,8 +3043,8 @@
     "description": "",
     "date": "2026-03-20T08:44:07.500Z",
     "updatedAt": "2026-03-20T08:44:07.500Z",
-    "numTeams": 69,
-    "numPlayers": 138,
+    "numTeams": 81,
+    "numPlayers": 162,
     "disciplines": [
       {
         "_id": "tio:vZiOTOsG6zLsi",
@@ -3086,8 +3086,8 @@
     "description": "",
     "date": "2026-03-20T13:52:47.892Z",
     "updatedAt": "2026-03-20T13:52:47.892Z",
-    "numTeams": 3,
-    "numPlayers": 6,
+    "numTeams": 4,
+    "numPlayers": 8,
     "disciplines": [
       {
         "_id": "tio:uu7RIzFiGVD4M",
@@ -3111,8 +3111,8 @@
     "description": "",
     "date": "2026-03-20T18:36:43.193Z",
     "updatedAt": "2026-03-20T18:36:43.193Z",
-    "numTeams": 2,
-    "numPlayers": 4,
+    "numTeams": 3,
+    "numPlayers": 6,
     "disciplines": [
       {
         "_id": "tio:CiwtUlgNrmgpN",
