@@ -3150,6 +3150,15 @@
           "swiss"
         ],
         "entryType": "byp"
+      },
+      {
+        "_id": "tio:mbFTzU8pwZqku",
+        "shortName": "C",
+        "name": "C-Feld",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
       }
     ],
     "state": "planned",
