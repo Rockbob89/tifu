@@ -2967,8 +2967,8 @@
     "description": "",
     "date": "2026-03-19T23:00:00.000Z",
     "updatedAt": "2026-03-05T17:06:54.790Z",
-    "numTeams": 13,
-    "numPlayers": 26,
+    "numTeams": 14,
+    "numPlayers": 28,
     "disciplines": [
       {
         "_id": "tio:WdRTlvOr4o49Q",
@@ -2980,7 +2980,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
@@ -3111,7 +3111,7 @@
     "date": "2026-03-20T19:09:04.290Z",
     "updatedAt": "2026-03-20T19:09:04.290Z",
     "numTeams": 0,
-    "numPlayers": 0,
+    "numPlayers": 5,
     "disciplines": [
       {
         "_id": "tio:LXtonra1QiAaI",
@@ -3123,7 +3123,7 @@
         "entryType": "single"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "wasgaushooters",
       "name": "Wasgaushooters Pirmasens"
