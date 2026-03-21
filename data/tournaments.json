@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:wIiNHdYTM3Db4",
-    "name": "DoDo BYP Eintracht Frankfurt 19.02.",
-    "description": "",
-    "date": "2026-02-19T18:09:01.732Z",
-    "updatedAt": "2026-02-19T18:09:01.732Z",
-    "numTeams": 22,
-    "numPlayers": 44,
-    "disciplines": [
-      {
-        "_id": "tio:OQLzUBoUpzAlL",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "sge",
-      "name": "SGE"
-    }
-  },
-  {
     "_id": "tio:DH77WYM5jYbQk",
     "name": "4. Triple Foos Race",
     "description": "",
