@@ -1951,6 +1951,32 @@
     }
   },
   {
+    "_id": "tio:uPKi5v9ky9MJy",
+    "name": "NoPro in der JatzBar",
+    "description": "",
+    "date": "2026-03-12T17:47:26.002Z",
+    "updatedAt": "2026-03-12T17:47:26.002Z",
+    "numTeams": 0,
+    "numPlayers": 24,
+    "disciplines": [
+      {
+        "_id": "tio:UFYyRpV2o3Bu2",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "jatzkicker",
+      "name": "Jatzkicker e.V."
+    }
+  },
+  {
     "_id": "tio:wloAlz2iV8DR7",
     "name": "DoDo BYP (kein Challenger)",
     "description": "",
