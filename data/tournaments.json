@@ -3112,6 +3112,31 @@
     }
   },
   {
+    "_id": "tio:hI3Q5SD1v3YG5",
+    "name": "Mini Challenger Offenes Doppel",
+    "description": "",
+    "date": "2026-03-21T17:21:54.597Z",
+    "updatedAt": "2026-03-21T17:21:54.597Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:gHcCQiR0DUCm4",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kickerfreude",
+      "name": "Kickerfreude Berlin"
+    }
+  },
+  {
     "_id": "tio:Y6RIVWa1lsaVv",
     "name": "85. SiMo Einzel",
     "description": "",
