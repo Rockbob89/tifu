@@ -1,51 +1,5 @@
 [
   {
-    "_id": "tio:JPnp57QmxjCJ8",
-    "name": "NO-PRO Turnier KIXX",
-    "description": "",
-    "date": "2026-02-20T10:09:30.302Z",
-    "updatedAt": "2026-02-20T10:09:30.302Z",
-    "numTeams": 100,
-    "numPlayers": 200,
-    "disciplines": [
-      {
-        "_id": "tio:lehMYZk3136Ru",
-        "shortName": "A",
-        "name": "A-Feld",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      },
-      {
-        "_id": "tio:zsrOpDDH9t2R6",
-        "shortName": "B",
-        "name": "B-Feld",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      },
-      {
-        "_id": "tio:bNnRzlFl0JkfH",
-        "shortName": "C",
-        "name": "C-Feld",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kixx",
-      "name": "Kixx Hamburg"
-    }
-  },
-  {
     "_id": "tio:AGxkMV0EBqw0z",
     "name": "Monats Doppel",
     "description": "",
