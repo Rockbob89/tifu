@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:P73Tjh6H2GGLo",
-    "name": "FC St. Pauli KiezKickern Classic",
-    "description": "",
-    "date": "2026-02-20T18:40:20.094Z",
-    "updatedAt": "2026-02-20T18:40:20.094Z",
-    "numTeams": 26,
-    "numPlayers": 52,
-    "disciplines": [
-      {
-        "_id": "tio:NmO5YUykJIymE",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "fcsp",
-      "name": "fcsp-kickern.de"
-    }
-  },
-  {
     "_id": "tio:fdQxwvOsxKSlv",
     "name": "DTFB Challenger 2026 (Offenes Doppel)",
     "description": "",
