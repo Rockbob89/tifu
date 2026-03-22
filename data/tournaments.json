@@ -3039,31 +3039,6 @@
     }
   },
   {
-    "_id": "tio:O7h871ZRrGp5P",
-    "name": "32rrzjntzuk,",
-    "description": "",
-    "date": "2026-03-22T20:45:23.606Z",
-    "updatedAt": "2026-03-22T20:45:23.606Z",
-    "numTeams": 0,
-    "numPlayers": 0,
-    "disciplines": [
-      {
-        "_id": "tio:nlnUdospUSSVj",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "check-in",
-    "resultPage": {
-      "slug": "rackosesv",
-      "name": "rackosesv"
-    }
-  },
-  {
     "_id": "tio:msQMTuxSM4ZrN",
     "name": "hgfjgugk",
     "description": "",
