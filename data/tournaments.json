@@ -3045,7 +3045,7 @@
     "date": "2026-03-22T20:46:05.949Z",
     "updatedAt": "2026-03-22T20:46:05.949Z",
     "numTeams": 0,
-    "numPlayers": 7,
+    "numPlayers": 8,
     "disciplines": [
       {
         "_id": "tio:M5ilsz0HAfJiL",
@@ -3057,7 +3057,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "rackosesv",
       "name": "rackosesv"
@@ -3082,7 +3082,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "neuertestmh",
       "name": "neuerTEST-MH"
