@@ -3045,7 +3045,7 @@
     "date": "2026-03-22T20:46:05.949Z",
     "updatedAt": "2026-03-22T20:46:05.949Z",
     "numTeams": 0,
-    "numPlayers": 15,
+    "numPlayers": 0,
     "disciplines": [
       {
         "_id": "tio:M5ilsz0HAfJiL",
@@ -3057,7 +3057,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "pre-registration",
+    "state": "check-in",
     "resultPage": {
       "slug": "rackosesv",
       "name": "rackosesv"
@@ -3069,8 +3069,8 @@
     "description": "",
     "date": "2026-03-22T20:58:26.184Z",
     "updatedAt": "2026-03-22T20:58:26.184Z",
-    "numTeams": 8,
-    "numPlayers": 16,
+    "numTeams": 0,
+    "numPlayers": 0,
     "disciplines": [
       {
         "_id": "tio:G0CY6jty96m4g",
@@ -3082,7 +3082,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "pre-registration",
+    "state": "check-in",
     "resultPage": {
       "slug": "neuertestmh",
       "name": "neuerTEST-MH"
