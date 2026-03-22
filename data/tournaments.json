@@ -3058,7 +3058,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "rackosesv",
       "name": "rackosesv"
@@ -3084,7 +3084,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "neuertestmh",
       "name": "neuerTEST-MH"
