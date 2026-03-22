@@ -3091,6 +3091,31 @@
     }
   },
   {
+    "_id": "tio:Unn6tlKjylSqY",
+    "name": "MH TEST TO GO",
+    "description": "",
+    "date": "2026-03-22T21:44:48.090Z",
+    "updatedAt": "2026-03-22T21:44:48.090Z",
+    "numTeams": 32,
+    "numPlayers": 63,
+    "disciplines": [
+      {
+        "_id": "tio:UVulCzidbccC2",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "ready",
+    "resultPage": {
+      "slug": "neuertestmh",
+      "name": "neuerTEST-MH"
+    }
+  },
+  {
     "_id": "tio:Y6RIVWa1lsaVv",
     "name": "85. SiMo Einzel",
     "description": "",
