@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:ogpmLO5gxTAqN",
-    "name": "Mini Challenger Offenes Doppel",
-    "description": "",
-    "date": "2026-02-21T17:41:08.511Z",
-    "updatedAt": "2026-02-21T17:41:08.511Z",
-    "numTeams": 5,
-    "numPlayers": 10,
-    "disciplines": [
-      {
-        "_id": "tio:KxPr1HTpB8TOJ",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kickerfreude",
-      "name": "Kickerfreude Berlin"
-    }
-  },
-  {
     "_id": "tio:4gwzYLFfilIQ3",
     "name": "Leipzig-Liga Februar 2026",
     "description": "",
@@ -3044,7 +3018,7 @@
     "date": "2026-03-22T23:00:00.000Z",
     "updatedAt": "2026-03-08T11:54:33.050Z",
     "numTeams": 0,
-    "numPlayers": 3,
+    "numPlayers": 12,
     "disciplines": [
       {
         "_id": "tio:UF5yxu5ywuLru",
