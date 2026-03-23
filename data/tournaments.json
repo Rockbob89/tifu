@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:G4q9XtZrzPbF3",
-    "name": "KIXX SaDo",
-    "description": "",
-    "date": "2026-02-21T16:41:25.030Z",
-    "updatedAt": "2026-02-21T16:41:25.030Z",
-    "numTeams": 38,
-    "numPlayers": 76,
-    "disciplines": [
-      {
-        "_id": "tio:eXE0kZW2SmheP",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kixx",
-      "name": "Kixx Hamburg"
-    }
-  },
-  {
     "_id": "tio:ogpmLO5gxTAqN",
     "name": "Mini Challenger Offenes Doppel",
     "description": "",
