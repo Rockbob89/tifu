@@ -3063,6 +3063,31 @@
     }
   },
   {
+    "_id": "tio:BOXNOnhxl3Ll7",
+    "name": "Veltheimer Montags-DYP",
+    "description": "",
+    "date": "2026-03-23T17:15:05.600Z",
+    "updatedAt": "2026-03-23T17:15:05.600Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:YA7eqdIITe3Uz",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kickern_in_veltheim",
+      "name": "Veltheim"
+    }
+  },
+  {
     "_id": "tio:LRdEeyRg9INe9",
     "name": "DiDYP - Arminia Bielefeld - Mini Challenger",
     "description": "",
@@ -3361,8 +3386,8 @@
     "description": "",
     "date": "2026-03-27T23:00:00.000Z",
     "updatedAt": "2026-02-20T08:17:43.098Z",
-    "numTeams": 21,
-    "numPlayers": 40,
+    "numTeams": 22,
+    "numPlayers": 42,
     "disciplines": [
       {
         "_id": "tio:cniWCj23TXqY5",
