@@ -2216,6 +2216,32 @@
     }
   },
   {
+    "_id": "tio:Z1ed3mSMXCnYT",
+    "name": "FleMiCh - Goalie War",
+    "description": "",
+    "date": "2026-03-15T23:00:00.000Z",
+    "updatedAt": "2026-02-15T23:35:25.781Z",
+    "numTeams": 0,
+    "numPlayers": 10,
+    "disciplines": [
+      {
+        "_id": "tio:GVpJKDrkycgFG",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "mkk",
+      "name": "MKK Flensburg"
+    }
+  },
+  {
     "_id": "tio:2GAS7bAOizuvl",
     "name": "84. SiMo Doppel",
     "description": "",
@@ -3914,32 +3940,6 @@
     }
   },
   {
-    "_id": "tio:Z1ed3mSMXCnYT",
-    "name": "FleMiCh - Goalie War",
-    "description": "",
-    "date": "2026-04-15T22:00:00.000Z",
-    "updatedAt": "2026-02-15T23:35:25.781Z",
-    "numTeams": 0,
-    "numPlayers": 10,
-    "disciplines": [
-      {
-        "_id": "tio:GVpJKDrkycgFG",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "single"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "mkk",
-      "name": "MKK Flensburg"
-    }
-  },
-  {
     "_id": "tio:a3Bl4rGJnMU0d",
     "name": "OD Minichallenger April",
     "description": "",
@@ -4022,7 +4022,7 @@
     "date": "2026-04-19T22:00:00.000Z",
     "updatedAt": "2026-02-15T23:34:23.610Z",
     "numTeams": 0,
-    "numPlayers": 0,
+    "numPlayers": 1,
     "disciplines": [
       {
         "_id": "tio:FG5zuY8iA22tv",
@@ -4034,7 +4034,7 @@
         "entryType": "single"
       }
     ],
-    "state": "planned",
+    "state": "check-in",
     "resultPage": {
       "slug": "mkk",
       "name": "MKK Flensburg"
