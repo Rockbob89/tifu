@@ -3062,6 +3062,31 @@
     }
   },
   {
+    "_id": "tio:f2L5nJmNj8o6H",
+    "name": "Montag",
+    "description": "",
+    "date": "2026-03-23T19:16:37.551Z",
+    "updatedAt": "2026-03-23T19:16:37.551Z",
+    "numTeams": 0,
+    "numPlayers": 16,
+    "disciplines": [
+      {
+        "_id": "tio:LsnxOyeGcAGvm",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kixxntrixx",
+      "name": "Kixx'n'Trixx Turnierergebnisse"
+    }
+  },
+  {
     "_id": "tio:LRdEeyRg9INe9",
     "name": "DiDYP - Arminia Bielefeld - Mini Challenger",
     "description": "",
