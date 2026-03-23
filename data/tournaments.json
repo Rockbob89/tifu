@@ -3018,7 +3018,7 @@
     "date": "2026-03-22T23:00:00.000Z",
     "updatedAt": "2026-03-08T11:54:33.050Z",
     "numTeams": 0,
-    "numPlayers": 17,
+    "numPlayers": 21,
     "disciplines": [
       {
         "_id": "tio:UF5yxu5ywuLru",
@@ -3043,7 +3043,7 @@
     "date": "2026-03-23T17:15:05.600Z",
     "updatedAt": "2026-03-23T17:15:05.600Z",
     "numTeams": 0,
-    "numPlayers": 0,
+    "numPlayers": 8,
     "disciplines": [
       {
         "_id": "tio:YA7eqdIITe3Uz",
@@ -3055,7 +3055,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "planned",
+    "state": "check-in",
     "resultPage": {
       "slug": "kickern_in_veltheim",
       "name": "Veltheim"
