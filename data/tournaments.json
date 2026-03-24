@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:etfluVn78bf4C",
-    "name": "83. SiMo Einzel",
-    "description": "",
-    "date": "2026-02-22T23:00:00.000Z",
-    "updatedAt": "2026-02-09T21:54:01.067Z",
-    "numTeams": 0,
-    "numPlayers": 18,
-    "disciplines": [
-      {
-        "_id": "tio:4767aTpDYdXUK",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "single"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "sidekick",
-      "name": "Sidekick"
-    }
-  },
-  {
     "_id": "tio:IOkcHCwISExg5",
     "name": "Mmh Mmh Mmh Monster DYP ",
     "description": "",
@@ -3133,7 +3107,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "tfc_staufenberg",
       "name": "TFC Staufenberg"
@@ -3159,7 +3133,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "hannoverkicker",
       "name": "Hannoverkicker"
@@ -3185,7 +3159,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "alemannia",
       "name": "Alemannia Aachen"
@@ -3255,6 +3229,32 @@
         "_id": "tio:fBW3Ck5fSdktL",
         "shortName": "D1",
         "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "kongfoos",
+      "name": "Kong Foos Darmstadt"
+    }
+  },
+  {
+    "_id": "tio:XCEwEyHYmSD34",
+    "name": "Testturnier disciplines",
+    "description": "",
+    "date": "2026-03-24T22:20:43.107Z",
+    "updatedAt": "2026-03-24T22:20:43.107Z",
+    "numTeams": 6,
+    "numPlayers": 12,
+    "disciplines": [
+      {
+        "_id": "tio:a74WRu144HWPS",
+        "shortName": "OD",
+        "name": "Offenes Doppel",
         "modes": [
           "swiss",
           "elimination"
