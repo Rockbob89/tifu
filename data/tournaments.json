@@ -3144,8 +3144,8 @@
     "description": "",
     "date": "2026-03-23T23:00:00.000Z",
     "updatedAt": "2026-03-23T13:21:22.221Z",
-    "numTeams": 1,
-    "numPlayers": 1,
+    "numTeams": 3,
+    "numPlayers": 6,
     "disciplines": [
       {
         "_id": "tio:pM4pNiNDE5V24",
@@ -3157,7 +3157,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "pre-registration",
+    "state": "check-in",
     "resultPage": {
       "slug": "hannoverkicker",
       "name": "Hannoverkicker"
@@ -3211,6 +3211,31 @@
     "resultPage": {
       "slug": "rackosesv",
       "name": "rackosesv"
+    }
+  },
+  {
+    "_id": "tio:kqa4sOZ05kqYE",
+    "name": "Mini Challenger Offenes Einzel",
+    "description": "",
+    "date": "2026-03-24T17:27:47.993Z",
+    "updatedAt": "2026-03-24T17:27:47.993Z",
+    "numTeams": 0,
+    "numPlayers": 1,
+    "disciplines": [
+      {
+        "_id": "tio:2oWnDMYr6BYme",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "single"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kickerfreude",
+      "name": "Kickerfreude Berlin"
     }
   },
   {
