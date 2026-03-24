@@ -2112,6 +2112,32 @@
     "seriesFormat": "dtfb-challenger"
   },
   {
+    "_id": "tio:4KGzmWIxK1PdF",
+    "name": "Offenes Doppel",
+    "description": "",
+    "date": "2026-03-15T09:40:11.823Z",
+    "updatedAt": "2026-03-15T09:40:11.823Z",
+    "numTeams": 16,
+    "numPlayers": 32,
+    "disciplines": [
+      {
+        "_id": "tio:QLN3yiTSEaB6B",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss",
+          "elimination"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "alemannia",
+      "name": "Alemannia Aachen"
+    }
+  },
+  {
     "_id": "tio:Z1ed3mSMXCnYT",
     "name": "FleMiCh - Goalie War",
     "description": "",
@@ -2316,6 +2342,32 @@
     "resultPage": {
       "slug": "tfc_staufenberg",
       "name": "TFC Staufenberg"
+    }
+  },
+  {
+    "_id": "tio:H7yN8Bg1B4oOf",
+    "name": "Dienstags M-DYP Aachen",
+    "description": "",
+    "date": "2026-03-17T14:32:31.564Z",
+    "updatedAt": "2026-03-17T14:32:31.564Z",
+    "numTeams": 0,
+    "numPlayers": 34,
+    "disciplines": [
+      {
+        "_id": "tio:WNFHR93nTjMTg",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "finished",
+    "resultPage": {
+      "slug": "alemannia",
+      "name": "Alemannia Aachen"
     }
   },
   {
@@ -3109,6 +3161,31 @@
     "resultPage": {
       "slug": "hannoverkicker",
       "name": "Hannoverkicker"
+    }
+  },
+  {
+    "_id": "tio:OF7tmytyCp8cF",
+    "name": "Dienstags M-DYP Aachen",
+    "description": "",
+    "date": "2026-03-24T08:37:10.893Z",
+    "updatedAt": "2026-03-24T08:37:10.893Z",
+    "numTeams": 0,
+    "numPlayers": 22,
+    "disciplines": [
+      {
+        "_id": "tio:Nn50TeNMdfyV7",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "pre-registration",
+    "resultPage": {
+      "slug": "alemannia",
+      "name": "Alemannia Aachen"
     }
   },
   {
