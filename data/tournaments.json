@@ -3095,7 +3095,7 @@
     "date": "2026-03-23T23:00:00.000Z",
     "updatedAt": "2026-03-05T17:13:20.359Z",
     "numTeams": 0,
-    "numPlayers": 14,
+    "numPlayers": 15,
     "disciplines": [
       {
         "_id": "tio:M8PYS4Fzn14OT",
@@ -3233,7 +3233,7 @@
         "entryType": "single"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "kickerfreude",
       "name": "Kickerfreude Berlin"
