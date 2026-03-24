@@ -2371,6 +2371,32 @@
     }
   },
   {
+    "_id": "tio:b56kMEh1QppmA",
+    "name": "Kc 17.3 ",
+    "description": "",
+    "date": "2026-03-17T14:53:16.264Z",
+    "updatedAt": "2026-03-17T14:53:16.264Z",
+    "numTeams": 0,
+    "numPlayers": 6,
+    "disciplines": [
+      {
+        "_id": "tio:O5xKhdpK08vbt",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp",
+          "elimination"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "ntvb",
+      "name": "Soccer Bond Zuid Limburg"
+    }
+  },
+  {
     "_id": "tio:3ipBgsaQ8PqB7",
     "name": "Quick Hands Training & DYP - KICKS Minden",
     "description": "",
