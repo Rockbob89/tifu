@@ -3217,58 +3217,6 @@
     }
   },
   {
-    "_id": "tio:L7BMDQAa6JIUp",
-    "name": "Testturnier Webhook",
-    "description": "",
-    "date": "2026-03-24T21:03:36.431Z",
-    "updatedAt": "2026-03-24T21:03:36.431Z",
-    "numTeams": 9,
-    "numPlayers": 18,
-    "disciplines": [
-      {
-        "_id": "tio:fBW3Ck5fSdktL",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "running",
-    "resultPage": {
-      "slug": "kongfoos",
-      "name": "Kong Foos Darmstadt"
-    }
-  },
-  {
-    "_id": "tio:XCEwEyHYmSD34",
-    "name": "Testturnier disciplines",
-    "description": "",
-    "date": "2026-03-24T22:20:43.107Z",
-    "updatedAt": "2026-03-24T22:20:43.107Z",
-    "numTeams": 6,
-    "numPlayers": 12,
-    "disciplines": [
-      {
-        "_id": "tio:a74WRu144HWPS",
-        "shortName": "OD",
-        "name": "Offenes Doppel",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "running",
-    "resultPage": {
-      "slug": "kongfoos",
-      "name": "Kong Foos Darmstadt"
-    }
-  },
-  {
     "_id": "tio:aG01dBTn4QWHL",
     "name": "Offenes Einzel",
     "description": "",
@@ -3316,6 +3264,31 @@
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
+    }
+  },
+  {
+    "_id": "tio:crQ4ABlsLQJgf",
+    "name": "Testturnier Webhooks",
+    "description": "",
+    "date": "2026-03-24T23:41:13.970Z",
+    "updatedAt": "2026-03-24T23:41:13.970Z",
+    "numTeams": 5,
+    "numPlayers": 10,
+    "disciplines": [
+      {
+        "_id": "tio:ygPijRbGwlHl6",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "running",
+    "resultPage": {
+      "slug": "kongfoos",
+      "name": "Kong Foos Darmstadt"
     }
   },
   {
