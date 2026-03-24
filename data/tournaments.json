@@ -3107,7 +3107,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "arminia",
       "name": "Arminia Bielefeld Tischfussball"
