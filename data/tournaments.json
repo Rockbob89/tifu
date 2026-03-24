@@ -3170,9 +3170,19 @@
     "date": "2026-03-24T08:37:10.893Z",
     "updatedAt": "2026-03-24T08:37:10.893Z",
     "numTeams": 0,
-    "numPlayers": 0,
-    "disciplines": [],
-    "state": "planned",
+    "numPlayers": 8,
+    "disciplines": [
+      {
+        "_id": "tio:Nn50TeNMdfyV7",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "pre-registration",
     "resultPage": {
       "slug": "alemannia",
       "name": "Alemannia Aachen"
@@ -3359,8 +3369,8 @@
     "description": "",
     "date": "2026-03-27T23:00:00.000Z",
     "updatedAt": "2025-12-31T13:30:50.484Z",
-    "numTeams": 25,
-    "numPlayers": 38,
+    "numTeams": 28,
+    "numPlayers": 43,
     "disciplines": [
       {
         "_id": "tio:7sm2zq82yNnsH",
