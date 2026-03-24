@@ -3144,8 +3144,8 @@
     "description": "",
     "date": "2026-03-23T23:00:00.000Z",
     "updatedAt": "2026-03-23T13:21:22.221Z",
-    "numTeams": 9,
-    "numPlayers": 18,
+    "numTeams": 19,
+    "numPlayers": 38,
     "disciplines": [
       {
         "_id": "tio:pM4pNiNDE5V24",
@@ -3220,7 +3220,7 @@
     "date": "2026-03-24T17:27:47.993Z",
     "updatedAt": "2026-03-24T17:27:47.993Z",
     "numTeams": 0,
-    "numPlayers": 1,
+    "numPlayers": 4,
     "disciplines": [
       {
         "_id": "tio:2oWnDMYr6BYme",
@@ -3232,7 +3232,7 @@
         "entryType": "single"
       }
     ],
-    "state": "check-in",
+    "state": "ready",
     "resultPage": {
       "slug": "kickerfreude",
       "name": "Kickerfreude Berlin"
