@@ -3095,7 +3095,7 @@
     "date": "2026-03-23T23:00:00.000Z",
     "updatedAt": "2026-03-05T17:13:20.359Z",
     "numTeams": 0,
-    "numPlayers": 2,
+    "numPlayers": 6,
     "disciplines": [
       {
         "_id": "tio:M8PYS4Fzn14OT",
@@ -3170,7 +3170,7 @@
     "date": "2026-03-24T08:37:10.893Z",
     "updatedAt": "2026-03-24T08:37:10.893Z",
     "numTeams": 0,
-    "numPlayers": 23,
+    "numPlayers": 16,
     "disciplines": [
       {
         "_id": "tio:Nn50TeNMdfyV7",
@@ -3182,7 +3182,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "pre-registration",
+    "state": "check-in",
     "resultPage": {
       "slug": "alemannia",
       "name": "Alemannia Aachen"
@@ -3227,7 +3227,8 @@
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "single"
       }
