@@ -3144,8 +3144,8 @@
     "description": "",
     "date": "2026-03-23T23:00:00.000Z",
     "updatedAt": "2026-03-23T13:21:22.221Z",
-    "numTeams": 3,
-    "numPlayers": 6,
+    "numTeams": 9,
+    "numPlayers": 18,
     "disciplines": [
       {
         "_id": "tio:pM4pNiNDE5V24",
