@@ -3179,7 +3179,8 @@
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "monster_dyp"
+          "monster_dyp",
+          "elimination"
         ],
         "entryType": "monster_dyp"
       }
@@ -4432,8 +4433,8 @@
     "description": "",
     "date": "2026-04-24T22:00:00.000Z",
     "updatedAt": "2026-03-12T09:27:18.400Z",
-    "numTeams": 21,
-    "numPlayers": 39,
+    "numTeams": 22,
+    "numPlayers": 41,
     "disciplines": [
       {
         "_id": "tio:UEIml39vGxTjI",
