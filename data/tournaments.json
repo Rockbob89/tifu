@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:4gwzYLFfilIQ3",
-    "name": "Leipzig-Liga Februar 2026",
-    "description": "",
-    "date": "2026-02-22T10:15:51.833Z",
-    "updatedAt": "2026-02-22T10:15:51.833Z",
-    "numTeams": 20,
-    "numPlayers": 40,
-    "disciplines": [
-      {
-        "_id": "tio:RA0urGBj6pMgv",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "leipzig",
-      "name": "TFC Leipzig"
-    }
-  },
-  {
     "_id": "tio:etfluVn78bf4C",
     "name": "83. SiMo Einzel",
     "description": "",
