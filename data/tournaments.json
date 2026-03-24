@@ -3164,6 +3164,21 @@
     }
   },
   {
+    "_id": "tio:OF7tmytyCp8cF",
+    "name": "Dienstags M-DYP Aachen",
+    "description": "",
+    "date": "2026-03-24T08:37:10.893Z",
+    "updatedAt": "2026-03-24T08:37:10.893Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [],
+    "state": "planned",
+    "resultPage": {
+      "slug": "alemannia",
+      "name": "Alemannia Aachen"
+    }
+  },
+  {
     "_id": "tio:aG01dBTn4QWHL",
     "name": "Offenes Einzel",
     "description": "",
