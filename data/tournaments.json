@@ -3078,7 +3078,8 @@
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "monster_dyp"
+          "monster_dyp",
+          "elimination"
         ],
         "entryType": "monster_dyp"
       }
@@ -3153,7 +3154,8 @@
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "byp"
       }
