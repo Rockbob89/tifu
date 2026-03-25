@@ -3171,7 +3171,7 @@
     "date": "2026-03-24T23:00:00.000Z",
     "updatedAt": "2026-03-09T14:31:51.020Z",
     "numTeams": 0,
-    "numPlayers": 0,
+    "numPlayers": 6,
     "disciplines": [
       {
         "_id": "tio:d7NIzsXq3LPOJ",
@@ -3183,7 +3183,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "pre-registration",
+    "state": "check-in",
     "resultPage": {
       "slug": "kcb",
       "name": "Kicker Crew Bonn"
