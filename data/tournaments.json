@@ -3259,7 +3259,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "ready",
+    "state": "running",
     "resultPage": {
       "slug": "nolte",
       "name": "Alemannia Aachen"
