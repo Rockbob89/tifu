@@ -3052,7 +3052,8 @@
         "shortName": "D1",
         "name": "Discipline 1",
         "modes": [
-          "swiss"
+          "swiss",
+          "elimination"
         ],
         "entryType": "single"
       }
@@ -3170,7 +3171,7 @@
     "date": "2026-03-25T17:05:31.303Z",
     "updatedAt": "2026-03-25T17:05:31.303Z",
     "numTeams": 0,
-    "numPlayers": 18,
+    "numPlayers": 20,
     "disciplines": [
       {
         "_id": "tio:N0BPQxC2g1uEa",
