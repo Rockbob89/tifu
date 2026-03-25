@@ -3267,6 +3267,31 @@
     }
   },
   {
+    "_id": "tio:YdHu2pAPZkGtu",
+    "name": "test",
+    "description": "",
+    "date": "2026-03-25T16:09:28.950Z",
+    "updatedAt": "2026-03-25T16:09:28.950Z",
+    "numTeams": 0,
+    "numPlayers": 1,
+    "disciplines": [
+      {
+        "_id": "tio:orCPUABfg9TLa",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "nolte",
+      "name": "Alemannia Aachen"
+    }
+  },
+  {
     "_id": "tio:D6HJjVccaj9dx",
     "name": "Monster DYP - Arminia Bielefeld - Mini Challenger",
     "description": "",
