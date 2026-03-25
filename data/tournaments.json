@@ -3241,32 +3241,6 @@
     }
   },
   {
-    "_id": "tio:PV1NhGabs5cpS",
-    "name": "Test DYP",
-    "description": "",
-    "date": "2026-03-25T15:27:55.281Z",
-    "updatedAt": "2026-03-25T15:27:55.281Z",
-    "numTeams": 0,
-    "numPlayers": 28,
-    "disciplines": [
-      {
-        "_id": "tio:CNtbDndnTnVEn",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "running",
-    "resultPage": {
-      "slug": "nolte",
-      "name": "Alemannia Aachen"
-    }
-  },
-  {
     "_id": "tio:YdHu2pAPZkGtu",
     "name": "test",
     "description": "",
