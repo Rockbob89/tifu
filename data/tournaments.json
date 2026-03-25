@@ -1,31 +1,5 @@
 [
   {
-    "_id": "tio:IOkcHCwISExg5",
-    "name": "Mmh Mmh Mmh Monster DYP ",
-    "description": "",
-    "date": "2026-02-23T16:53:02.488Z",
-    "updatedAt": "2026-02-23T16:53:02.488Z",
-    "numTeams": 0,
-    "numPlayers": 34,
-    "disciplines": [
-      {
-        "_id": "tio:LwQ8wmFAMd1EH",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kixxntrixx",
-      "name": "Kixx'n'Trixx Turnierergebnisse"
-    }
-  },
-  {
     "_id": "tio:GQQJq0OLHet23",
     "name": "Montags-DYP",
     "description": "",
@@ -3263,6 +3237,31 @@
     "resultPage": {
       "slug": "nolte",
       "name": "Alemannia Aachen"
+    }
+  },
+  {
+    "_id": "tio:wTW9wNtVhLR7J",
+    "name": "12. KIXX MiDo",
+    "description": "",
+    "date": "2026-03-25T16:53:58.083Z",
+    "updatedAt": "2026-03-25T16:53:58.083Z",
+    "numTeams": 0,
+    "numPlayers": 0,
+    "disciplines": [
+      {
+        "_id": "tio:ul9x1NNzyT9Sw",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "swiss"
+        ],
+        "entryType": "byp"
+      }
+    ],
+    "state": "planned",
+    "resultPage": {
+      "slug": "kixx",
+      "name": "Kixx Hamburg"
     }
   },
   {
