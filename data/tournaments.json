@@ -1,30 +1,5 @@
 [
   {
-    "_id": "tio:GQQJq0OLHet23",
-    "name": "Montags-DYP",
-    "description": "",
-    "date": "2026-02-23T17:50:06.291Z",
-    "updatedAt": "2026-02-23T17:50:06.291Z",
-    "numTeams": 0,
-    "numPlayers": 15,
-    "disciplines": [
-      {
-        "_id": "tio:yHiajP7kpN4cf",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "kickern_in_veltheim",
-      "name": "Veltheim"
-    }
-  },
-  {
     "_id": "tio:jHTgIcY2kZahu",
     "name": "F+K Kickerturnier #02 2026",
     "description": "",
@@ -3171,7 +3146,7 @@
     "date": "2026-03-24T23:00:00.000Z",
     "updatedAt": "2026-03-09T14:31:51.020Z",
     "numTeams": 0,
-    "numPlayers": 7,
+    "numPlayers": 9,
     "disciplines": [
       {
         "_id": "tio:d7NIzsXq3LPOJ",
@@ -3287,6 +3262,31 @@
     "resultPage": {
       "slug": "jatzkicker",
       "name": "Jatzkicker e.V."
+    }
+  },
+  {
+    "_id": "tio:mxccsKDilewKL",
+    "name": "2026-03-25 Monster DYP",
+    "description": "",
+    "date": "2026-03-25T17:52:56.821Z",
+    "updatedAt": "2026-03-25T17:52:56.821Z",
+    "numTeams": 0,
+    "numPlayers": 5,
+    "disciplines": [
+      {
+        "_id": "tio:6JEKr9hBcK1xd",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "kcmuenchen",
+      "name": "KickerClub München e.V."
     }
   },
   {
