@@ -2595,7 +2595,7 @@
         "entryType": "byp"
       }
     ],
-    "state": "running",
+    "state": "finished",
     "resultPage": {
       "slug": "jetsparrows",
       "name": "Jet Sparrows Ulm"
@@ -4331,8 +4331,8 @@
     "description": "",
     "date": "2026-04-24T22:00:00.000Z",
     "updatedAt": "2026-02-19T07:58:21.769Z",
-    "numTeams": 5,
-    "numPlayers": 10,
+    "numTeams": 6,
+    "numPlayers": 12,
     "disciplines": [
       {
         "_id": "tio:gTtnwTqBDqgR6",
