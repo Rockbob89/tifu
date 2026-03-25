@@ -3265,6 +3265,31 @@
     }
   },
   {
+    "_id": "tio:HnhloxeKxftNB",
+    "name": "Last (Wo)Man Standing März",
+    "description": "",
+    "date": "2026-03-25T17:05:31.303Z",
+    "updatedAt": "2026-03-25T17:05:31.303Z",
+    "numTeams": 0,
+    "numPlayers": 1,
+    "disciplines": [
+      {
+        "_id": "tio:N0BPQxC2g1uEa",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "last_one_standing"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "jatzkicker",
+      "name": "Jatzkicker e.V."
+    }
+  },
+  {
     "_id": "tio:D6HJjVccaj9dx",
     "name": "Monster DYP - Arminia Bielefeld - Mini Challenger",
     "description": "",
