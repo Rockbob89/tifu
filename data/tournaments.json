@@ -3182,7 +3182,7 @@
         "entryType": "monster_dyp"
       }
     ],
-    "state": "check-in",
+    "state": "running",
     "resultPage": {
       "slug": "jatzkicker",
       "name": "Jatzkicker e.V."
@@ -3220,7 +3220,7 @@
     "date": "2026-03-25T18:54:53.117Z",
     "updatedAt": "2026-03-25T18:54:53.117Z",
     "numTeams": 0,
-    "numPlayers": 48,
+    "numPlayers": 49,
     "disciplines": [
       {
         "_id": "tio:oYYT3GiGvCAPE",
