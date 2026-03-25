@@ -947,32 +947,6 @@
     }
   },
   {
-    "_id": "tio:19WpG0c7zsaoQ",
-    "name": "Monats DYP 6.3.26",
-    "description": "",
-    "date": "2026-03-06T18:19:36.194Z",
-    "updatedAt": "2026-03-06T18:19:36.194Z",
-    "numTeams": 0,
-    "numPlayers": 28,
-    "disciplines": [
-      {
-        "_id": "tio:DafXl3clr43up",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "jetsparrows",
-      "name": "Jet Sparrows Ulm"
-    }
-  },
-  {
     "_id": "tio:g36jgIf7L04cQ",
     "name": "2. Kixx Open 2026",
     "description": "",
@@ -1958,32 +1932,6 @@
     "seriesFormat": "dtfb-challenger"
   },
   {
-    "_id": "tio:4KGzmWIxK1PdF",
-    "name": "Offenes Doppel",
-    "description": "",
-    "date": "2026-03-15T09:40:11.823Z",
-    "updatedAt": "2026-03-15T09:40:11.823Z",
-    "numTeams": 16,
-    "numPlayers": 32,
-    "disciplines": [
-      {
-        "_id": "tio:QLN3yiTSEaB6B",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "alemannia",
-      "name": "Alemannia Aachen"
-    }
-  },
-  {
     "_id": "tio:Z1ed3mSMXCnYT",
     "name": "FleMiCh - Goalie War",
     "description": "",
@@ -2188,32 +2136,6 @@
     "resultPage": {
       "slug": "tfc_staufenberg",
       "name": "TFC Staufenberg"
-    }
-  },
-  {
-    "_id": "tio:H7yN8Bg1B4oOf",
-    "name": "Dienstags M-DYP Aachen",
-    "description": "",
-    "date": "2026-03-17T14:32:31.564Z",
-    "updatedAt": "2026-03-17T14:32:31.564Z",
-    "numTeams": 0,
-    "numPlayers": 34,
-    "disciplines": [
-      {
-        "_id": "tio:WNFHR93nTjMTg",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "alemannia",
-      "name": "Alemannia Aachen"
     }
   },
   {
@@ -2573,32 +2495,6 @@
     "resultPage": {
       "slug": "kixx",
       "name": "Kixx Hamburg"
-    }
-  },
-  {
-    "_id": "tio:TVLRragllceEF",
-    "name": "Freitags Doppel",
-    "description": "",
-    "date": "2026-03-20T13:52:47.892Z",
-    "updatedAt": "2026-03-20T13:52:47.892Z",
-    "numTeams": 10,
-    "numPlayers": 20,
-    "disciplines": [
-      {
-        "_id": "tio:uu7RIzFiGVD4M",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "swiss",
-          "elimination"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "running",
-    "resultPage": {
-      "slug": "jetsparrows",
-      "name": "Jet Sparrows Ulm"
     }
   },
   {
@@ -2962,32 +2858,6 @@
     }
   },
   {
-    "_id": "tio:OF7tmytyCp8cF",
-    "name": "Dienstags M-DYP Aachen",
-    "description": "",
-    "date": "2026-03-24T08:37:10.893Z",
-    "updatedAt": "2026-03-24T08:37:10.893Z",
-    "numTeams": 0,
-    "numPlayers": 27,
-    "disciplines": [
-      {
-        "_id": "tio:Nn50TeNMdfyV7",
-        "shortName": "D1",
-        "name": "Discipline 1",
-        "modes": [
-          "monster_dyp",
-          "elimination"
-        ],
-        "entryType": "monster_dyp"
-      }
-    ],
-    "state": "finished",
-    "resultPage": {
-      "slug": "alemannia",
-      "name": "Alemannia Aachen"
-    }
-  },
-  {
     "_id": "tio:iFaktRaLnEC3F",
     "name": "Django Test",
     "description": "",
@@ -3144,8 +3014,8 @@
     "description": "",
     "date": "2026-03-25T16:53:58.083Z",
     "updatedAt": "2026-03-25T16:53:58.083Z",
-    "numTeams": 35,
-    "numPlayers": 70,
+    "numTeams": 46,
+    "numPlayers": 92,
     "disciplines": [
       {
         "_id": "tio:ul9x1NNzyT9Sw",
@@ -3195,7 +3065,7 @@
     "date": "2026-03-25T17:52:56.821Z",
     "updatedAt": "2026-03-25T17:52:56.821Z",
     "numTeams": 0,
-    "numPlayers": 19,
+    "numPlayers": 22,
     "disciplines": [
       {
         "_id": "tio:6JEKr9hBcK1xd",
@@ -3211,6 +3081,31 @@
     "resultPage": {
       "slug": "kcmuenchen",
       "name": "KickerClub München e.V."
+    }
+  },
+  {
+    "_id": "tio:NsNKJV3UjIex3",
+    "name": "FCSP Absolute Gigant:innen DYP",
+    "description": "",
+    "date": "2026-03-25T18:54:53.117Z",
+    "updatedAt": "2026-03-25T18:54:53.117Z",
+    "numTeams": 0,
+    "numPlayers": 11,
+    "disciplines": [
+      {
+        "_id": "tio:oYYT3GiGvCAPE",
+        "shortName": "D1",
+        "name": "Discipline 1",
+        "modes": [
+          "monster_dyp"
+        ],
+        "entryType": "monster_dyp"
+      }
+    ],
+    "state": "check-in",
+    "resultPage": {
+      "slug": "fcsp",
+      "name": "fcsp-kickern.de"
     }
   },
   {
@@ -3944,8 +3839,8 @@
     "description": "",
     "date": "2026-04-11T22:00:00.000Z",
     "updatedAt": "2026-03-09T17:54:23.089Z",
-    "numTeams": 3,
-    "numPlayers": 4,
+    "numTeams": 4,
+    "numPlayers": 6,
     "disciplines": [
       {
         "_id": "tio:9FSQ2jxqdOUGZ",
@@ -4171,8 +4066,8 @@
     "description": "",
     "date": "2026-04-24T22:00:00.000Z",
     "updatedAt": "2026-02-16T21:17:46.093Z",
-    "numTeams": 13,
-    "numPlayers": 26,
+    "numTeams": 15,
+    "numPlayers": 30,
     "disciplines": [
       {
         "_id": "tio:b6bz1PznwFsXC",
@@ -4298,31 +4193,6 @@
     }
   },
   {
-    "_id": "tio:fTtvYann9BNMJ",
-    "name": "TVBW Ranglisten Turnier",
-    "description": "",
-    "date": "2026-04-24T22:00:00.000Z",
-    "updatedAt": "2026-02-19T07:58:21.769Z",
-    "numTeams": 5,
-    "numPlayers": 10,
-    "disciplines": [
-      {
-        "_id": "tio:gTtnwTqBDqgR6",
-        "shortName": "OD",
-        "name": "Offenes Doppel",
-        "modes": [
-          "swiss"
-        ],
-        "entryType": "byp"
-      }
-    ],
-    "state": "pre-registration",
-    "resultPage": {
-      "slug": "jetsparrows",
-      "name": "Jet Sparrows Ulm"
-    }
-  },
-  {
     "_id": "tio:afeCEFBkWsYIF",
     "name": "44. Kaiserslauterer DTFB-Challenger-Turnier (OD)",
     "description": "",
@@ -4380,7 +4250,7 @@
     "date": "2026-04-25T22:00:00.000Z",
     "updatedAt": "2026-02-16T21:18:31.584Z",
     "numTeams": 0,
-    "numPlayers": 24,
+    "numPlayers": 28,
     "disciplines": [
       {
         "_id": "tio:1H8La6NDILY0D",
