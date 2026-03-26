@@ -1,6 +1,6 @@
 # tifu — DTFB Turnierliste
 
-Statische GitHub Pages Seite, die DTFB-Turniere von der tournament.io API scraped und als HTML rendert.
+GitHub Pages Seite, die DTFB-Turniere clientseitig von der tournament.io API lädt (via Cloudflare Worker CORS-Proxy).
 
 ## Workflow (PFLICHT — bei jedem Task)
 
@@ -14,16 +14,23 @@ Statische GitHub Pages Seite, die DTFB-Turniere von der tournament.io API scrape
 
 ## Branching
 
-- **`main`** — Produktiv. Nur Merges via PR. Der Pi-Cron läuft auf `main` und zieht Code-Änderungen automatisch via `git pull --rebase`.
+- **`main`** — Produktiv. Nur Merges via PR.
+- **`v1-deprecated`** — Alter Stand mit serverseitigem Rendering (scraper.py, generate.py, run.sh, Cron).
 - **Feature Branches** — Format: `feat/`, `fix/`, `chore/`. Immer von `origin/main` branchen (nicht lokalem `main` — könnte stale sein). Kein permanenter `dev`-Branch.
 
 ## Architektur
 
 ```
-scraper.py   → GET API → data/tournaments.json
-generate.py  → tournaments.json → docs/index.html
-run.sh       → orchestriert beide + git commit/push (Cron)
+docs/index.html  → statisches HTML + CSS + JS
+                 → JS fetcht API via Cloudflare Worker Proxy bei Page-Load
+                 → Tabellen werden clientseitig gerendert
 ```
+
+### Cloudflare Worker Proxy
+- Repo: `~/projects/tifu-proxy/`
+- URL: `https://tifu-proxy.tifu-proxy.workers.dev`
+- Leitet Requests an tournament.io weiter und setzt CORS-Header
+- Deploy: `cd ~/projects/tifu-proxy && npm run deploy`
 
 ## API
 
@@ -33,7 +40,7 @@ GET https://api.tournament.io/v1/table_soccer/result/tournaments
 ```
 
 - Kein Pagination-Limit — liefert alle Einträge im Zeitraum
-- `scraper.py` nutzt dynamischen Range: 30 Tage zurück bis 365 Tage voraus
+- JS nutzt dynamischen Range: 30 Tage zurück bis 365 Tage voraus
 - Relevante Felder: `_id`, `name`, `date`, `state`, `disciplines[0]._id`, `resultPage.slug`, `resultPage.name`
 
 ## State → Sektion-Mapping
@@ -62,13 +69,7 @@ https://live.kickertool3.de/kixx/tournaments/tio:g36jgIf7L04cQ/disciplines/tio:s
 - **GitHub Repo:** `git@github.com:Rockbob89/tifu.git`
 - **GitHub Pages:** Branch `main`, Folder `/docs`
 - **Custom Domain:** `tifu.mario-christ.de` (CNAME `tifu` → `rockbob89.github.io`)
-- **Cron (Raspberry Pi):** `*/5 * * * * /path/to/tifu/run.sh >> /var/log/tifu.log 2>&1`
-
-## run.sh Verhalten
-
-- Bricht bei Fehler ab (`set -e`)
-- Committed nur wenn es Änderungen gibt (`git diff` Check)
-- Committed `data/tournaments.json` und `docs/index.html`
+- **Kein Cron mehr** — Daten werden clientseitig live geladen
 
 ## Design
 
