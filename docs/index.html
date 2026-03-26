@@ -307,7 +307,7 @@
           + '<td class="col-date">'+date+'</td>'
           + '<td class="col-name"><a href="'+tHref+'" target="_blank" rel="noopener">'+escHtml(name)+'</a></td>'
           + '<td class="col-disc">'+discCell+'</td>'
-          + '<td class="col-ort">'+escHtml(ort)+'</td>'
+          + '<td class="col-ort">'+(slug ? '<a href="'+BASE_URL+'/'+slug+'" target="_blank" rel="noopener">'+escHtml(ort)+'</a>' : escHtml(ort))+'</td>'
           + '</tr>';
       }
       tbody.innerHTML = html;
