@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 from pathlib import Path
 
 TZ = ZoneInfo("Europe/Berlin")
 
-BASE_URL = "https://live.alpha.kickertool.de"
+BASE_URL = "https://live.kickertool3.de"
+
+STALE_THRESHOLD = timedelta(hours=48)
 
 STATE_PATH = {
     "finished": "overview",
@@ -134,11 +136,18 @@ def render_section(label, tournaments):
 def generate():
     data = json.loads(Path("data/tournaments.json").read_text())
 
+    now = datetime.now(timezone.utc)
     grouped = {k: [] for k in SECTION_ORDER}
     for t in data:
         section = state_to_section(t.get("state"))
-        if section:
-            grouped[section].append(t)
+        if not section:
+            continue
+        if section == "running":
+            t_date = datetime.fromisoformat(t["date"].replace("Z", "+00:00"))
+            if now - t_date > STALE_THRESHOLD:
+                grouped["finished"].append(t)
+                continue
+        grouped[section].append(t)
 
     grouped["running"].sort(key=lambda t: t["date"])
     grouped["planned"].sort(key=lambda t: t["date"])

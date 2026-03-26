@@ -49,12 +49,12 @@ GET https://api.tournament.io/v1/table_soccer/result/tournaments
 ## Turnier-URL Schema
 
 ```
-https://live.alpha.kickertool.de/{resultPage.slug}/tournaments/{_id}/disciplines/{disciplines[0]._id}/{status}
+https://live.kickertool3.de/{resultPage.slug}/tournaments/{_id}/disciplines/{disciplines[0]._id}/{status}
 ```
 
 Beispiel:
 ```
-https://live.alpha.kickertool.de/kixx/tournaments/tio:g36jgIf7L04cQ/disciplines/tio:s3tlOA9vz0hf9/pre-registration
+https://live.kickertool3.de/kixx/tournaments/tio:g36jgIf7L04cQ/disciplines/tio:s3tlOA9vz0hf9/pre-registration
 ```
 
 ## Deployment
