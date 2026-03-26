@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
+import html as html_mod
 import json
 import re
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 from pathlib import Path
@@ -27,6 +29,8 @@ SECTION_LABELS = {
 }
 RUNNING_STATES = {"running", "check-in"}
 PLANNED_STATES = {"planned", "pre-registration"}
+
+ALWAYS_INCLUDE_ORTE = {"Kixx Hamburg"}
 
 MAIN_SHORT_NAMES = {"OD", "OE", "DD", "DE", "MX", "DYP"}
 
@@ -108,8 +112,10 @@ def render_section(label, tournaments):
                 disc_links.append(f'<a href="{j_href}" target="_blank" rel="noopener">Junioren</a>')
             disc_cell = " &middot; ".join(disc_links) if disc_links else ""
 
+            ort_attr = html_mod.escape(ort, quote=True)
+            name_attr = html_mod.escape(name, quote=True)
             rows += (
-                f'      <tr>'
+                f'      <tr data-ort="{ort_attr}" data-name="{name_attr}">'
                 f'<td class="col-date">{date}</td>'
                 f'<td class="col-name"><a href="{t_href}" target="_blank" rel="noopener">{name}</a></td>'
                 f'<td class="col-disc">{disc_cell}</td>'
@@ -152,6 +158,31 @@ def generate():
     grouped["running"].sort(key=lambda t: t["date"])
     grouped["planned"].sort(key=lambda t: t["date"])
     grouped["finished"].sort(key=lambda t: t["date"], reverse=True)
+
+    # Top-Orte für Tags berechnen
+    ort_counts = Counter(
+        t.get("resultPage", {}).get("name", "")
+        for t in data if t.get("resultPage", {}).get("name", "")
+    )
+    top_orte = [ort for ort, _ in ort_counts.most_common(10)]
+    for ort in ALWAYS_INCLUDE_ORTE:
+        if ort not in top_orte:
+            top_orte.append(ort)
+    top_orte = sorted(top_orte, key=lambda o: (o not in ALWAYS_INCLUDE_ORTE, top_orte.index(o)))
+
+    all_orte_extra = sorted(
+        [ort for ort in ort_counts if ort not in top_orte],
+        key=lambda o: o.lower()
+    )
+    all_orte = top_orte + all_orte_extra
+
+    tag_buttons = ""
+    for i, ort in enumerate(all_orte):
+        extra = ' tag-extra' if i >= len(top_orte) else ''
+        tag_buttons += (
+            f'<button class="tag{extra}" data-filter-ort="{html_mod.escape(ort, quote=True)}">{html_mod.escape(ort)}</button>'
+        )
+    tag_buttons += '<button class="tag tag-toggle" id="toggle-tags">alle Orte &raquo;</button>'
 
     sections_html = "".join(
         render_section(SECTION_LABELS[k], grouped[k]) for k in SECTION_ORDER
@@ -223,11 +254,154 @@ def generate():
     }}
     .updated a {{ color: #999; text-decoration: none; }}
     .updated a:hover {{ color: #dee2e6; opacity: 1; }}
+    .filter-bar {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }}
+    .filter-bar {{
+      flex-direction: column;
+    }}
+    .search-wrap {{
+      position: relative;
+      width: 100%;
+    }}
+    .search-clear {{
+      position: absolute;
+      right: 6px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: #999;
+      font-size: 18px;
+      cursor: pointer;
+      padding: 0 8px;
+      border-left: 1px solid #999;
+      line-height: 1;
+    }}
+    .search-clear:hover {{
+      color: #dee2e6;
+    }}
+    .filter-bar input {{
+      width: 100%;
+      padding: 0.4rem 0.6rem;
+      font-size: 14.4px;
+      background: #2c3034;
+      border: 1px solid #32383e;
+      color: #dee2e6;
+      border-radius: 4px;
+      outline: none;
+    }}
+    .filter-bar input:focus {{
+      border-color: #dee2e6;
+    }}
+    .tag-extra {{
+      display: none;
+    }}
+    .tag-row.expanded .tag-extra {{
+      display: inline-block;
+    }}
+    .tag-row {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }}
+    .tag {{
+      padding: 0.25rem 0.6rem;
+      font-size: 12px;
+      background: #2c3034;
+      border: 1px solid #32383e;
+      color: #999;
+      border-radius: 12px;
+      cursor: pointer;
+      white-space: nowrap;
+    }}
+    @media (hover: hover) {{
+      .tag:hover {{
+        color: #dee2e6;
+        border-color: #dee2e6;
+      }}
+    }}
+    .tag.tag-toggle {{
+      border-color: #999;
+    }}
+    .tag.active {{
+      background: #dee2e6;
+      color: #212529;
+      border-color: #dee2e6;
+    }}
   </style>
 </head>
 <body>
   <p class="updated"><span>Zuletzt aktualisiert: {updated}</span><a href="mailto:tifu@mario-christ.de">tifu@mario-christ.de</a></p>
+  <div class="filter-bar">
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Suche nach Turnier, Ort, Disziplin...">
+      <button type="button" id="search-clear" class="search-clear">&times;</button>
+    </div>
+    <div class="tag-row">{tag_buttons}</div>
+  </div>
 {sections_html}
+  <script>
+  (function() {{
+    var search = document.getElementById('search');
+    var tags = document.querySelectorAll('.tag[data-filter-ort]');
+    var activeOrt = null;
+
+    function applyFilter() {{
+      var q = search.value.toLowerCase();
+      var rows = document.querySelectorAll('tbody tr');
+      rows.forEach(function(row) {{
+        if (!row.dataset.ort && !row.dataset.name) return;
+        var text = row.textContent.toLowerCase();
+        var matchText = !q || text.indexOf(q) !== -1;
+        var matchOrt = !activeOrt || row.dataset.ort === activeOrt;
+        row.style.display = (matchText && matchOrt) ? '' : 'none';
+      }});
+    }}
+
+    var clearBtn = document.getElementById('search-clear');
+    clearBtn.addEventListener('click', function() {{
+      search.value = '';
+      tags.forEach(function(t) {{ t.classList.remove('active'); }});
+      activeOrt = null;
+      applyFilter();
+    }});
+
+    var toggle = document.getElementById('toggle-tags');
+    var tagRow = document.querySelector('.tag-row');
+    toggle.addEventListener('click', function() {{
+      tagRow.classList.toggle('expanded');
+      toggle.innerHTML = tagRow.classList.contains('expanded') ? '&laquo; weniger' : 'alle Orte &raquo;';
+    }});
+
+    search.addEventListener('input', function() {{
+      if (activeOrt) {{
+        tags.forEach(function(t) {{ t.classList.remove('active'); }});
+        activeOrt = null;
+      }}
+      applyFilter();
+    }});
+
+    tags.forEach(function(tag) {{
+      tag.addEventListener('click', function() {{
+        if (tag.classList.contains('active')) {{
+          tag.classList.remove('active');
+          activeOrt = null;
+        }} else {{
+          tags.forEach(function(t) {{ t.classList.remove('active'); }});
+          tag.classList.add('active');
+          activeOrt = tag.dataset.filterOrt;
+          search.value = '';
+        }}
+        applyFilter();
+      }});
+    }});
+  }})();
+  </script>
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "0b4643989a2944059cf1bcb5df4dd73b"}}'></script>
 </body>
 </html>
