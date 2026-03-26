@@ -228,6 +228,7 @@ def generate():
 <body>
   <p class="updated"><span>Zuletzt aktualisiert: {updated}</span><a href="mailto:tifu@mario-christ.de">tifu@mario-christ.de</a></p>
 {sections_html}
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "0b4643989a2944059cf1bcb5df4dd73b"}}'></script>
 </body>
 </html>
 """
