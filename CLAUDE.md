@@ -2,21 +2,10 @@
 
 GitHub Pages Seite, die DTFB-Turniere clientseitig von der tournament.io API lädt (via Cloudflare Worker CORS-Proxy).
 
-## Workflow (PFLICHT — bei jedem Task)
-
-1. `git fetch origin`
-2. Feature Branch von `origin/main` erstellen: `git checkout -b feat/xyz origin/main`
-3. Arbeit auf Feature Branch
-4. PR auf `main` erstellen, mergen
-5. Branch lokal und remote löschen
-
-**Nie direkt auf `main` committen.**
-
 ## Branching
 
-- **`main`** — Produktiv. Nur Merges via PR.
+- **`main`** — Produktiv. Direkt committen ist OK.
 - **`v1-deprecated`** — Alter Stand mit serverseitigem Rendering (scraper.py, generate.py, run.sh, Cron).
-- **Feature Branches** — Format: `feat/`, `fix/`, `chore/`. Immer von `origin/main` branchen (nicht lokalem `main` — könnte stale sein). Kein permanenter `dev`-Branch.
 
 ## Architektur
 
