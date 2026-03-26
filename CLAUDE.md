@@ -1,4 +1,4 @@
-# dtifu — DTFB Turnierliste
+# tifu — DTFB Turnierliste
 
 Statische GitHub Pages Seite, die DTFB-Turniere von der tournament.io API scraped und als HTML rendert.
 
@@ -62,7 +62,7 @@ https://live.kickertool3.de/kixx/tournaments/tio:g36jgIf7L04cQ/disciplines/tio:s
 - **GitHub Repo:** `git@github.com:Rockbob89/tifu.git`
 - **GitHub Pages:** Branch `main`, Folder `/docs`
 - **Custom Domain:** `tifu.mario-christ.de` (CNAME `tifu` → `rockbob89.github.io`)
-- **Cron (Raspberry Pi):** `*/5 * * * * /path/to/dtifu/run.sh >> /var/log/dtifu.log 2>&1`
+- **Cron (Raspberry Pi):** `*/5 * * * * /path/to/tifu/run.sh >> /var/log/tifu.log 2>&1`
 
 ## run.sh Verhalten
 
