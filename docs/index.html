@@ -71,6 +71,27 @@
     .filter-bar {
       flex-direction: column;
     }
+    .search-wrap {
+      position: relative;
+      width: 100%;
+    }
+    .search-clear {
+      position: absolute;
+      right: 6px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: #999;
+      font-size: 18px;
+      cursor: pointer;
+      padding: 0 8px;
+      border-left: 1px solid #999;
+      line-height: 1;
+    }
+    .search-clear:hover {
+      color: #dee2e6;
+    }
     .filter-bar input {
       width: 100%;
       padding: 0.4rem 0.6rem;
@@ -105,9 +126,14 @@
       cursor: pointer;
       white-space: nowrap;
     }
-    .tag:hover {
-      color: #dee2e6;
-      border-color: #dee2e6;
+    @media (hover: hover) {
+      .tag:hover {
+        color: #dee2e6;
+        border-color: #dee2e6;
+      }
+    }
+    .tag.tag-toggle {
+      border-color: #999;
     }
     .tag.active {
       background: #dee2e6;
@@ -119,8 +145,11 @@
 <body>
   <p class="updated"><span>Zuletzt aktualisiert: 26.03.2026 12:49</span><a href="mailto:tifu@mario-christ.de">tifu@mario-christ.de</a></p>
   <div class="filter-bar">
-    <input type="text" id="search" placeholder="Suche nach Turnier, Ort, Disziplin...">
-    <div class="tag-row"><button class="tag" data-filter-ort="Kixx Hamburg">Kixx Hamburg</button><button class="tag" data-filter-ort="Kicker Crew Bonn">Kicker Crew Bonn</button><button class="tag" data-filter-ort="Saarländischer Tischfußballverband">Saarländischer Tischfußballverband</button><button class="tag" data-filter-ort="1. Kicker Club Kaiserslautern">1. Kicker Club Kaiserslautern</button><button class="tag" data-filter-ort="Kixx&#x27;n&#x27;Trixx Turnierergebnisse">Kixx&#x27;n&#x27;Trixx Turnierergebnisse</button><button class="tag" data-filter-ort="Hannoverkicker">Hannoverkicker</button><button class="tag" data-filter-ort="fcsp-kickern.de">fcsp-kickern.de</button><button class="tag" data-filter-ort="Kickerfreude Berlin">Kickerfreude Berlin</button><button class="tag" data-filter-ort="Arminia Bielefeld Tischfussball">Arminia Bielefeld Tischfussball</button><button class="tag" data-filter-ort="Sidekick">Sidekick</button><button class="tag tag-extra" data-filter-ort="FC Carl Zeiss Jena Tischfußball">FC Carl Zeiss Jena Tischfußball</button><button class="tag tag-extra" data-filter-ort="MKK Flensburg">MKK Flensburg</button><button class="tag tag-extra" data-filter-ort="KMTV">KMTV</button><button class="tag tag-extra" data-filter-ort="TFC Devils Oldenburg">TFC Devils Oldenburg</button><button class="tag tag-extra" data-filter-ort="KickerClub München e.V.">KickerClub München e.V.</button><button class="tag tag-extra" data-filter-ort="Veltheim">Veltheim</button><button class="tag tag-extra" data-filter-ort="TFC Staufenberg">TFC Staufenberg</button><button class="tag tag-extra" data-filter-ort="SGE">SGE</button><button class="tag tag-extra" data-filter-ort="Schovelkoten Münster">Schovelkoten Münster</button><button class="tag tag-extra" data-filter-ort="Kicks Minden">Kicks Minden</button><button class="tag tag-extra" data-filter-ort="TFC Osnabrück e.V.">TFC Osnabrück e.V.</button><button class="tag tag-extra" data-filter-ort="EIntracht Braunschweig Tischfußball">EIntracht Braunschweig Tischfußball</button><button class="tag tag-extra" data-filter-ort="Alemannia Aachen">Alemannia Aachen</button><button class="tag tag-extra" data-filter-ort="TFC Leipzig">TFC Leipzig</button><button class="tag tag-extra" data-filter-ort="Jet Sparrows Ulm">Jet Sparrows Ulm</button><button class="tag tag-extra" data-filter-ort="Augsburger Kickerkiste">Augsburger Kickerkiste</button><button class="tag tag-extra" data-filter-ort="Kickerclub Gronau e.V.">Kickerclub Gronau e.V.</button><button class="tag tag-extra" data-filter-ort="KGB-Hannover">KGB-Hannover</button><button class="tag tag-extra" data-filter-ort="HSV Tischfußball">HSV Tischfußball</button><button class="tag tag-extra" data-filter-ort="Jatzkicker e.V.">Jatzkicker e.V.</button><button class="tag tag-extra" data-filter-ort="rackosesv">rackosesv</button><button class="tag tag-extra" data-filter-ort="neuerTEST-MH">neuerTEST-MH</button><button class="tag tag-extra" data-filter-ort="TFVDRESDEN">TFVDRESDEN</button><button class="tag tag-extra" data-filter-ort="Tischfußballverband Berlin e.V.">Tischfußballverband Berlin e.V.</button><button class="tag tag-extra" data-filter-ort="TFC St. Leon-Rot">TFC St. Leon-Rot</button><button class="tag tag-extra" data-filter-ort="TuS Davenstedt">TuS Davenstedt</button><button class="tag tag-extra" data-filter-ort="Görlitzer Kickerking e.V.">Görlitzer Kickerking e.V.</button><button class="tag tag-extra" data-filter-ort="www.turniere-roterstern-bremen.de">www.turniere-roterstern-bremen.de</button><button class="tag tag-extra" data-filter-ort="Soccer Bond Zuid Limburg">Soccer Bond Zuid Limburg</button><button class="tag tag-extra" data-filter-ort="Wasgaushooters Pirmasens">Wasgaushooters Pirmasens</button><button class="tag tag-extra" data-filter-ort="Tante Käthe Berlin">Tante Käthe Berlin</button><button class="tag tag-extra" data-filter-ort="Kong Foos Darmstadt">Kong Foos Darmstadt</button><button class="tag tag-extra" data-filter-ort="https://www.kkc-haltern-am-see.de/">https://www.kkc-haltern-am-see.de/</button><button class="tag tag-extra" data-filter-ort="1. KSC Kulmbach e.V.">1. KSC Kulmbach e.V.</button><button class="tag tag-extra" data-filter-ort="TFC Heinitz">TFC Heinitz</button><button class="tag tag-extra" data-filter-ort="TSV Stelingen">TSV Stelingen</button><button class="tag tag-toggle" id="toggle-tags">alle Orte &raquo;</button></div>
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Suche nach Turnier, Ort, Disziplin...">
+      <button type="button" id="search-clear" class="search-clear">&times;</button>
+    </div>
+    <div class="tag-row"><button class="tag" data-filter-ort="Kixx Hamburg">Kixx Hamburg</button><button class="tag" data-filter-ort="Kicker Crew Bonn">Kicker Crew Bonn</button><button class="tag" data-filter-ort="Saarländischer Tischfußballverband">Saarländischer Tischfußballverband</button><button class="tag" data-filter-ort="1. Kicker Club Kaiserslautern">1. Kicker Club Kaiserslautern</button><button class="tag" data-filter-ort="Kixx&#x27;n&#x27;Trixx Turnierergebnisse">Kixx&#x27;n&#x27;Trixx Turnierergebnisse</button><button class="tag" data-filter-ort="Hannoverkicker">Hannoverkicker</button><button class="tag" data-filter-ort="fcsp-kickern.de">fcsp-kickern.de</button><button class="tag" data-filter-ort="Kickerfreude Berlin">Kickerfreude Berlin</button><button class="tag" data-filter-ort="Arminia Bielefeld Tischfussball">Arminia Bielefeld Tischfussball</button><button class="tag" data-filter-ort="Sidekick">Sidekick</button><button class="tag tag-extra" data-filter-ort="1. KSC Kulmbach e.V.">1. KSC Kulmbach e.V.</button><button class="tag tag-extra" data-filter-ort="Alemannia Aachen">Alemannia Aachen</button><button class="tag tag-extra" data-filter-ort="Augsburger Kickerkiste">Augsburger Kickerkiste</button><button class="tag tag-extra" data-filter-ort="EIntracht Braunschweig Tischfußball">EIntracht Braunschweig Tischfußball</button><button class="tag tag-extra" data-filter-ort="FC Carl Zeiss Jena Tischfußball">FC Carl Zeiss Jena Tischfußball</button><button class="tag tag-extra" data-filter-ort="Görlitzer Kickerking e.V.">Görlitzer Kickerking e.V.</button><button class="tag tag-extra" data-filter-ort="HSV Tischfußball">HSV Tischfußball</button><button class="tag tag-extra" data-filter-ort="https://www.kkc-haltern-am-see.de/">https://www.kkc-haltern-am-see.de/</button><button class="tag tag-extra" data-filter-ort="Jatzkicker e.V.">Jatzkicker e.V.</button><button class="tag tag-extra" data-filter-ort="Jet Sparrows Ulm">Jet Sparrows Ulm</button><button class="tag tag-extra" data-filter-ort="KGB-Hannover">KGB-Hannover</button><button class="tag tag-extra" data-filter-ort="Kickerclub Gronau e.V.">Kickerclub Gronau e.V.</button><button class="tag tag-extra" data-filter-ort="KickerClub München e.V.">KickerClub München e.V.</button><button class="tag tag-extra" data-filter-ort="Kicks Minden">Kicks Minden</button><button class="tag tag-extra" data-filter-ort="KMTV">KMTV</button><button class="tag tag-extra" data-filter-ort="Kong Foos Darmstadt">Kong Foos Darmstadt</button><button class="tag tag-extra" data-filter-ort="MKK Flensburg">MKK Flensburg</button><button class="tag tag-extra" data-filter-ort="neuerTEST-MH">neuerTEST-MH</button><button class="tag tag-extra" data-filter-ort="rackosesv">rackosesv</button><button class="tag tag-extra" data-filter-ort="Schovelkoten Münster">Schovelkoten Münster</button><button class="tag tag-extra" data-filter-ort="SGE">SGE</button><button class="tag tag-extra" data-filter-ort="Soccer Bond Zuid Limburg">Soccer Bond Zuid Limburg</button><button class="tag tag-extra" data-filter-ort="Tante Käthe Berlin">Tante Käthe Berlin</button><button class="tag tag-extra" data-filter-ort="TFC Devils Oldenburg">TFC Devils Oldenburg</button><button class="tag tag-extra" data-filter-ort="TFC Heinitz">TFC Heinitz</button><button class="tag tag-extra" data-filter-ort="TFC Leipzig">TFC Leipzig</button><button class="tag tag-extra" data-filter-ort="TFC Osnabrück e.V.">TFC Osnabrück e.V.</button><button class="tag tag-extra" data-filter-ort="TFC St. Leon-Rot">TFC St. Leon-Rot</button><button class="tag tag-extra" data-filter-ort="TFC Staufenberg">TFC Staufenberg</button><button class="tag tag-extra" data-filter-ort="TFVDRESDEN">TFVDRESDEN</button><button class="tag tag-extra" data-filter-ort="Tischfußballverband Berlin e.V.">Tischfußballverband Berlin e.V.</button><button class="tag tag-extra" data-filter-ort="TSV Stelingen">TSV Stelingen</button><button class="tag tag-extra" data-filter-ort="TuS Davenstedt">TuS Davenstedt</button><button class="tag tag-extra" data-filter-ort="Veltheim">Veltheim</button><button class="tag tag-extra" data-filter-ort="Wasgaushooters Pirmasens">Wasgaushooters Pirmasens</button><button class="tag tag-extra" data-filter-ort="www.turniere-roterstern-bremen.de">www.turniere-roterstern-bremen.de</button><button class="tag tag-toggle" id="toggle-tags">alle Orte &raquo;</button></div>
   </div>
   <section>
     <div class="table-wrap">
@@ -393,7 +422,7 @@
   <script>
   (function() {
     var search = document.getElementById('search');
-    var tags = document.querySelectorAll('.tag');
+    var tags = document.querySelectorAll('.tag[data-filter-ort]');
     var activeOrt = null;
 
     function applyFilter() {
@@ -407,6 +436,14 @@
         row.style.display = (matchText && matchOrt) ? '' : 'none';
       });
     }
+
+    var clearBtn = document.getElementById('search-clear');
+    clearBtn.addEventListener('click', function() {
+      search.value = '';
+      tags.forEach(function(t) { t.classList.remove('active'); });
+      activeOrt = null;
+      applyFilter();
+    });
 
     var toggle = document.getElementById('toggle-tags');
     var tagRow = document.querySelector('.tag-row');

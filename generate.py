@@ -170,11 +170,11 @@ def generate():
             top_orte.append(ort)
     top_orte = sorted(top_orte, key=lambda o: (o not in ALWAYS_INCLUDE_ORTE, top_orte.index(o)))
 
-    all_orte = [ort for ort, _ in ort_counts.most_common()]
-    for ort in ALWAYS_INCLUDE_ORTE:
-        if ort not in all_orte:
-            all_orte.append(ort)
-    all_orte = sorted(all_orte, key=lambda o: (o not in ALWAYS_INCLUDE_ORTE, all_orte.index(o)))
+    all_orte_extra = sorted(
+        [ort for ort in ort_counts if ort not in top_orte],
+        key=lambda o: o.lower()
+    )
+    all_orte = top_orte + all_orte_extra
 
     tag_buttons = ""
     for i, ort in enumerate(all_orte):
@@ -264,6 +264,27 @@ def generate():
     .filter-bar {{
       flex-direction: column;
     }}
+    .search-wrap {{
+      position: relative;
+      width: 100%;
+    }}
+    .search-clear {{
+      position: absolute;
+      right: 6px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: #999;
+      font-size: 18px;
+      cursor: pointer;
+      padding: 0 8px;
+      border-left: 1px solid #999;
+      line-height: 1;
+    }}
+    .search-clear:hover {{
+      color: #dee2e6;
+    }}
     .filter-bar input {{
       width: 100%;
       padding: 0.4rem 0.6rem;
@@ -298,9 +319,14 @@ def generate():
       cursor: pointer;
       white-space: nowrap;
     }}
-    .tag:hover {{
-      color: #dee2e6;
-      border-color: #dee2e6;
+    @media (hover: hover) {{
+      .tag:hover {{
+        color: #dee2e6;
+        border-color: #dee2e6;
+      }}
+    }}
+    .tag.tag-toggle {{
+      border-color: #999;
     }}
     .tag.active {{
       background: #dee2e6;
@@ -312,14 +338,17 @@ def generate():
 <body>
   <p class="updated"><span>Zuletzt aktualisiert: {updated}</span><a href="mailto:tifu@mario-christ.de">tifu@mario-christ.de</a></p>
   <div class="filter-bar">
-    <input type="text" id="search" placeholder="Suche nach Turnier, Ort, Disziplin...">
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Suche nach Turnier, Ort, Disziplin...">
+      <button type="button" id="search-clear" class="search-clear">&times;</button>
+    </div>
     <div class="tag-row">{tag_buttons}</div>
   </div>
 {sections_html}
   <script>
   (function() {{
     var search = document.getElementById('search');
-    var tags = document.querySelectorAll('.tag');
+    var tags = document.querySelectorAll('.tag[data-filter-ort]');
     var activeOrt = null;
 
     function applyFilter() {{
@@ -333,6 +362,14 @@ def generate():
         row.style.display = (matchText && matchOrt) ? '' : 'none';
       }});
     }}
+
+    var clearBtn = document.getElementById('search-clear');
+    clearBtn.addEventListener('click', function() {{
+      search.value = '';
+      tags.forEach(function(t) {{ t.classList.remove('active'); }});
+      activeOrt = null;
+      applyFilter();
+    }});
 
     var toggle = document.getElementById('toggle-tags');
     var tagRow = document.querySelector('.tag-row');
