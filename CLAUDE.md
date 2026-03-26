@@ -4,7 +4,7 @@ GitHub Pages Seite, die DTFB-Turniere clientseitig von der tournament.io API lä
 
 ## Branching
 
-- **`main`** — Produktiv. Direkt committen ist OK.
+- **`main`** — Produktiv. Direkt committen ist OK. Immer `git pull --rebase` vor Änderungen.
 - **`v1-deprecated`** — Alter Stand mit serverseitigem Rendering (scraper.py, generate.py, run.sh, Cron).
 
 ## Architektur
