@@ -354,13 +354,42 @@
         return tagRow.querySelectorAll('.tag[data-filter-ort]');
       }
 
+      var SEARCH_SYNONYMS = {
+        'damen': ['dd','de'],
+        'dame': ['dd','de'],
+        'mixed': ['mx'],
+        'junior': ['junioren'],
+        'jugend': ['junioren'],
+        'nachwuchs': ['junioren']
+      };
+
+      function getSynonyms(q) {
+        var result = [];
+        var keys = Object.keys(SEARCH_SYNONYMS);
+        for (var i = 0; i < keys.length; i++) {
+          if (keys[i].indexOf(q) === 0) {
+            var vals = SEARCH_SYNONYMS[keys[i]];
+            for (var j = 0; j < vals.length; j++) {
+              if (result.indexOf(vals[j]) === -1) result.push(vals[j]);
+            }
+          }
+        }
+        return result;
+      }
+
       function applyFilter() {
         var q = search.value.toLowerCase();
+        var synonyms = q ? getSynonyms(q) : [];
         var rows = document.querySelectorAll('tbody tr');
         rows.forEach(function(row) {
           if (!row.dataset.ort && !row.dataset.name) return;
           var text = row.textContent.toLowerCase();
           var matchText = !q || text.indexOf(q) !== -1;
+          if (!matchText && synonyms.length) {
+            for (var s = 0; s < synonyms.length; s++) {
+              if (text.indexOf(synonyms[s]) !== -1) { matchText = true; break; }
+            }
+          }
           var matchOrt = !activeOrt || row.dataset.ort === activeOrt;
           row.style.display = (matchText && matchOrt) ? '' : 'none';
         });
