@@ -311,6 +311,7 @@
         grid-template-columns: 1fr auto;
         row-gap: 0.3rem;
         column-gap: 0.8rem;
+        position: relative;
       }
       .modern tbody tr:hover td { background: transparent; }
       .modern td {
@@ -354,6 +355,23 @@
         padding-left: 0;
         color: #999;
         font-weight: normal;
+      }
+      /* Stretched-link: ganze Card klickbar (Tournament-Link),
+         Disc/Ort-Links bleiben oben drauf einzeln klickbar */
+      .modern tbody tr { cursor: pointer; }
+      .modern tbody tr td.col-name a::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+      }
+      .modern tbody tr td.col-disc a,
+      .modern tbody tr td.col-ort a {
+        position: relative;
+        z-index: 2;
+      }
+      .modern tbody tr:active {
+        background: #34393e;
       }
     }
     .modern a { text-decoration: none; }
