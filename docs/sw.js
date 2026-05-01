@@ -1,4 +1,4 @@
-const VERSION = 'v2';
+const VERSION = 'v3';
 const SHELL_CACHE = `tifu-shell-${VERSION}`;
 const API_CACHE = `tifu-api-${VERSION}`;
 
