@@ -3,7 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=0.5, shrink-to-fit=yes">
+  <meta name="theme-color" content="#212529">
   <title>DTFB Turniere</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="DTFB">
   <style>
     *, *::before, *::after { box-sizing: border-box; }
     body {
@@ -480,6 +488,14 @@
         console.error(err);
       });
   })();
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('sw.js').catch(function(err) {
+        console.warn('SW registration failed:', err);
+      });
+    });
+  }
   </script>
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0b4643989a2944059cf1bcb5df4dd73b"}'></script>
 </body>
