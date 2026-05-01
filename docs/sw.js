@@ -1,4 +1,4 @@
-const VERSION = 'v4';
+const VERSION = 'v5';
 const SHELL_CACHE = `tifu-shell-${VERSION}`;
 const API_CACHE = `tifu-api-${VERSION}`;
 
@@ -16,7 +16,9 @@ const API_HOST = 'tifu-proxy.tifu-proxy.workers.dev';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(SHELL_CACHE).then((cache) => cache.addAll(SHELL_ASSETS))
+    caches.open(SHELL_CACHE).then((cache) =>
+      cache.addAll(SHELL_ASSETS.map((url) => new Request(url, { cache: 'reload' })))
+    )
   );
   self.skipWaiting();
 });
@@ -46,9 +48,19 @@ self.addEventListener('fetch', (event) => {
   }
 
   if (url.origin === self.location.origin) {
-    event.respondWith(cacheFirst(req, SHELL_CACHE));
+    if (isHtml(req, url)) {
+      event.respondWith(staleWhileRevalidate(req, SHELL_CACHE));
+    } else {
+      event.respondWith(cacheFirst(req, SHELL_CACHE));
+    }
   }
 });
+
+function isHtml(req, url) {
+  if (url.pathname === '/' || url.pathname.endsWith('.html')) return true;
+  const accept = req.headers.get('accept') || '';
+  return accept.includes('text/html');
+}
 
 async function cacheFirst(req, cacheName) {
   const cache = await caches.open(cacheName);
@@ -57,6 +69,18 @@ async function cacheFirst(req, cacheName) {
   const res = await fetch(req);
   if (res.ok) cache.put(req, res.clone());
   return res;
+}
+
+async function staleWhileRevalidate(req, cacheName) {
+  const cache = await caches.open(cacheName);
+  const cached = await cache.match(req);
+  const fetchPromise = fetch(req)
+    .then((res) => {
+      if (res.ok) cache.put(req, res.clone());
+      return res;
+    })
+    .catch(() => cached);
+  return cached || fetchPromise;
 }
 
 async function networkFirst(req, cacheName) {
