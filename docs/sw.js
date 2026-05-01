@@ -1,4 +1,4 @@
-const VERSION = 'v5';
+const VERSION = 'v6';
 const SHELL_CACHE = `tifu-shell-${VERSION}`;
 const API_CACHE = `tifu-api-${VERSION}`;
 
@@ -6,6 +6,7 @@ const SHELL_ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
+  './changelog.json',
   './icon-192.png',
   './icon-512.png',
   './icon-maskable-512.png',
@@ -58,6 +59,7 @@ self.addEventListener('fetch', (event) => {
 
 function isHtml(req, url) {
   if (url.pathname === '/' || url.pathname.endsWith('.html')) return true;
+  if (url.pathname.endsWith('changelog.json')) return true;
   const accept = req.headers.get('accept') || '';
   return accept.includes('text/html');
 }

@@ -69,6 +69,22 @@ https://live.kickertool3.de/kixx/tournaments/tio:g36jgIf7L04cQ/disciplines/tio:s
 - Kein Nav, kein Footer, keine Sponsoren — nur die 3 Sektions-Tabellen
 - Viewport: `width=device-width, initial-scale=0.5, shrink-to-fit=yes` (wie tifu.info — zeigt Desktop-Layout auf Mobile)
 
+## Changelog
+
+- Source: `docs/changelog.json` — wird vom "Was ist neu"-Modal in der App geladen.
+- Format: Array, **neueste Einträge oben**. Jeder Eintrag:
+  ```json
+  {
+    "date": "YYYY-MM-DD",
+    "title": "Optional, kurz",
+    "items": ["User-facing Stichpunkt", "..."]
+  }
+  ```
+- Style: kurze, scanbare Bullets auf Deutsch. Keine technischen Begriffe (User sind DTFB-Spieler, nicht Devs).
+- **Wann eintragen:** bei jedem Push der user-sichtbare Änderungen bringt. Reine Refactorings, Build-Changes, oder Bugfixes ohne User-Impact: weglassen.
+- Datum auf den Tag des Pushes setzen.
+- "Neu"-Indikator-Dot am Button basiert auf dem `date` des obersten Eintrags vs. `localStorage['tifu-changelog-seen']`.
+
 ## Spalten & Disziplinen
 
 - 4 Spalten: Datum | Turnier | Disziplinen | Ort

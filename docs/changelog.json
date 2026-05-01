@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-05-02",
+    "title": "Moderne Ansicht & PWA",
+    "items": [
+      "Neue moderne Ansicht — Toggle oben rechts schaltet zwischen klassischem und neuem Look (Auswahl wird gemerkt)",
+      "Mobile: Turniere als Karten statt Tabelle, ganze Karte ist Link zum Turnier",
+      "Status-Farben am Datum: Grün = läuft, Blau = geplant, Grau = beendet",
+      "Sections (laufende / geplante / abgeschlossene) per Pfeil auf-/zuklappbar",
+      "\"Nach oben\"-Button beim Scrollen auf Mobile",
+      "Filter zeigt nur die populärsten Orte, Rest hinter \"alle Orte »\"",
+      "App installierbar als PWA: Browser-Menü → \"Zum Startbildschirm\"",
+      "\"Was ist neu\"-Button (das hier!) für zukünftige Updates"
+    ]
+  }
+]
