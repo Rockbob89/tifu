@@ -4,6 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=0.5, shrink-to-fit=yes">
   <meta name="theme-color" content="#212529">
+  <script>
+    (function() {
+      try {
+        if (localStorage.getItem('view-modern') === '1') {
+          document.documentElement.classList.add('modern');
+          document.querySelector('meta[name=viewport]')
+            .setAttribute('content', 'width=device-width, initial-scale=1');
+        }
+      } catch (e) {}
+    })();
+  </script>
   <title>DTFB Turniere</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
@@ -160,9 +171,215 @@
       text-align: center;
       color: #e74c3c;
     }
+    .view-toggle {
+      text-align: right;
+      margin-bottom: 1rem;
+    }
+    .view-toggle button {
+      background: transparent;
+      border: 1px solid #32383e;
+      color: #999;
+      padding: 0.3rem 0.7rem;
+      border-radius: 16px;
+      font-size: 12px;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .view-toggle button:hover {
+      color: #dee2e6;
+      border-color: #dee2e6;
+    }
+
+    /* Modern view */
+    .modern body {
+      font-size: 16px;
+      max-width: 960px;
+    }
+    .modern table {
+      border-collapse: collapse;
+      white-space: normal;
+    }
+    .modern tr { border: none; }
+    .modern th, .modern td {
+      border: none;
+      border-bottom: 1px solid #2c3034;
+      padding: 0.6rem 0.8rem;
+    }
+    .modern thead tr:first-child th {
+      background: transparent;
+      border-bottom: none;
+      font-size: 1.05rem;
+      letter-spacing: 0;
+      text-transform: none;
+      text-align: left;
+      padding: 0.5rem 0.8rem;
+    }
+    .modern thead tr:nth-child(2) th {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #999;
+      font-weight: 500;
+      text-align: left;
+      border-bottom: 1px solid #32383e;
+    }
+    .modern tbody tr:nth-child(odd) td { background: transparent; }
+    .modern tbody tr:hover td { background: #2c3034; }
+    .modern tbody tr:last-child td { border-bottom: none; }
+    .modern .table-wrap {
+      background: #2c3034;
+      border-radius: 12px;
+      padding: 0.5rem 0.5rem;
+      overflow: hidden;
+    }
+    .modern .col-section { margin-top: 0; }
+    .modern section + section { margin-top: 2rem; }
+
+    @media (max-width: 700px) {
+      .modern .table-wrap {
+        background: transparent;
+        padding: 0;
+        overflow: visible;
+      }
+      .modern table, .modern tbody, .modern tr, .modern td {
+        display: block;
+        width: 100%;
+      }
+      .modern thead tr:nth-child(2) { display: none; }
+      .modern thead tr:first-child { display: block; }
+      .modern thead tr:first-child th {
+        display: block;
+        text-align: left;
+        padding: 0.75rem 2.25rem 0.75rem 0;
+      }
+      .modern tbody tr {
+        background: #2c3034;
+        border-radius: 12px;
+        padding: 0.85rem 1rem;
+        margin-bottom: 0.6rem;
+      }
+      .modern tbody tr:hover td { background: transparent; }
+      .modern td {
+        border: none;
+        padding: 0.15rem 0;
+      }
+      .modern td.col-date {
+        font-size: 0.8rem;
+        color: #999;
+        text-align: left;
+        width: auto;
+      }
+      .modern td.col-name {
+        font-size: 1.05rem;
+        font-weight: 600;
+        margin: 0.1rem 0 0.35rem;
+      }
+      .modern td.col-disc {
+        display: inline-block;
+        width: auto;
+        font-size: 0.9rem;
+        margin-top: 0.4rem;
+        padding: 0;
+      }
+      .modern td.col-ort {
+        display: inline-block;
+        width: auto;
+        font-size: 0.9rem;
+        color: #adb5bd;
+        margin-top: 0.4rem;
+        padding: 0;
+      }
+      .modern td.col-disc.single-disc { display: none; }
+      .modern td.col-disc:not(.single-disc) + td.col-ort::before {
+        content: "·";
+        color: #6c757d;
+        margin: 0 0.4rem;
+      }
+    }
+    .modern td.col-disc.single-disc * { display: none; }
+    .modern a { text-decoration: none; }
+    .modern .updated a { text-decoration: underline; }
+    .modern td a:hover { text-decoration: underline; }
+
+    /* Collapsible sections (modern only) */
+    .modern .col-section {
+      cursor: pointer;
+      user-select: none;
+      position: relative;
+      padding-right: 2.25rem;
+    }
+    .modern .col-section::after {
+      content: "";
+      position: absolute;
+      right: 1rem;
+      top: 50%;
+      width: 9px;
+      height: 9px;
+      border-right: 2px solid #adb5bd;
+      border-bottom: 2px solid #adb5bd;
+      transform: translateY(-75%) rotate(45deg);
+      transition: transform 0.2s;
+    }
+    .modern section.collapsed .col-section::after {
+      transform: translateY(-25%) rotate(-45deg);
+    }
+    .modern .col-section:hover::after {
+      border-color: #fff;
+    }
+    .modern .col-section:hover {
+      background: rgba(255, 255, 255, 0.04);
+    }
+    .modern section.collapsed thead tr:nth-child(2),
+    .modern section.collapsed tbody {
+      display: none;
+    }
+
+    /* Modern tag-bar: auf Mobile max 4 Orte + Toggle (= 5 Items) */
+    @media (max-width: 700px) {
+      .modern .tag-row > .tag:not(.tag-toggle) {
+        display: none;
+      }
+      .modern .tag-row > .tag:nth-child(-n+4) {
+        display: inline-block;
+      }
+      .modern .tag-row.expanded > .tag {
+        display: inline-block;
+      }
+    }
+
+    /* Back-to-top button (modern + mobile only) */
+    .back-to-top {
+      position: fixed;
+      bottom: 1.4rem;
+      right: 1.4rem;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: rgba(46, 50, 56, 0.75);
+      color: #dee2e6;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 26px;
+      line-height: 1;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      padding: 0;
+      font-family: inherit;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: opacity 0.2s;
+    }
+    @media (max-width: 700px) {
+      .modern .back-to-top.visible { display: flex; }
+    }
   </style>
 </head>
 <body class="not-ready">
+  <div class="view-toggle">
+    <button type="button" id="view-toggle">moderne Ansicht</button>
+  </div>
   <p class="updated"><span>Neue Kickertool Daten im alt-bekannten Design. Props an <a href="https://kickertool.de" target="_blank" rel="noopener">kickertool.de</a> und <a href="https://tournament.io" target="_blank" rel="noopener">tournament.io</a>!</span><a href="mailto:tifu@mario-christ.de">tifu@mario-christ.de</a></p>
   <p class="updated"><span>GaLiGr&uuml; an <a href="https://maurakickern.de/podcast/" target="_blank" rel="noopener">Weltmeisterlich Kickern</a>! &lt;3</span></p>
   <div class="filter-bar">
@@ -205,6 +422,7 @@
       </table>
     </div>
   </section>
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="nach oben">↑</button>
   <script>
   (function() {
     var PROXY = 'https://tifu-proxy.tifu-proxy.workers.dev';
@@ -239,6 +457,10 @@
       var d = document.createElement('div');
       d.textContent = s;
       return d.innerHTML;
+    }
+
+    function cleanOrt(s) {
+      return (s || '').replace(/\s+Turnierergebnisse$/i, '').trim();
     }
 
     function stateToSection(state) {
@@ -290,7 +512,7 @@
         var jHref = (slug && tid) ? BASE_URL+'/'+slug+'/tournaments/'+tid+'/live' : '#';
         links.push('<a href="'+jHref+'" target="_blank" rel="noopener">Junioren</a>');
       }
-      return links.join(' &middot; ');
+      return {html: links.join(' &middot; '), count: links.length};
     }
 
     function renderRows(tournaments, tbody) {
@@ -303,19 +525,20 @@
         var t = tournaments[i];
         var slug = (t.resultPage || {}).slug || '';
         var name = (t.name || '').trim();
-        var ort = (t.resultPage || {}).name || '';
+        var ort = cleanOrt((t.resultPage || {}).name);
         var date = fmtDate(t.date);
         var tid = t._id || '';
         var discs = t.disciplines || [];
         var state = t.state || '';
 
         var tHref = buildTournamentUrl(slug, tid, discs, state);
-        var discCell = buildDisciplineLinks(slug, tid, discs, state);
+        var disc = buildDisciplineLinks(slug, tid, discs, state);
+        var discClass = 'col-disc' + (disc.count <= 1 ? ' single-disc' : '');
 
         html += '<tr data-ort="'+escHtml(ort)+'" data-name="'+escHtml(name)+'">'
           + '<td class="col-date">'+date+'</td>'
           + '<td class="col-name"><a href="'+tHref+'" target="_blank" rel="noopener">'+escHtml(name)+'</a></td>'
-          + '<td class="col-disc">'+discCell+'</td>'
+          + '<td class="'+discClass+'">'+disc.html+'</td>'
           + '<td class="col-ort">'+(slug ? '<a href="'+BASE_URL+'/'+slug+'" target="_blank" rel="noopener">'+escHtml(ort)+'</a>' : escHtml(ort))+'</td>'
           + '</tr>';
       }
@@ -325,7 +548,7 @@
     function buildTags(data) {
       var counts = {};
       for (var i = 0; i < data.length; i++) {
-        var ort = (data[i].resultPage || {}).name || '';
+        var ort = cleanOrt((data[i].resultPage || {}).name);
         if (ort) counts[ort] = (counts[ort] || 0) + 1;
       }
       var sorted = Object.keys(counts).sort(function(a,b) { return counts[b] - counts[a]; });
@@ -487,6 +710,60 @@
         showError('Turniere konnten nicht geladen werden.');
         console.error(err);
       });
+  })();
+
+  (function() {
+    var btn = document.getElementById('view-toggle');
+    var html = document.documentElement;
+    var vp = document.querySelector('meta[name=viewport]');
+    var CLASSIC_VP = 'width=device-width, initial-scale=0.5, shrink-to-fit=yes';
+    var MODERN_VP = 'width=device-width, initial-scale=1';
+
+    function refresh() {
+      btn.textContent = html.classList.contains('modern')
+        ? 'klassische Ansicht' : 'moderne Ansicht';
+    }
+
+    btn.addEventListener('click', function() {
+      var modern = !html.classList.contains('modern');
+      html.classList.toggle('modern', modern);
+      vp.setAttribute('content', modern ? MODERN_VP : CLASSIC_VP);
+      try { localStorage.setItem('view-modern', modern ? '1' : '0'); } catch (e) {}
+      refresh();
+    });
+
+    refresh();
+  })();
+
+  (function() {
+    var btn = document.getElementById('back-to-top');
+    if (!btn) return;
+    function update() {
+      btn.classList.toggle('visible', window.scrollY > 400);
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    btn.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  (function() {
+    var KEY = 'tifu-collapsed';
+    var state = {};
+    try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+
+    document.querySelectorAll('section').forEach(function(section) {
+      if (state[section.id]) section.classList.add('collapsed');
+      var header = section.querySelector('.col-section');
+      if (!header) return;
+      header.addEventListener('click', function() {
+        if (!document.documentElement.classList.contains('modern')) return;
+        var collapsed = !section.classList.contains('collapsed');
+        section.classList.toggle('collapsed', collapsed);
+        state[section.id] = collapsed;
+        try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+      });
+    });
   })();
 
   if ('serviceWorker' in navigator) {
