@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-06-16",
+    "title": "Stabilität",
+    "items": [
+      "Robuster gegen kurzzeitige Aussetzer beim Laden der Turnierdaten",
+      "Anpassungen an aktuelle Änderungen der Kickertool-API, damit Turnier-Links weiterhin korrekt funktionieren"
+    ]
+  },
+  {
     "date": "2026-05-02",
     "title": "Moderne Ansicht & PWA",
     "items": [

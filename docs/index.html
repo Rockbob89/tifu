@@ -754,7 +754,7 @@
       var path = STATE_PATH[state] || 'overview';
       if (!slug || !tid) return '#';
       if (disciplines.length === 1) {
-        var did = disciplines[0]._id || '';
+        var did = disciplines[0].id || disciplines[0]._id || '';
         return did
           ? BASE_URL+'/'+slug+'/tournaments/'+tid+'/disciplines/'+did+'/'+path
           : BASE_URL+'/'+slug+'/tournaments/'+tid+'/live';
@@ -771,7 +771,7 @@
         if (isYouth(d)) { hasYouth = true; continue; }
         var lbl = disciplineLabel(d);
         if (!lbl) continue;
-        var did = d._id || '';
+        var did = d.id || d._id || '';
         var href = (slug && tid && did)
           ? BASE_URL+'/'+slug+'/tournaments/'+tid+'/disciplines/'+did+'/'+path
           : '#';
