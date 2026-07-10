@@ -697,7 +697,10 @@
     var PROXY = 'https://tifu-proxy.tifu-proxy.workers.dev';
     var BASE_URL = 'https://live.kickertool3.de';
     var STALE_HOURS = 48;
-    var ALWAYS_INCLUDE_ORTE = ['Kixx Hamburg'];
+    // Gepinnte Orte in fester Reihenfolge (Position 1, 2, ...)
+    var PINNED_ORTE = ['Kixx Hamburg', 'HSV Tischfußball'];
+    // Diese Orte nur pinnen, wenn es dort ein geplantes/laufendes Turnier gibt
+    var CONDITIONAL_PINNED_ORTE = ['HSV Tischfußball'];
     var TOP_N = 10;
 
     var MAIN_SHORT_NAMES = ['OD','OE','DD','DE','MX','DYP'];
@@ -816,22 +819,26 @@
 
     function buildTags(data) {
       var counts = {};
+      var activeOrte = {};
       for (var i = 0; i < data.length; i++) {
         var ort = cleanOrt((data[i].resultPage || {}).name);
-        if (ort) counts[ort] = (counts[ort] || 0) + 1;
+        if (!ort) continue;
+        counts[ort] = (counts[ort] || 0) + 1;
+        var sec = stateToSection(data[i].state);
+        if (sec === 'running' || sec === 'planned') activeOrte[ort] = true;
       }
       var sorted = Object.keys(counts).sort(function(a,b) { return counts[b] - counts[a]; });
-      var top = sorted.slice(0, TOP_N);
-      for (var j = 0; j < ALWAYS_INCLUDE_ORTE.length; j++) {
-        if (top.indexOf(ALWAYS_INCLUDE_ORTE[j]) === -1) top.push(ALWAYS_INCLUDE_ORTE[j]);
-      }
-      top.sort(function(a,b) {
-        var aP = ALWAYS_INCLUDE_ORTE.indexOf(a) !== -1 ? 0 : 1;
-        var bP = ALWAYS_INCLUDE_ORTE.indexOf(b) !== -1 ? 0 : 1;
-        return aP - bP;
+
+      // Gepinnte Orte in fester Reihenfolge; conditional nur mit aktivem Turnier
+      var pinned = PINNED_ORTE.filter(function(o) {
+        var conditional = CONDITIONAL_PINNED_ORTE.indexOf(o) !== -1;
+        return conditional ? !!activeOrte[o] : true;
       });
 
-      var extra = sorted.filter(function(o) { return top.indexOf(o) === -1; });
+      var rest = sorted.filter(function(o) { return pinned.indexOf(o) === -1; });
+      var top = pinned.concat(rest.slice(0, TOP_N));
+
+      var extra = rest.slice(TOP_N);
       extra.sort(function(a,b) { return a.toLowerCase().localeCompare(b.toLowerCase()); });
 
       var all = top.concat(extra);
